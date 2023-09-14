@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "BeamSkinMaster (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "BeamSkinMaster (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

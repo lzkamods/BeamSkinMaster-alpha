@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="BeamSkinMaster.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BeamSkinMaster"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Grid Background="#282828">
+        <Grid x:Name="AppTitleBar" Height="28" HorizontalAlignment="Stretch" VerticalAlignment="Top" Background="Transparent">
+            <TextBlock Text="BeamSkinMaster" VerticalAlignment="Center" Margin="10,0,0,0"/>
+        </Grid>
+
+        <Button x:Name="page1dalee" Click="page1dalee_Click" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="30" Style="{StaticResource AccentButtonStyle}">Далее</Button>
+        <TextBlock x:Name="vibiriauto" Text="Выберите автомобиль" HorizontalAlignment="Center" Margin="50" FontSize="30"/>
+        <TextBlock x:Name="kakaka" Text="lakaka" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <ComboBox x:Name="Combobox1" SelectionChanged="ComboBox_SelectionChanged" PlaceholderText="автомобиль ..." HorizontalAlignment="Center" VerticalAlignment="Center" Width="350">
+            <x:String>Autobello Piccolina</x:String>
+            <x:String>Autobello Stambecco</x:String>
+            <x:String>Bruckell Bastion</x:String>
+            <x:String>Bruckell LeGran</x:String>
+            <x:String>Burnside Special</x:String>
+            <x:String>Cherrier Tograc</x:String>
+            <x:String>Cherrier Vivace</x:String>
+            <x:String>Civetta Bolide</x:String>
+            <x:String>Civetta Scintilla</x:String>
+            <x:String>ETK 800 Series</x:String>
+            <x:String>ETK I-Series</x:String>
+            <x:String>ETK K-Series</x:String>
+            <x:String>Gavril Barstow</x:String>
+            <x:String>Gavril Bluebuck</x:String>
+            <x:String>Gavril D-Series</x:String>
+            <x:String>Gavril Grand Marshal</x:String>
+            <x:String>Gavril H-Series</x:String>
+        </ComboBox>
+        
+        <Frame x:Name="ContentFrame">
+            <Frame.ContentTransitions>
+                <TransitionCollection>
+                    <NavigationThemeTransition  />
+                </TransitionCollection>
+            </Frame.ContentTransitions>
+        </Frame>
+
+        <InfoBar VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0. 105"
+            IsOpen="True"
+            Severity="Warning"
+            Title="TEST VERSION"
+            Message="build 070923.9008A">
+        </InfoBar>
+
+        <ProgressBar x:Name="ProgressOnTop" ValueChanged="ProgressBarOn_ValueChanged" Width="569" Value="27" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="10"/>
+        
+    </Grid>
+</Window>
+    
