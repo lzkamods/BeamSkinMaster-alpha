@@ -21,6 +21,8 @@ using WinRT.Interop;
 using System.Drawing;
 using Microsoft.VisualBasic;
 using static System.Net.Mime.MediaTypeNames;
+using Microsoft.UI.Xaml.Documents;
+using Windows.UI.Popups;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -59,6 +61,7 @@ namespace BeamSkinMaster
         }
 
         private string combobox;
+        public XamlRoot XamlRoot { get; set; }
 
         public void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
@@ -94,6 +97,114 @@ namespace BeamSkinMaster
                 case "Cherrier Tograc":
                     text = "vivace";
                     break;
+
+                case "Cherrier Vivace":
+                    text = "vivace";
+                    break;
+
+                case "Civetta Bolide":
+                    text = "bolide";
+                    break;
+
+                case "Civetta Scintilla":
+                    text = "scintilla";
+                    break;
+
+                case "ETK 800 Series":
+                    text = "etk800";
+                    break;
+
+                case "ETK I-Series":
+                    text = "etki";
+                    break;
+
+                case "ETK K-Series":
+                    text = "etkc";
+                    break;
+
+                case "Gavril Barstow":
+                    text = "barstow";
+                    break;
+
+                case "Gavril Bluebuck":
+                    text = "bluebuck";
+                    break;
+
+                case "Gavril D-Series":
+                    text = "pickup";
+                    break;
+
+                case "Gavril Grand Marshal":
+                    text = "fullsize";
+                    break;
+
+                case "Gavril H-Series":
+                    text = "van";
+                    break;
+
+                case "Gavril Roamer":
+                    text = "roamer";
+                    break;
+
+                case "Gavril T-Series":
+                    text = "semi";
+                    break;
+
+                case "Hirochi SBR4":
+                    text = "sbr";
+                    break;
+
+                case "Hirochi Sunburst":
+                    text = "sunburst";
+                    break;
+
+                case "Ibishu 200BX":
+                    text = "coupe";
+                    break;
+
+                case "Ibishu Covet":
+                    text = "covet";
+                    break;
+
+                case "Ibishu Hopper":
+                    text = "hopper";
+                    break;
+
+                case "Ibishu Miramar":
+                    text = "miramar";
+                    break;
+
+                case "Ibishu Pessima 88":
+                    text = "pessima";
+                    break;
+
+                case "Ibishu Pessima 96":
+                    text = "midsize";
+                    break;
+
+                case "Ibishu Pigeon":
+                    text = "pigeon";
+                    break;
+
+                case "Ibishu Wigeon":
+                    text = "wigeon";
+                    break;
+
+                case "Soliad Lansdale":
+                    text = "lansdale";
+                    break;
+
+                case "Soliad Wendover":
+                    text = "wendover";
+                    break;
+
+                case "SP Dunekicker":
+                    text = "racetruck";
+                    break;
+
+                case "Wentward DT40L":
+                    text = "citybus";
+                    break;
             }
 
             string path = System.IO.Path.Combine(dirrr, text);
@@ -105,16 +216,32 @@ namespace BeamSkinMaster
             combobox = endpath;
         }
 
-        public void page1dalee_Click(object sender, RoutedEventArgs e)
+        public async void page1dalee_Click(object sender, RoutedEventArgs e)
         {
-            Directory.CreateDirectory(combobox);
-            ContentFrame.Navigate(typeof(Page2), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
-            ProgressOnTop.Value = 37;
+            if (combobox == null)
+            {
+                ContentDialog autoerror = new ContentDialog
+                {
+                    Title = "ошибка перехода на следуйщий этап",
+                    Content = "поле выбора авто пустое. Пожалуйста, выберите автомобиль.",
+                    CloseButtonText = "OK",                   
+                };
+                autoerror.XamlRoot = page1dalee.XamlRoot;
+
+                ContentDialogResult result = await autoerror.ShowAsync();
+
+            }
+            else
+            {
+                Directory.CreateDirectory(combobox);
+                ContentFrame.Navigate(typeof(Page2), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
+                ProgressOnTop.Value = 37;
+            }
         }
 
         private void ProgressBarOn_ValueChanged(object sender, RangeBaseValueChangedEventArgs e)
         {
-
+           
         }
 
     }

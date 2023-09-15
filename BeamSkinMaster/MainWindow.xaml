@@ -33,6 +33,23 @@
             <x:String>Gavril D-Series</x:String>
             <x:String>Gavril Grand Marshal</x:String>
             <x:String>Gavril H-Series</x:String>
+            <x:String>Gavril Roamer</x:String>
+            <x:String>Gavril T-Series</x:String>
+            <x:String>Hirochi SBR4</x:String>
+            <x:String>Hirochi Sunburst</x:String>
+            <x:String>Ibishu 200BX</x:String>
+            <x:String>Ibishu Covet</x:String>
+            <x:String>Ibishu Hopper</x:String>
+            <x:String>Ibishu Miramar</x:String>
+            <x:String>Ibishu Pessima 88</x:String>
+            <x:String>Ibishu Pessima 96</x:String>
+            <x:String>Ibishu Pigeon</x:String>
+            <x:String>Ibishu Wigeon</x:String>
+            <x:String>Soliad Lansdale</x:String>
+            <x:String>Soliad Wendover</x:String>
+            <x:String>SP Dunekicker</x:String>
+            <x:String>Wentward DT40L</x:String>
+            
         </ComboBox>
         
         <Frame x:Name="ContentFrame">

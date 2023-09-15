@@ -14,9 +14,8 @@
             <TextBlock Text="BeamSkinMaster" VerticalAlignment="Center" Margin="10,0,0,0"/>
         </Grid>
 
-        <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="30">
-            <Button x:Name="buttondaleepage2" Click="buttondaleepage2_Click" Style="{StaticResource AccentButtonStyle}">Далее</Button>
-        </StackPanel>
+        <Button x:Name="buttondaleepage2" VerticalAlignment="Bottom" Content="Далее" HorizontalAlignment="Right" Click="buttondaleepage2_Click" Margin="0,0,30,30" Style="{StaticResource AccentButtonStyle}"/>
+        <Button x:Name="buttonnazad1" Click="buttonnazad1_Click" Content="Назад" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,110,30"/>
 
         <TextBlock x:Name="zagruzkauv" Text="Загрузка UV автомобиля" HorizontalAlignment="Center" Margin="0. 50. 0. 0." FontSize="30"/>
 
