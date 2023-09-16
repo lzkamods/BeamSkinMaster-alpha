@@ -5,8 +5,6 @@ VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeamSkinMaster", "BeamSkinMaster\BeamSkinMaster.csproj", "{86D80DD5-2557-4E79-8A3C-AB4747958255}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinUI Tamplate", "..\..\template\WinUI Tamplate\WinUI Tamplate.csproj", "{594769AF-44EE-4DCE-9F59-8D4F7FF10D82}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM64 = Debug|ARM64
@@ -35,24 +33,6 @@ Global
 		{86D80DD5-2557-4E79-8A3C-AB4747958255}.Release|x86.ActiveCfg = Release|x86
 		{86D80DD5-2557-4E79-8A3C-AB4747958255}.Release|x86.Build.0 = Release|x86
 		{86D80DD5-2557-4E79-8A3C-AB4747958255}.Release|x86.Deploy.0 = Release|x86
-		{594769AF-44EE-4DCE-9F59-8D4F7FF10D82}.Debug|ARM64.ActiveCfg = Debug|ARM64
-		{594769AF-44EE-4DCE-9F59-8D4F7FF10D82}.Debug|ARM64.Build.0 = Debug|ARM64
-		{594769AF-44EE-4DCE-9F59-8D4F7FF10D82}.Debug|ARM64.Deploy.0 = Debug|ARM64
-		{594769AF-44EE-4DCE-9F59-8D4F7FF10D82}.Debug|x64.ActiveCfg = Debug|x64
-		{594769AF-44EE-4DCE-9F59-8D4F7FF10D82}.Debug|x64.Build.0 = Debug|x64
-		{594769AF-44EE-4DCE-9F59-8D4F7FF10D82}.Debug|x64.Deploy.0 = Debug|x64
-		{594769AF-44EE-4DCE-9F59-8D4F7FF10D82}.Debug|x86.ActiveCfg = Debug|x86
-		{594769AF-44EE-4DCE-9F59-8D4F7FF10D82}.Debug|x86.Build.0 = Debug|x86
-		{594769AF-44EE-4DCE-9F59-8D4F7FF10D82}.Debug|x86.Deploy.0 = Debug|x86
-		{594769AF-44EE-4DCE-9F59-8D4F7FF10D82}.Release|ARM64.ActiveCfg = Release|ARM64
-		{594769AF-44EE-4DCE-9F59-8D4F7FF10D82}.Release|ARM64.Build.0 = Release|ARM64
-		{594769AF-44EE-4DCE-9F59-8D4F7FF10D82}.Release|ARM64.Deploy.0 = Release|ARM64
-		{594769AF-44EE-4DCE-9F59-8D4F7FF10D82}.Release|x64.ActiveCfg = Release|x64
-		{594769AF-44EE-4DCE-9F59-8D4F7FF10D82}.Release|x64.Build.0 = Release|x64
-		{594769AF-44EE-4DCE-9F59-8D4F7FF10D82}.Release|x64.Deploy.0 = Release|x64
-		{594769AF-44EE-4DCE-9F59-8D4F7FF10D82}.Release|x86.ActiveCfg = Release|x86
-		{594769AF-44EE-4DCE-9F59-8D4F7FF10D82}.Release|x86.Build.0 = Release|x86
-		{594769AF-44EE-4DCE-9F59-8D4F7FF10D82}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

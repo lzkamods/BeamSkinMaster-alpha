@@ -8,13 +8,8 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     <Grid Background="#282828">
-        <Grid x:Name="AppTitleBar" Height="28" HorizontalAlignment="Stretch" VerticalAlignment="Top" Background="Transparent">
-            <TextBlock Text="BeamSkinMaster" VerticalAlignment="Center" Margin="10,0,0,0"/>
-        </Grid>
-
         <Button x:Name="page1dalee" Click="page1dalee_Click" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="30" Style="{StaticResource AccentButtonStyle}">Далее</Button>
         <TextBlock x:Name="vibiriauto" Text="Выберите автомобиль" HorizontalAlignment="Center" Margin="50" FontSize="30"/>
-        <TextBlock x:Name="kakaka" Text="lakaka" HorizontalAlignment="Center" VerticalAlignment="Top"/>
         <ComboBox x:Name="Combobox1" SelectionChanged="ComboBox_SelectionChanged" PlaceholderText="автомобиль ..." HorizontalAlignment="Center" VerticalAlignment="Center" Width="350">
             <x:String>Autobello Piccolina</x:String>
             <x:String>Autobello Stambecco</x:String>
@@ -60,6 +55,10 @@
             </Frame.ContentTransitions>
         </Frame>
 
+        <Grid x:Name="AppTitleBar" Height="28" HorizontalAlignment="Stretch" VerticalAlignment="Top">
+            <TextBlock Text="BeamSkinMaster" VerticalAlignment="Center" Margin="10,0,0,0"/>
+        </Grid>
+
         <InfoBar VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0. 105"
             IsOpen="True"
             Severity="Warning"
@@ -68,7 +67,8 @@
         </InfoBar>
 
         <ProgressBar x:Name="ProgressOnTop" ValueChanged="ProgressBarOn_ValueChanged" Width="569" Value="27" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="10"/>
-        
+
+
     </Grid>
 </Window>
     

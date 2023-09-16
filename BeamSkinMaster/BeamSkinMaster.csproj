@@ -12,10 +12,9 @@
     <EnableMsixTooling>true</EnableMsixTooling>
   </PropertyGroup>
   <ItemGroup>
-    <Content Remove="Assets\icon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Remove="Page2.xaml" />
+    <None Remove="Assets\autobello_skin_UVs.png" />
+    <None Remove="Assets\icon.png" />
+    <None Remove="downloadinguv.xaml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -42,11 +41,6 @@
   <ItemGroup Condition="'$(DisableMsixProjectCapabilityAddedByProject)'!='true' and '$(EnableMsixTooling)'=='true'">
     <ProjectCapability Include="Msix" />
   </ItemGroup>
-  <ItemGroup>
-    <Page Update="Page2.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-  </ItemGroup>
 
   <!-- 
     Defining the "HasPackageAndPublishMenuAddedByProject" property here allows the Solution 
@@ -56,4 +50,24 @@
   <PropertyGroup Condition="'$(DisableHasPackageAndPublishMenuAddedByProject)'!='true' and '$(EnableMsixTooling)'=='true'">
     <HasPackageAndPublishMenu>true</HasPackageAndPublishMenu>
   </PropertyGroup>
+  <ItemGroup>
+    <AppxManifest Remove="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="pathes.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="Assets\autobello_skin_UVs.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+      <Generator></Generator>
+    </Page>
+  </ItemGroup>
 </Project>

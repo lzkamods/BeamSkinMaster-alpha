@@ -67,7 +67,6 @@ namespace BeamSkinMaster
         {
             int index = Combobox1.SelectedIndex;
             string text = Combobox1.Items[index].ToString();
-            kakaka.Text = text;
             string direrctory = Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory).FullName;
             string dirrr = System.IO.Path.Combine(direrctory + @"\vehicles");
 
@@ -209,7 +208,6 @@ namespace BeamSkinMaster
 
             string path = System.IO.Path.Combine(dirrr, text);
             string Picco = path;
-            vibiriauto.Text = Picco;
 
             string endpath = System.IO.Path.Combine(path, text);
 
@@ -234,7 +232,7 @@ namespace BeamSkinMaster
             else
             {
                 Directory.CreateDirectory(combobox);
-                ContentFrame.Navigate(typeof(Page2), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
+                ContentFrame.Navigate(typeof(downloadinguv), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
                 ProgressOnTop.Value = 37;
             }
         }
