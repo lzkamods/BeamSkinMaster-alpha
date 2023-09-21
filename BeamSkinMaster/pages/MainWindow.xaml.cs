@@ -23,6 +23,7 @@ using Microsoft.VisualBasic;
 using static System.Net.Mime.MediaTypeNames;
 using Microsoft.UI.Xaml.Documents;
 using Windows.UI.Popups;
+using BeamSkinMaster.classes;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -34,7 +35,7 @@ namespace BeamSkinMaster
     /// </summary>
     public sealed partial class MainWindow : Window
     {
-        private AppWindow m_AppWindow;
+        public AppWindow m_AppWindow;
 
         public MainWindow()
         {
@@ -46,10 +47,7 @@ namespace BeamSkinMaster
             var windowId = Microsoft.UI.Win32Interop.GetWindowIdFromWindow(hWnd);
             var appWindow = Microsoft.UI.Windowing.AppWindow.GetFromWindowId(windowId);
             appWindow.Resize(new Windows.Graphics.SizeInt32 { Width = 430, Height = 569 });
-
-            string dir = Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory).FullName;
-            string pth = System.IO.Path.Combine(dir, "vehicles");
-            Directory.CreateDirectory(pth);
+            Directory.CreateDirectory(pathes.pth);
 
         }
 
@@ -60,15 +58,16 @@ namespace BeamSkinMaster
             return AppWindow.GetFromWindowId(wndId);
         }
 
+        public static string endtext;
+        public static string endpathh;
         private string combobox;
+        public static string pppth;
         public XamlRoot XamlRoot { get; set; }
 
         public void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             int index = Combobox1.SelectedIndex;
             string text = Combobox1.Items[index].ToString();
-            string direrctory = Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory).FullName;
-            string dirrr = System.IO.Path.Combine(direrctory + @"\vehicles");
 
             string auto = e.AddedItems[0].ToString();
             switch (auto)
@@ -206,13 +205,16 @@ namespace BeamSkinMaster
                     break;
             }
 
-            string path = System.IO.Path.Combine(dirrr, text);
-            string Picco = path;
-
+            string path = System.IO.Path.Combine(pathes.dirrr, text);
             string endpath = System.IO.Path.Combine(path, text);
 
-            combobox = endpath;
+            pppth = path;
+            combobox = path;
+            endtext = text;
+            vibiriauto.Text = endtext;
+            endpathh = endpath;
         }
+
 
         public async void page1dalee_Click(object sender, RoutedEventArgs e)
         {
@@ -232,7 +234,7 @@ namespace BeamSkinMaster
             else
             {
                 Directory.CreateDirectory(combobox);
-                ContentFrame.Navigate(typeof(downloadinguv), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
+                ContentFrame.Navigate(typeof(DownloadingUVPage), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
                 ProgressOnTop.Value = 37;
             }
         }

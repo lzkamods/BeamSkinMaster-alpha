@@ -12,9 +12,11 @@
     <EnableMsixTooling>true</EnableMsixTooling>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="Assets\App icon 16.svg" />
     <None Remove="Assets\autobello_skin_UVs.png" />
     <None Remove="Assets\icon.png" />
-    <None Remove="downloadinguv.xaml" />
+    <None Remove="DownloadingUVPage.xaml" />
+    <None Remove="pages\uploadingUVPage.xaml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -25,6 +27,9 @@
     <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+    <Content Include="pages\App icon 16.svg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
@@ -54,15 +59,27 @@
     <AppxManifest Remove="Package.appxmanifest" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Remove="pathes.cs" />
-  </ItemGroup>
-  <ItemGroup>
+    <Content Remove="Assets\bastion_skin_SKINNAME.png" />
+    <Content Remove="Assets\midtruck_main_skin_uv.png" />
     <Content Remove="Package.appxmanifest" />
   </ItemGroup>
   <ItemGroup>
-    <Content Update="Assets\autobello_skin_UVs.png">
+    <Content Update="Assets\uv's\autobello_skin_UVs.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Content>
+    <Content Update="Assets\icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="pages\uploadingUVPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="DownloadingUVPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Page Update="MainWindow.xaml">
