@@ -10,6 +10,22 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <TextBlock x:Name="vibiriauto" Text="Отправка готового Скина" HorizontalAlignment="Center" Margin="50" FontSize="25"/>
 
+        <Image Source="App icon 16.svg" Height="40" Margin="0,0,5,80" HorizontalAlignment="Center"/>
+        <TextBlock x:Name="downloadtext" Margin="0,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Run x:Name="downloadtextrun">Отправьте ваш готовый скин,</Run>
+        </TextBlock>
+        <TextBlock x:Name="downloadtextspan" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,35,0,0" Text="сделанный по чертежу"/>
+        <Button x:Name="PickAFileButton" Content="Отправить" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="15" Style="{StaticResource ButtonRevealStyle}" Click="PickAFileButton_Click" Margin="0,110,0,0"/>
+        <Button x:Name="Uploadingdalee" Click="Uploadingdalee_Click" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="30" Style="{StaticResource AccentButtonStyle}">Далее</Button>
+
+        <Frame x:Name="ContentFrame">
+            <Frame.ContentTransitions>
+                <TransitionCollection>
+                    <NavigationThemeTransition  />
+                </TransitionCollection>
+            </Frame.ContentTransitions>
+        </Frame>
     </Grid>
 </Page>

@@ -552,6 +552,7 @@ namespace BeamSkinMaster
         private void dalee2btn_Click(object sender, RoutedEventArgs e)
         {
             ContentFrame.Navigate(typeof(uploadingUVPage), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
+            downloadbutton.IsEnabled = false;
         }
     }
 }

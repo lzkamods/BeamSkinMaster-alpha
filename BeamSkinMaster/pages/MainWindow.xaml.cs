@@ -24,6 +24,8 @@ using static System.Net.Mime.MediaTypeNames;
 using Microsoft.UI.Xaml.Documents;
 using Windows.UI.Popups;
 using BeamSkinMaster.classes;
+using Windows.Storage.Pickers;
+using System.Threading.Tasks;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -235,6 +237,7 @@ namespace BeamSkinMaster
             {
                 Directory.CreateDirectory(combobox);
                 ContentFrame.Navigate(typeof(DownloadingUVPage), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
+                Combobox1.IsEnabled = false;
                 ProgressOnTop.Value = 37;
             }
         }
@@ -243,6 +246,5 @@ namespace BeamSkinMaster
         {
            
         }
-
     }
 }

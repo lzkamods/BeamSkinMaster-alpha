@@ -68,7 +68,6 @@
 
         <ProgressBar x:Name="ProgressOnTop" ValueChanged="ProgressBarOn_ValueChanged" Width="569" Value="27" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="10"/>
 
-
     </Grid>
 </Window>
     
