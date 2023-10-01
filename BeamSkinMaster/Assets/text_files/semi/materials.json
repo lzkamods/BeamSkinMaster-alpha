@@ -1,0 +1,76 @@
+{
+  "semi_cab.skin.SKINNAME": {
+    "name": "semi_cab.skin.SKINNAME",
+    "mapTo": "semi_cab.skin.SKINNAME",
+    "class": "Material",
+    "persistentId": "63ad3790-0bcb-4f6d-95d2-3a7337b29299",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/semi/semi_cab_ao.data.dds",
+        "baseColorMap": "/vehicles/semi/semi_cab_b.color.dds",
+        "metallicMap": "/vehicles/semi/semi_cab_m.data.dds",
+        "metallicFactor": 1,
+        "roughnessFactor": 1,
+        "normalMap": "vehicles/semi/semi_cab_n.dds",
+        "roughnessMap": "/vehicles/semi/semi_cab_r.data.dds",
+        "useAnisotropic": true
+      },
+      {
+        "ambientOcclusionMap": "/vehicles/semi/semi_cab_ao.data.dds",
+        "useAnisotropic": true,
+        "diffuseMapUseUV": 1,
+        "clearCoatFactor": 1,
+        "clearCoatRoughnessFactor":0.05,
+        "metallicFactor": 0.7,
+        "clearCoatMap": "/vehicles/semi/semi_cab_cc.data.dds",
+        "normalMap": "/vehicles/semi/semi_cab_n.dds",
+        "opacityMap": "/vehicles/semi/semi_cab_c.data.dds",
+        "baseColorMap": "vehicles/semi/SKINNAME/semi_skin_SKINNAME.dds",
+      },
+      {},
+      {}
+    ],
+    "activeLayers": 2,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "version": 1.5
+  },
+  "semi_sleeper.skin.SKINNAME": {
+    "name": "semi_sleeper.skin.SKINNAME",
+    "mapTo": "semi_sleeper.skin.SKINNAME",
+    "class": "Material",
+    "persistentId": "80d7811c-73b0-484a-a735-16984a342b27",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/semi/semi_sleeper_ao.data.png",
+        "baseColorMap": "/vehicles/semi/semi_sleeper_b.color.png",
+        "metallicMap": "/vehicles/semi/semi_sleeper_m.data.png",
+        "metallicFactor": 1,
+        "roughnessFactor": 1,
+        "normalMap": "vehicles/semi/semi_sleeper_n.dds",
+        "roughnessMap": "/vehicles/semi/semi_sleeper_r.data.png",
+        "useAnisotropic": true
+      },
+      {
+        "ambientOcclusionMap": "/vehicles/semi/semi_sleeper_ao.data.png",
+        "useAnisotropic": true,
+        "diffuseMapUseUV": 1,
+        "clearCoatFactor": 1,
+        "clearCoatRoughnessFactor":0.05,
+        "metallicFactor": 0.7,
+        "clearCoatMap": "/vehicles/semi/semi_sleeper_cc.data.png",
+        "normalMap": "/vehicles/semi/semi_sleeper_n.dds",
+        "opacityMap": "/vehicles/semi/semi_sleeper_c.data.png",
+        "baseColorMap": "vehicles/semi/SKINNAME/semi_skin_SKINNAME.dds",
+      },
+      {},
+      {}
+    ],
+    "activeLayers": 2,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "version": 1.5
+  }
+}

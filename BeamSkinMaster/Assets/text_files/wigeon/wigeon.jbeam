@@ -1,0 +1,10 @@
+{
+"wigeon_skin_SKINNAME": {
+    "information":{
+        "authors":"Your Name Here",
+        "name":"Skin Name",
+        "value":250,
+    },
+    "slotType" : "paint_design",
+    "skinName" : "SKINNAME",
+  }}

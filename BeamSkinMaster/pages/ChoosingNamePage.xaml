@@ -10,6 +10,17 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <TextBlock Text="Выбор имени" x:Name="head" HorizontalAlignment="Center" Margin="50" FontSize="30"/>
+        <Grid>
+            <TextBlock x:Name="dd" Text="Выбор локального имени(interial name)" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="60,0,0,80" FontSize="14" FontWeight="SemiBold"/>
+            <TextBox x:Name="inttextbox" Height="20" Width="300" PlaceholderText="Только латиница без пробелов"/>
+        </Grid>
 
+        <Grid>
+            <TextBlock Text="Выбор внешнего имени" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="60,100,0,0" FontSize="14" FontWeight="SemiBold"/>
+            <TextBox x:Name="exttextbox" Height="20" Width="300" Margin="0,170,0,0" PlaceholderText="Латиница и Кириллица. Пробелы разрешены"/>
+        </Grid>
+
+        <Button HorizontalAlignment="Right" x:Name="namedalee" Click="namedalee_Click" VerticalAlignment="Bottom" Margin="30" Style="{StaticResource AccentButtonStyle}">Далее</Button>
     </Grid>
 </Page>

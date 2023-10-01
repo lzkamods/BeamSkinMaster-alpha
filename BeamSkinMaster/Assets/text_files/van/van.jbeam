@@ -1,0 +1,11 @@
+ {
+   "van_skin_SKINNAME": {				//change SKINNAME to your skin name (one word)
+   "information":{
+       "authors":"YOU",					//change YOU to your name (spaces allowed)
+       "name":"YOUR SKIN NAME",			//change YOUR SKIN NAME to your skin name (spaces allowed)
+       "value":200,
+   }
+   "slotType" : "paint_design",
+   "globalSkin" : "SKINNAME",			//change SKINNAME to your skin name (one word)
+   },
+   }

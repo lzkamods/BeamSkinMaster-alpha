@@ -15,6 +15,134 @@
     <None Remove="Assets\App icon 16.svg" />
     <None Remove="Assets\autobello_skin_UVs.png" />
     <None Remove="Assets\icon.png" />
+    <None Remove="Assets\text_files\autobello\autobello.jbeam" />
+    <None Remove="Assets\text_files\autobello\info_SKINNAME.json" />
+    <None Remove="Assets\text_files\autobello\materials.json" />
+    <None Remove="Assets\text_files\autobello\SKINNAME.pc" />
+    <None Remove="Assets\text_files\barstow\barstow.jbeam" />
+    <None Remove="Assets\text_files\barstow\info_SKINNAME.json" />
+    <None Remove="Assets\text_files\barstow\materials.json" />
+    <None Remove="Assets\text_files\barstow\SKINNAME.pc" />
+    <None Remove="Assets\text_files\bastion\bastion.jbeam" />
+    <None Remove="Assets\text_files\bastion\info_SKINNAME.json" />
+    <None Remove="Assets\text_files\bastion\materials.json" />
+    <None Remove="Assets\text_files\bastion\SKINNAME.pc" />
+    <None Remove="Assets\text_files\bluebuck\bluebuck.jbeam" />
+    <None Remove="Assets\text_files\bluebuck\info_SKINNAME.json" />
+    <None Remove="Assets\text_files\bluebuck\materials.json" />
+    <None Remove="Assets\text_files\bluebuck\SKINNAME.pc" />
+    <None Remove="Assets\text_files\bolide\bolide.jbeam" />
+    <None Remove="Assets\text_files\bolide\info_SKINNAME.json" />
+    <None Remove="Assets\text_files\bolide\skin.materials.json" />
+    <None Remove="Assets\text_files\bolide\SKINNAME.pc" />
+    <None Remove="Assets\text_files\burnside\burnside.jbeam" />
+    <None Remove="Assets\text_files\burnside\info_SKINNAME.json" />
+    <None Remove="Assets\text_files\burnside\materials.json" />
+    <None Remove="Assets\text_files\burnside\SKINNAME.pc" />
+    <None Remove="Assets\text_files\citybus\citybus.jbeam" />
+    <None Remove="Assets\text_files\citybus\info_SKINNAME.json" />
+    <None Remove="Assets\text_files\citybus\materials.json" />
+    <None Remove="Assets\text_files\citybus\SKINNAME.pc" />
+    <None Remove="Assets\text_files\coupe\coupe.jbeam" />
+    <None Remove="Assets\text_files\coupe\info_SKINNAME.json" />
+    <None Remove="Assets\text_files\coupe\materials.json" />
+    <None Remove="Assets\text_files\coupe\SKINNAME.pc" />
+    <None Remove="Assets\text_files\covet\covet.jbeam" />
+    <None Remove="Assets\text_files\covet\info_SKINNAME.json" />
+    <None Remove="Assets\text_files\covet\materials.json" />
+    <None Remove="Assets\text_files\covet\SKINNAME.pc" />
+    <None Remove="Assets\text_files\etk800.jbeam" />
+    <None Remove="Assets\text_files\etk800\info_SKINNAME.json" />
+    <None Remove="Assets\text_files\etk800\materials.json" />
+    <None Remove="Assets\text_files\etk800\SKINNAME.pc" />
+    <None Remove="Assets\text_files\etkc\etkc.jbeam" />
+    <None Remove="Assets\text_files\etkc\info_SKINNAME.json" />
+    <None Remove="Assets\text_files\etkc\skin.materials.json" />
+    <None Remove="Assets\text_files\etkc\SKINNAME.pc" />
+    <None Remove="Assets\text_files\etki\etki.jbeam" />
+    <None Remove="Assets\text_files\etki\info_SKINNAME.json" />
+    <None Remove="Assets\text_files\etki\materials.json" />
+    <None Remove="Assets\text_files\etki\SKINNAME.pc" />
+    <None Remove="Assets\text_files\fullsize\fullsize.jbeam" />
+    <None Remove="Assets\text_files\fullsize\info_SKINNAME.json" />
+    <None Remove="Assets\text_files\fullsize\materials.json" />
+    <None Remove="Assets\text_files\fullsize\SKINNAME.pc" />
+    <None Remove="Assets\text_files\hopper\hopper.jbeam" />
+    <None Remove="Assets\text_files\hopper\info_SKINNAME.json" />
+    <None Remove="Assets\text_files\hopper\materials.json" />
+    <None Remove="Assets\text_files\hopper\SKINNAME.pc" />
+    <None Remove="Assets\text_files\lansdale\info_SKINNAME.json" />
+    <None Remove="Assets\text_files\lansdale\lansdale.jbeam" />
+    <None Remove="Assets\text_files\lansdale\materials.json" />
+    <None Remove="Assets\text_files\lansdale\SKINNAME.pc" />
+    <None Remove="Assets\text_files\legran\info_SKINNAME.json" />
+    <None Remove="Assets\text_files\legran\legran.jbeam" />
+    <None Remove="Assets\text_files\legran\materials.json" />
+    <None Remove="Assets\text_files\legran\SKINNAME.pc" />
+    <None Remove="Assets\text_files\midsize\info_SKINNAME.json" />
+    <None Remove="Assets\text_files\midsize\midsize.jbeam" />
+    <None Remove="Assets\text_files\midsize\skin.materials.json" />
+    <None Remove="Assets\text_files\midsize\SKINNAME.pc" />
+    <None Remove="Assets\text_files\midtruck\info_SKINNAME.json" />
+    <None Remove="Assets\text_files\midtruck\materials.json" />
+    <None Remove="Assets\text_files\midtruck\midtruck.jbeam" />
+    <None Remove="Assets\text_files\midtruck\SKINNAME.pc" />
+    <None Remove="Assets\text_files\miramar\info_SKINNAME.json" />
+    <None Remove="Assets\text_files\miramar\materials.json" />
+    <None Remove="Assets\text_files\miramar\miramar.jbeam" />
+    <None Remove="Assets\text_files\miramar\SKINNAME.pc" />
+    <None Remove="Assets\text_files\pessima\info_SKINNAME.json" />
+    <None Remove="Assets\text_files\pessima\materials.json" />
+    <None Remove="Assets\text_files\pessima\pessima.jbeam" />
+    <None Remove="Assets\text_files\pessima\SKINNAME.pc" />
+    <None Remove="Assets\text_files\pickup\info_SKINNAME.json" />
+    <None Remove="Assets\text_files\pickup\materials.json" />
+    <None Remove="Assets\text_files\pickup\pickup.jbeam" />
+    <None Remove="Assets\text_files\pickup\SKINNAME.pc" />
+    <None Remove="Assets\text_files\pigeon\info_SKINNAME.json" />
+    <None Remove="Assets\text_files\pigeon\materials.json" />
+    <None Remove="Assets\text_files\pigeon\pigeon.jbeam" />
+    <None Remove="Assets\text_files\pigeon\SKINNAME.pc" />
+    <None Remove="Assets\text_files\racetruck\info_SKINNAME.json" />
+    <None Remove="Assets\text_files\racetruck\materials.json" />
+    <None Remove="Assets\text_files\racetruck\racetruck.jbeam" />
+    <None Remove="Assets\text_files\racetruck\SKINNAME.pc" />
+    <None Remove="Assets\text_files\roamer\info_SKINNAME.json" />
+    <None Remove="Assets\text_files\roamer\materials.json" />
+    <None Remove="Assets\text_files\roamer\roamer.jbeam" />
+    <None Remove="Assets\text_files\roamer\SKINNAME.pc" />
+    <None Remove="Assets\text_files\sbr\info_SKINNAME.json" />
+    <None Remove="Assets\text_files\sbr\materials.json" />
+    <None Remove="Assets\text_files\sbr\sbr.jbeam" />
+    <None Remove="Assets\text_files\sbr\SKINNAME.pc" />
+    <None Remove="Assets\text_files\scintilla\info_SKINNAME.json" />
+    <None Remove="Assets\text_files\scintilla\materials.json" />
+    <None Remove="Assets\text_files\scintilla\scintilla.jbeam" />
+    <None Remove="Assets\text_files\scintilla\SKINANME.pc" />
+    <None Remove="Assets\text_files\semi\info_SKINNAME.json" />
+    <None Remove="Assets\text_files\semi\materials.json" />
+    <None Remove="Assets\text_files\semi\semi.jbeam" />
+    <None Remove="Assets\text_files\semi\SKINNAME.pc" />
+    <None Remove="Assets\text_files\sunburst\info_SKINNAME.json" />
+    <None Remove="Assets\text_files\sunburst\materials.json" />
+    <None Remove="Assets\text_files\sunburst\SKINNAME.pc" />
+    <None Remove="Assets\text_files\sunburst\sunburst.jbeam" />
+    <None Remove="Assets\text_files\van\info_SKINNAME.json" />
+    <None Remove="Assets\text_files\van\materials.json" />
+    <None Remove="Assets\text_files\van\SKINNAME.pc" />
+    <None Remove="Assets\text_files\van\van.jbeam" />
+    <None Remove="Assets\text_files\vivace\info_SKINNAME.json" />
+    <None Remove="Assets\text_files\vivace\materials.json" />
+    <None Remove="Assets\text_files\vivace\SKINNAME.pc" />
+    <None Remove="Assets\text_files\vivace\vivace.jbeam" />
+    <None Remove="Assets\text_files\wendover\info_SKINNAME.json" />
+    <None Remove="Assets\text_files\wendover\materials.json" />
+    <None Remove="Assets\text_files\wendover\SKINNAME.pc" />
+    <None Remove="Assets\text_files\wendover\wendover.jbeam" />
+    <None Remove="Assets\text_files\wigeon\info_SKINNAME.json" />
+    <None Remove="Assets\text_files\wigeon\materials.json" />
+    <None Remove="Assets\text_files\wigeon\SKINNAME.pc" />
+    <None Remove="Assets\text_files\wigeon\wigeon.jbeam" />
     <None Remove="DownloadingUVPage.xaml" />
     <None Remove="pages\ChoosingNamePage.xaml" />
     <None Remove="pages\uploadingUVPage.xaml" />
@@ -83,6 +211,390 @@
     <Content Remove="Package.appxmanifest" />
   </ItemGroup>
   <ItemGroup>
+    <Content Update="Assets\text_files\autobello\autobello.jbeam">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\autobello\info_SKINNAME.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\autobello\materials.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\autobello\SKINNAME.pc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\barstow\barstow.jbeam">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\barstow\info_SKINNAME.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\barstow\materials.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\barstow\SKINNAME.pc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\bastion\bastion.jbeam">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\bastion\info_SKINNAME.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\bastion\materials.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\bastion\SKINNAME.pc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\bluebuck\bluebuck.jbeam">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\bluebuck\info_SKINNAME.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\bluebuck\materials.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\bluebuck\SKINNAME.pc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\bolide\bolide.jbeam">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\bolide\info_SKINNAME.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\bolide\skin.materials.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\bolide\SKINNAME.pc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\burnside\burnside.jbeam">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\burnside\info_SKINNAME.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\burnside\materials.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\burnside\SKINNAME.pc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\citybus\citybus.jbeam">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\citybus\info_SKINNAME.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\citybus\materials.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\citybus\SKINNAME.pc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\coupe\coupe.jbeam">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\coupe\info_SKINNAME.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\coupe\materials.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\coupe\SKINNAME.pc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\covet\covet.jbeam">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\covet\info_SKINNAME.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\covet\materials.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\covet\SKINNAME.pc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\etk800\etk800.jbeam">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\etk800\info_SKINNAME.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\etk800\materials.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\etk800\SKINNAME.pc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\etkc\etkc.jbeam">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\etkc\info_SKINNAME.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\etkc\skin.materials.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\etkc\SKINNAME.pc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\etki\etki.jbeam">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\etki\info_SKINNAME.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\etki\materials.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\etki\SKINNAME.pc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\fullsize\fullsize.jbeam">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\fullsize\info_SKINNAME.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\fullsize\materials.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\fullsize\SKINNAME.pc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\hopper\hopper.jbeam">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\hopper\info_SKINNAME.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\hopper\materials.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\hopper\SKINNAME.pc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\lansdale\info_SKINNAME.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\lansdale\lansdale.jbeam">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\lansdale\materials.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\lansdale\SKINNAME.pc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\legran\info_SKINNAME.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\legran\legran.jbeam">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\legran\materials.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\legran\SKINNAME.pc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\midsize\info_SKINNAME.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\midsize\midsize.jbeam">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\midsize\skin.materials.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\midsize\SKINNAME.pc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\midtruck\info_SKINNAME.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\midtruck\materials.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\midtruck\midtruck.jbeam">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\midtruck\SKINNAME.pc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\miramar\info_SKINNAME.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\miramar\materials.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\miramar\miramar.jbeam">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\miramar\SKINNAME.pc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\pessima\info_SKINNAME.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\pessima\materials.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\pessima\pessima.jbeam">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\pessima\SKINNAME.pc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\pickup\info_SKINNAME.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\pickup\materials.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\pickup\pickup.jbeam">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\pickup\SKINNAME.pc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\pigeon\info_SKINNAME.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\pigeon\materials.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\pigeon\pigeon.jbeam">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\pigeon\SKINNAME.pc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\racetruck\info_SKINNAME.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\racetruck\materials.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\racetruck\racetruck.jbeam">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\racetruck\SKINNAME.pc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\roamer\info_SKINNAME.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\roamer\materials.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\roamer\roamer.jbeam">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\roamer\SKINNAME.pc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\sbr\info_SKINNAME.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\sbr\materials.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\sbr\sbr.jbeam">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\sbr\SKINNAME.pc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\scintilla\info_SKINNAME.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\scintilla\materials.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\scintilla\scintilla.jbeam">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\scintilla\SKINANME.pc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\semi\info_SKINNAME.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\semi\materials.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\semi\semi.jbeam">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\semi\SKINNAME.pc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\sunburst\info_SKINNAME.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\sunburst\materials.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\sunburst\SKINNAME.pc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\sunburst\sunburst.jbeam">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\van\info_SKINNAME.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\van\materials.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\van\SKINNAME.pc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\van\van.jbeam">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\vivace\info_SKINNAME.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\vivace\materials.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\vivace\SKINNAME.pc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\vivace\vivace.jbeam">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\wendover\info_SKINNAME.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\wendover\materials.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\wendover\SKINNAME.pc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\wendover\wendover.jbeam">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\wigeon\info_SKINNAME.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\wigeon\materials.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\wigeon\SKINNAME.pc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\text_files\wigeon\wigeon.jbeam">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Update="Assets\uv's\autobello_skin_UVs.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Content>

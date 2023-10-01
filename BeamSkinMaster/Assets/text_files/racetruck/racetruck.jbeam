@@ -1,0 +1,11 @@
+{
+"racetruck_skin_skinname": {
+    "information":{
+        "authors":"Your Name",
+        "name":"Your Skin Name",
+        "value":4800,
+    },
+    "slotType" : "paint_design",
+    "skinName" : "skinname",
+ },
+ }

@@ -1,0 +1,43 @@
+{
+  "0-100 km/h":6.5,
+  "0-100 mph":15.4,
+  "0-200 km/h":27.5,
+  "0-60 mph":6.1,
+  "100-0 km/h":40,
+  "100-200 km/h":21,
+  "60-0 mph":119.8,
+  "60-100 mph":9.3,
+  "BoundingBox":[
+    [
+      -0.865,
+      -2.138,
+      -0.223
+    ],
+    [
+      1.265,
+      2.937,
+      1.252
+    ]
+  ],
+  "Braking G":0.984,
+  "Config Type":"Factory",
+  "Configuration":"SKIN NAME",
+  "Description":"DESCRIPTION",
+  "Drivetrain":"RWD",
+  "Fuel Type":"Gasoline",
+  "Induction Type":"NA",
+  "Off-Road Score":27,
+  "Performance Class":"4",
+  "Population":17000,
+  "Power":284,
+  "PowerPeakRPM":5850,
+  "Propulsion":"ICE",
+  "Top Speed":56.04875287,
+  "Torque":365,
+  "TorquePeakRPM":"3400 - 4550",
+  "Transmission":"Automatic",
+  "Value":34500,
+  "Weight":1870,
+  "Weight/Power":6.584507042,
+  "defaultPaintName1":"Silver"
+}

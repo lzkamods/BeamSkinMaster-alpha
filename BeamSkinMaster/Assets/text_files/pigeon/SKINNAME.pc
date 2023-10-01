@@ -1,0 +1,38 @@
+{
+"vars":{
+  
+},
+"parts":{
+  "pigeon_wheel_R":"pigeon_wheel_R",
+  "paint_design":"pigeon_skin_SKINNAME",
+  "pigeon_spring_R":"pigeon_spring_R",
+  "pigeon_transmission":"pigeon_transmission_3M",
+  "pigeon_sparetire":"pigeon_sparetire",
+  "pigeon_bumper_F":"pigeon_bumper_F",
+  "pigeon_brake_R":"pigeon_brake_R",
+  "pigeon_shock_R":"pigeon_shock_R",
+  "pigeon_stabilizer_L":"none",
+  "pigeon_bed":"pigeon_bed",
+  "pigeon_fueltank":"pigeon_fueltank",
+  "pigeon_tailgate":"pigeon_tailgate",
+  "pigeon_engine":"pigeon_engine",
+  "pigeon_coilover_F":"pigeon_coilover_F",
+  "pigeon_stabilizer_R":"none",
+  "pigeon_exhaust":"pigeon_exhaust",
+  "pigeon_suspension_R":"pigeon_axle_R",
+  "pigeon_mirror_R":"pigeon_mirror_R",
+  "pigeon_differential_R":"pigeon_differential_R",
+  "pigeon_steering":"pigeon_steering",
+  "pigeon_suspension_F":"pigeon_suspension_F",
+  "pigeon_door_R":"pigeon_door_R",
+  "pigeon_brake_F":"pigeon_brake_F",
+  "pigeon_wheel_F":"pigeon_wheel_F",
+  "pigeon_radiator":"pigeon_radiator",
+  "pigeon_body":"pigeon_body",
+  "pigeon_steer":"pigeon_steer",
+  "pigeon_hood":"pigeon_hood",
+  "pigeon_door_L":"pigeon_door_L",
+  "pigeon_bumper_R":"pigeon_bumper_R"
+},
+"format":2
+}

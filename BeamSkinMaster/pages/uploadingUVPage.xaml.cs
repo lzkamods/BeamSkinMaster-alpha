@@ -18,6 +18,7 @@ using Windows.ApplicationModel.Core;
 using WinRT.Interop;
 using BeamSkinMaster.classes;
 using Microsoft.UI.Xaml.Media.Animation;
+using System.Security.Cryptography.X509Certificates;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -34,7 +35,9 @@ namespace BeamSkinMaster.pages
             this.InitializeComponent();
         }
 
-        private async void PickAFileButton_Click(object sender, RoutedEventArgs e)
+        public static Button button {  get; set; }
+
+        public async void PickAFileButton_Click(object sender, RoutedEventArgs e)
         {
             // Create a file picker
             var openPicker = new Windows.Storage.Pickers.FileOpenPicker();
@@ -75,6 +78,8 @@ namespace BeamSkinMaster.pages
 
                 ContentDialogResult result = await cancelled.ShowAsync();
             }
+
+            button = PickAFileButton;
         }
 
         private void Uploadingdalee_Click(object sender, RoutedEventArgs e)
@@ -82,6 +87,7 @@ namespace BeamSkinMaster.pages
             ContentFrame.Navigate(typeof(ChoosingNamePage), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
             PickAFileButton.IsEnabled = false;
             Uploadingdalee.IsEnabled = false;
+            MainWindow.progressBar.Value = 74;
         }
     }
 }

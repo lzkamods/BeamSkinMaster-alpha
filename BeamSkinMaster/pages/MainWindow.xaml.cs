@@ -44,6 +44,7 @@ namespace BeamSkinMaster
             this.InitializeComponent();
             ExtendsContentIntoTitleBar = true;
             SetTitleBar(AppTitleBar);
+            progressBar = ProgressOnTop;
 
             IntPtr hWnd = WinRT.Interop.WindowNative.GetWindowHandle(this);
             var windowId = Microsoft.UI.Win32Interop.GetWindowIdFromWindow(hWnd);
@@ -60,9 +61,11 @@ namespace BeamSkinMaster
             return AppWindow.GetFromWindowId(wndId);
         }
 
+        public static ProgressBar progressBar {  get; set; }
         public static string endtext;
         public static string endpathh;
         private string combobox;
+        public static string intauto;
         public static string pppth;
         public XamlRoot XamlRoot { get; set; }
 
@@ -213,7 +216,7 @@ namespace BeamSkinMaster
             pppth = path;
             combobox = path;
             endtext = text;
-            vibiriauto.Text = endtext;
+            intauto = endtext;
             endpathh = endpath;
         }
 

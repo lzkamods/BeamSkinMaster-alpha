@@ -1,0 +1,31 @@
+{
+"Propulsion":"ICE",
+"0-100 km/h":23.2,
+"Drivetrain":"RWD",
+"Weight":730,
+"Configuration":"SKIN NAME",
+"Performance Class":"2",
+"Braking G":1.074,
+"Value":7000,
+"TorquePeakRPM":"1700 - 2500",
+"PowerPeakRPM":"2850 - 3450",
+"Description":"DESCRIPTION",
+"Fuel Type":"Gasoline",
+"Power":34,
+"Induction Type":"NA",
+"0-60 mph":21,
+"Config Type":"Factory",
+"100-0 km/h":36.6,
+"Top Speed":32.5615,
+"default_color":"Pearl White",
+"Torque":95,
+"Transmission":"Manual",
+"Off-Road Score":46,
+"Weight/Power":21.4706,
+"60-0 mph":112.4,
+"Years":{
+  "max":1963,
+  "min":1957
+},
+"Population":1000
+}

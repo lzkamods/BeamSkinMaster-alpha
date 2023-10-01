@@ -1,0 +1,22 @@
+{
+"Weight":12280,
+"Transmission":"Automatic",
+"Torque":1475,
+"Value":35000,
+"TorquePeakRPM":1200,
+"Description":"DESCRIPTION",
+"Configuration":"SKIN NAME",
+"Drivetrain":"Other",
+"Induction Type":"Turbo",
+"Config Type":"Service",
+"Top Speed":25.7219,
+"PowerPeakRPM":1900,
+"default_color":"Pearl White",
+"Propulsion":"ICE",
+"Off-Road Score":22,
+"Fuel Type":"Diesel",
+"Weight/Power":35.0857,
+"default_color_2":"Aquamarine",
+"Power":350,
+"Population":5000
+}

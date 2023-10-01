@@ -1,0 +1,11 @@
+{
+"midtruck_skin_skinname": {
+    "information":{
+        "authors":"Your Name",
+        "name":"Your Skin Name",
+        "value":100,
+    }
+    "slotType" : "paint_design",
+    "globalSkin" : "skinname",
+},
+}

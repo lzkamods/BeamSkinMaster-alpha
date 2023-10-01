@@ -38,7 +38,7 @@ namespace BeamSkinMaster
         {
             if (MainWindow.endtext == "autobello")
             {
-                Uri autobelloUri = new($"ms-appx:///Assets/autobello_skin_UVs.png");
+                Uri autobelloUri = new($"ms-appx:///Assets/uv's/autobello_skin_UVs.png");
                 StorageFile autobelloFile = await StorageFile.GetFileFromApplicationUriAsync(autobelloUri);
 
                 string autobellopath = MainWindow.pppth;
@@ -553,6 +553,7 @@ namespace BeamSkinMaster
         {
             ContentFrame.Navigate(typeof(uploadingUVPage), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
             downloadbutton.IsEnabled = false;
+            MainWindow.progressBar.Value = 50;
         }
     }
 }

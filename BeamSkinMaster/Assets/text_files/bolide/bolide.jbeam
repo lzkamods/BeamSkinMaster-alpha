@@ -1,0 +1,11 @@
+ {
+   "super_skin_SKINNAME": {				
+   "information":{
+       "authors":"Top Tier Studios",					
+       "name":"SKIN NAME",			
+       "value":200,
+   }
+   "slotType" : "paint_design",
+   "globalSkin" : "SKINNAME",			
+   },
+   }

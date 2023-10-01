@@ -1,0 +1,11 @@
+{
+"wendover_skin_SKINNAME": {
+    "information":{
+        "authors":"Top Tier Studios",
+        "name":"Skin Name",
+        "value":250,
+    },
+    "slotType" : "paint_design",
+    "globalSkin" : "SKINNAME",
+  }
+}

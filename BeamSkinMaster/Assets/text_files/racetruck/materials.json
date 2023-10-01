@@ -1,0 +1,34 @@
+{
+  "tt_body.skin.skinname": {
+    "name": "tt_body.skin.skinname",
+    "mapTo": "tt_body.skin.skinname",
+    "class": "Material",
+    "persistentId": "8b9862de-3ff8-4d88-a908-ce3c867baf8a",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/racetruck/racetruck_body_o.data.png",
+        "baseColorMap": "/vehicles/racetruck/racetruck_body_d.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/racetruck/racetruck_body_m.data.png",
+        "normalMap": "vehicles/racetruck/racetruck_body_n.normal.png",
+        "roughnessMap": "/vehicles/racetruck/racetruck_body_r.data.png"
+      },
+      {
+        "ambientOcclusionMap": "/vehicles/racetruck/racetruck_body_o.data.png",
+        "baseColorMap": "/vehicles/racetruck/skinname/racetruck_skin_skinname.dds",
+        "clearCoatFactor": 0.180000007,
+        "clearCoatMap": "/vehicles/racetruck/racetruck_cc.data.png",
+        "diffuseMapUseUV": 1,
+        "normalMap": "/vehicles/racetruck/racetruck_body_n.normal.png",
+        "roughnessFactor": 0
+      },
+      {},
+      {}
+    ],
+    "activeLayers": 2,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "version": 1.5
+  },
+}
