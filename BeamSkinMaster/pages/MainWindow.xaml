@@ -62,8 +62,8 @@
         <InfoBar VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0. 105"
             IsOpen="True"
             Severity="Warning"
-            Title="TEST VERSION"
-            Message="build 070923.9008A">
+            Title="BETA VERSION"
+            Message="build 051023.1213B">
         </InfoBar>
 
         <ProgressBar x:Name="ProgressOnTop" ValueChanged="ProgressBarOn_ValueChanged" Width="569" Value="27" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="10"/>

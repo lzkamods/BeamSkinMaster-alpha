@@ -16,6 +16,8 @@ using BeamSkinMaster.classes;
 using Windows.Storage;
 using System.Xml.Linq;
 using System.Text.Json.Nodes;
+using Microsoft.UI.Xaml.Media.Animation;
+using System.Security.Cryptography.X509Certificates;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project autobellolates, see: http://aka.ms/winui-project-info.
@@ -33,13 +35,17 @@ namespace BeamSkinMaster.pages
         }
 
         public static string mwpath = MainWindow.pppth;
+        public static string inttxt;
+        public static string namepathh;
 
         private async void namedalee_Click(object sender, RoutedEventArgs e)
         {
             string inttext = inttextbox.Text;
+            inttxt = inttext;
             string exttext = exttextbox.Text;
             string namepath = System.IO.Path.Combine(MainWindow.pppth, inttext);
             Directory.CreateDirectory(namepath);
+            namepathh = namepath;
 
             string imgfile = MainWindow.intauto + "_skin_SKINNAME.dds";
             string imgfileph = "/" + MainWindow.intauto + "_skin_" + inttextbox.Text + ".dds";
@@ -1775,7 +1781,8 @@ namespace BeamSkinMaster.pages
                 File.WriteAllText(citybusinfopathh, citybusinfoo);
             }
 
-            MainWindow.progressBar.IsIndeterminate = true;
+            ContentFrame.Navigate(typeof(PackingPage), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
+            MainWindow.progressBar.IsIndeterminate = false;
         }
     }
 }

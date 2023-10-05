@@ -10,7 +10,7 @@
   <Identity
     Name="a1436303-8247-4850-81f1-db47fe54c5e2"
     Publisher="CN=bohmo"
-    Version="1.0.0.0" />
+    Version="0.1.1.0" />
 
   <mp:PhoneIdentity PhoneProductId="a1436303-8247-4850-81f1-db47fe54c5e2" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
@@ -41,6 +41,8 @@
         Square44x44Logo="Assets\Square44x44Logo.png">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="landscape"/></uap:InitialRotationPreference>
       </uap:VisualElements>
     </Application>
   </Applications>

@@ -10,6 +10,17 @@
     <PublishProfile>win10-$(Platform).pubxml</PublishProfile>
     <UseWinUI>true</UseWinUI>
     <EnableMsixTooling>true</EnableMsixTooling>
+    <DefaultLanguage>ru-RU</DefaultLanguage>
+    <GenerateAppInstallerFile>False</GenerateAppInstallerFile>
+    <AppxPackageSigningEnabled>False</AppxPackageSigningEnabled>
+    <PackageCertificateThumbprint>EF1479B6E5D50EF582E50357F1B7E95239552772</PackageCertificateThumbprint>
+    <AppxPackageSigningTimestampDigestAlgorithm>SHA256</AppxPackageSigningTimestampDigestAlgorithm>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
+    <AppxSymbolPackageEnabled>False</AppxSymbolPackageEnabled>
+    <GenerateTestArtifacts>True</GenerateTestArtifacts>
+    <AppxBundle>Never</AppxBundle>
+    <AppInstallerUri>D:\ins</AppInstallerUri>
+    <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Assets\App icon 16.svg" />
@@ -33,7 +44,7 @@
     <None Remove="Assets\text_files\bluebuck\SKINNAME.pc" />
     <None Remove="Assets\text_files\bolide\bolide.jbeam" />
     <None Remove="Assets\text_files\bolide\info_SKINNAME.json" />
-    <None Remove="Assets\text_files\bolide\skin.materials.json" />
+    <None Remove="Assets\text_files\bolide\materials.json" />
     <None Remove="Assets\text_files\bolide\SKINNAME.pc" />
     <None Remove="Assets\text_files\burnside\burnside.jbeam" />
     <None Remove="Assets\text_files\burnside\info_SKINNAME.json" />
@@ -145,7 +156,11 @@
     <None Remove="Assets\text_files\wigeon\wigeon.jbeam" />
     <None Remove="DownloadingUVPage.xaml" />
     <None Remove="pages\ChoosingNamePage.xaml" />
+    <None Remove="pages\FinishPage.xaml" />
+    <None Remove="pages\Group 1.png" />
+    <None Remove="pages\PackingPage.xaml" />
     <None Remove="pages\uploadingUVPage.xaml" />
+    <None Remove="ZipPage.xaml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -158,6 +173,9 @@
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="pages\App icon 16.svg">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pages\Group 1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
 
@@ -265,7 +283,7 @@
     <Content Update="Assets\text_files\bolide\info_SKINNAME.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Update="Assets\text_files\bolide\skin.materials.json">
+    <Content Update="Assets\text_files\bolide\materials.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Update="Assets\text_files\bolide\SKINNAME.pc">
@@ -595,12 +613,27 @@
     <Content Update="Assets\text_files\wigeon\wigeon.jbeam">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Update="Assets\uv's\autobello_skin_UVs.png">
+    <Content Update="Assets\uv's\autobello_skin_SKINNAME.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Content>
     <Content Update="Assets\icon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="pages\FinishPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="pages\PackingPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="ZipPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Page Update="pages\ChoosingNamePage.xaml">
