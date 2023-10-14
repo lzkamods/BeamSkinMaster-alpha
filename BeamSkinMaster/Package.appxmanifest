@@ -9,14 +9,14 @@
 
   <Identity
     Name="a1436303-8247-4850-81f1-db47fe54c5e2"
-    Publisher="CN=bohmo"
-    Version="0.1.1.0" />
+    Publisher="CN=lzkamods"
+    Version="0.1.8.0" />
 
   <mp:PhoneIdentity PhoneProductId="a1436303-8247-4850-81f1-db47fe54c5e2" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>BeamSkinMaster</DisplayName>
-    <PublisherDisplayName>bohmo</PublisherDisplayName>
+    <PublisherDisplayName>lzkamods</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -35,7 +35,7 @@
       EntryPoint="$targetentrypoint$">
       <uap:VisualElements
         DisplayName="BeamSkinMaster"
-        Description="BeamSkinMaster"
+        Description="BeamSkinMaster a skin cod creater for BeamNG.drive"
         BackgroundColor="transparent"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png">

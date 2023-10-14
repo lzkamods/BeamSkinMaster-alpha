@@ -7,10 +7,18 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-    <Grid Background="#282828">
-        <Button x:Name="page1dalee" Click="page1dalee_Click" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="30" Style="{StaticResource AccentButtonStyle}">Далее</Button>
-        <TextBlock x:Name="vibiriauto" Text="Выберите автомобиль" HorizontalAlignment="Center" Margin="50" FontSize="30"/>
-        <ComboBox x:Name="Combobox1" SelectionChanged="ComboBox_SelectionChanged" PlaceholderText="автомобиль ..." HorizontalAlignment="Center" VerticalAlignment="Center" Width="350">
+
+
+
+    <Grid Background="#2B2B2B">
+        <Button x:Name="page1dalee" Click="page1dalee_Click" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="120" Height="32" Margin="0,0,48,48" Style="{StaticResource AccentButtonStyle}">Далее</Button>
+        <TextBlock x:Name="vibiriauto" Text="Выбор автомобиля" HorizontalAlignment="Right" Margin="0,82,357,0" FontSize="32"/>
+        <TextBlock Text="Выберите нужный автомобиль для создания скина" HorizontalAlignment="Right" FontSize="20" Margin="0,134,169,0" Foreground="#B0B0B0"/>
+        <TextBlock Text="и нажмите далее" HorizontalAlignment="Right" Margin="0,154,482,0" FontSize="20" Foreground="#B0B0B0"/>
+        <Grid  Height="262" HorizontalAlignment="Left" Margin="156,0,0,0">
+            <Image x:Name="kaka" Source="assets\bluecar.png"/>
+        </Grid>
+        <ComboBox x:Name="Combobox1" SelectionChanged="ComboBox_SelectionChanged" PlaceholderText="автомобиль ..." HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,123,0" Width="517">
             <x:String>Autobello Piccolina</x:String>
             <x:String>Autobello Stambecco</x:String>
             <x:String>Bruckell Bastion</x:String>
@@ -44,9 +52,9 @@
             <x:String>Soliad Wendover</x:String>
             <x:String>SP Dunekicker</x:String>
             <x:String>Wentward DT40L</x:String>
-            
+
         </ComboBox>
-        
+
         <Frame x:Name="ContentFrame">
             <Frame.ContentTransitions>
                 <TransitionCollection>
@@ -55,8 +63,18 @@
             </Frame.ContentTransitions>
         </Frame>
 
-        <Grid x:Name="AppTitleBar" Height="28" HorizontalAlignment="Stretch" VerticalAlignment="Top">
-            <TextBlock Text="BeamSkinMaster" VerticalAlignment="Center" Margin="10,0,0,0"/>
+        <Grid x:Name="AppTitleBar"
+              Canvas.ZIndex="1"
+              Height="32"
+              IsHitTestVisible="True"
+              VerticalAlignment="Top">
+
+            <TextBlock x:Name="AppTitleTextBlock" Text="BeamSkinMaster"
+                       TextWrapping="NoWrap"
+                       Style="{StaticResource CaptionTextBlockStyle}" 
+                       VerticalAlignment="Center"
+                       FontSize="12"
+                       Margin="16,7,0,0"/>
         </Grid>
 
         <InfoBar VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0. 105"
@@ -66,7 +84,7 @@
             Message="build 051023.1213B">
         </InfoBar>
 
-        <ProgressBar x:Name="ProgressOnTop" ValueChanged="ProgressBarOn_ValueChanged" Width="569" Value="27" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="10"/>
+        <ProgressBar x:Name="ProgressOnTop" ValueChanged="ProgressBarOn_ValueChanged" Width="1249" Value="27" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,48,0,0"/>
 
     </Grid>
 </Window>

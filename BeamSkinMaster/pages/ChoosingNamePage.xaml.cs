@@ -485,58 +485,74 @@ namespace BeamSkinMaster.pages
                 File.WriteAllText(bolideinfopathh, bolideinfoo);
             }
 
-            if (MainWindow.endtext == "scintilla")
+            try
             {
-                string scintillastpc = "/" + "SKINNAME.pc";
-                string scintillastinfo = "/" + "info_SKINNAME.json";
-                string stpcph = mwpath + scintillastpc;
-                string stinfoph = mwpath + scintillastinfo;
-                string pcfile = "/" + inttext + ".pc";
-                string infofile = "/" + "info_" + inttext + ".json";
-                string scintillapcph = mwpath + pcfile;
-                string scintillainfoph = mwpath + infofile;
+                if (MainWindow.endtext == "scintilla")
+                {
+                    string scintillastpc = "/" + "SKINNAME.pc";
+                    string scintillastinfo = "/" + "info_SKINNAME.json";
+                    string stpcph = mwpath + scintillastpc;
+                    string stinfoph = mwpath + scintillastinfo;
+                    string pcfile = "/" + inttext + ".pc";
+                    string infofile = "/" + "info_" + inttext + ".json";
+                    string scintillapcph = mwpath + pcfile;
+                    string scintillainfoph = mwpath + infofile;
 
-                Uri etkjbeamuri = new Uri($"ms-appx:///Assets/text_files/scintilla/scintilla.jbeam");
-                Uri etkmaturi = new Uri($"ms-appx:///Assets/text_files/scintilla/materials.json");
-                Uri etkpcuri = new Uri($"ms-appx:///Assets/text_files/scintilla/SKINNAME.pc");
-                Uri etkinfouri = new Uri($"ms-appx:///Assets/text_files/scintilla/info_SKINNAME.json");
-                StorageFile scintillajbeamfile = await StorageFile.GetFileFromApplicationUriAsync(etkjbeamuri);
-                StorageFile scintillamatfile = await StorageFile.GetFileFromApplicationUriAsync(etkmaturi);
-                StorageFile scintillapcfile = await StorageFile.GetFileFromApplicationUriAsync(etkpcuri);
-                StorageFile scintillainfofile = await StorageFile.GetFileFromApplicationUriAsync(etkinfouri);
+                    Uri scintillajbeamuri = new Uri($"ms-appx:///Assets/text_files/scintilla/scintilla.jbeam");
+                    Uri scintillamaturi = new Uri($"ms-appx:///Assets/text_files/scintilla/materials.json");
+                    Uri scintillapcuri = new Uri($"ms-appx:///Assets/text_files/scintilla/SKINNAME.pc");
+                    Uri scintillainfouri = new Uri($"ms-appx:///Assets/text_files/scintilla/info_SKINNAME.json");
+                    StorageFile scintillajbeamfile = await StorageFile.GetFileFromApplicationUriAsync(scintillajbeamuri);
+                    StorageFile scintillamatfile = await StorageFile.GetFileFromApplicationUriAsync(scintillamaturi);
+                    StorageFile scintillapcfile = await StorageFile.GetFileFromApplicationUriAsync(scintillapcuri);
+                    StorageFile scintillainfofile = await StorageFile.GetFileFromApplicationUriAsync(scintillainfouri);
 
-                StorageFolder scintillajbeampath = await StorageFolder.GetFolderFromPathAsync(namepath);
-                StorageFolder scintillamatpath = await StorageFolder.GetFolderFromPathAsync(namepath);
-                StorageFolder scintillapcpath = await StorageFolder.GetFolderFromPathAsync(mwpath);
-                StorageFolder scintillainfopath = await StorageFolder.GetFolderFromPathAsync(mwpath);
+                    StorageFolder scintillajbeampath = await StorageFolder.GetFolderFromPathAsync(namepath);
+                    StorageFolder scintillamatpath = await StorageFolder.GetFolderFromPathAsync(namepath);
+                    StorageFolder scintillapcpath = await StorageFolder.GetFolderFromPathAsync(mwpath);
+                    StorageFolder scintillainfopath = await StorageFolder.GetFolderFromPathAsync(mwpath);
 
-                await scintillajbeamfile.CopyAsync(scintillajbeampath);
-                await scintillamatfile.CopyAsync(scintillamatpath);
-                await scintillapcfile.CopyAsync(scintillapcpath);
-                await scintillainfofile.CopyAsync(scintillainfopath);
-                File.Move(stpcph, scintillapcph);
-                File.Move(stinfoph, scintillainfoph);
+                    await scintillajbeamfile.CopyAsync(scintillajbeampath);
+                    await scintillamatfile.CopyAsync(scintillamatpath);
+                    await scintillapcfile.CopyAsync(scintillapcpath);
+                    await scintillainfofile.CopyAsync(scintillainfopath);
+                    File.Move(stpcph, scintillapcph);
+                    File.Move(stinfoph, scintillainfoph);
 
-                string scintillajbpath = namepath + "/" + "scintilla.jbeam";
-                string scintillajb = File.ReadAllText(scintillajbpath);
-                scintillajb = scintillajb.Replace("SKINNAME", inttext);
-                scintillajb = scintillajb.Replace("YOUR SKIN NAME", exttext);
-                File.WriteAllText(scintillajbpath, scintillajb);
+                    string scintillajbpath = namepath + "/" + "scintilla.jbeam";
+                    string scintillajb = File.ReadAllText(scintillajbpath);
+                    scintillajb = scintillajb.Replace("SKINNAME", inttext);
+                    scintillajb = scintillajb.Replace("YOUR SKIN NAME", exttext);
+                    File.WriteAllText(scintillajbpath, scintillajb);
 
-                string scintillamatpathh = namepath + "/" + "materials.json";
-                string scintillamat = File.ReadAllText(scintillamatpathh);
-                scintillamat = scintillamat.Replace("SKINNAME", inttext);
-                File.WriteAllText(scintillamatpathh, scintillamat);
+                    string scintillamatpathh = namepath + "/" + "materials.json";
+                    string scintillamat = File.ReadAllText(scintillamatpathh);
+                    scintillamat = scintillamat.Replace("SKINNAME", inttext);
+                    File.WriteAllText(scintillamatpathh, scintillamat);
 
-                string scintillapcpathh = mwpath + pcfile;
-                string scintillapc = File.ReadAllText(scintillapcpathh);
-                scintillapc = scintillapc.Replace("SKINNAME", inttext);
-                File.WriteAllText(scintillapcpathh, scintillapc);
+                    string scintillapcpathh = mwpath + pcfile;
+                    string scintillapc = File.ReadAllText(scintillapcpathh);
+                    scintillapc = scintillapc.Replace("SKINNAME", inttext);
+                    File.WriteAllText(scintillapcpathh, scintillapc);
 
-                string scintillainfopathh = mwpath + infofile;
-                string scintillainfoo = File.ReadAllText(scintillainfopathh);
-                scintillainfoo = scintillainfoo.Replace("SKIN NAME", exttext);
-                File.WriteAllText(scintillainfopathh, scintillainfoo);
+                    string scintillainfopathh = mwpath + infofile;
+                    string scintillainfoo = File.ReadAllText(scintillainfopathh);
+                    scintillainfoo = scintillainfoo.Replace("SKIN NAME", exttext);
+                    File.WriteAllText(scintillainfopathh, scintillainfoo);
+                }
+            }
+
+            catch (Exception ex)
+            {
+                ContentDialog error = new ContentDialog
+                {
+                    Title = "Ошибка при перемещнии",
+                    Content = $"Невозможно переместить папку, по причине: {ex.Message}",
+                    CloseButtonText = "OK",
+                };
+                error.XamlRoot = exttextbox.XamlRoot;
+
+                ContentDialogResult result = await error.ShowAsync();
             }
 
             if (MainWindow.endtext == "etki")

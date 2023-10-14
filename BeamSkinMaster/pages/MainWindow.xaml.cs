@@ -26,6 +26,7 @@ using Windows.UI.Popups;
 using BeamSkinMaster.classes;
 using Windows.Storage.Pickers;
 using System.Threading.Tasks;
+using Microsoft.UI.Composition.SystemBackdrops;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -49,10 +50,12 @@ namespace BeamSkinMaster
             IntPtr hWnd = WinRT.Interop.WindowNative.GetWindowHandle(this);
             var windowId = Microsoft.UI.Win32Interop.GetWindowIdFromWindow(hWnd);
             var appWindow = Microsoft.UI.Windowing.AppWindow.GetFromWindowId(windowId);
-            appWindow.Resize(new Windows.Graphics.SizeInt32 { Width = 430, Height = 569 });
+            appWindow.Resize(new Windows.Graphics.SizeInt32 { Width = 1282, Height = 722 });
+
             Directory.CreateDirectory(pathes.pth);
 
         }
+
 
         private AppWindow GetAppWindowForCurrentWindow()
         {
@@ -61,7 +64,7 @@ namespace BeamSkinMaster
             return AppWindow.GetFromWindowId(wndId);
         }
 
-        public static ProgressBar progressBar {  get; set; }
+        public static ProgressBar progressBar { get; set; }
         public static string endtext;
         public static string endpathh;
         private string combobox;
@@ -229,7 +232,7 @@ namespace BeamSkinMaster
                 {
                     Title = "ошибка перехода на следуйщий этап",
                     Content = "поле выбора авто пустое. Пожалуйста, выберите автомобиль.",
-                    CloseButtonText = "OK",                   
+                    CloseButtonText = "OK",
                 };
                 autoerror.XamlRoot = page1dalee.XamlRoot;
 
@@ -247,7 +250,7 @@ namespace BeamSkinMaster
 
         private void ProgressBarOn_ValueChanged(object sender, RangeBaseValueChangedEventArgs e)
         {
-           
+
         }
     }
 }

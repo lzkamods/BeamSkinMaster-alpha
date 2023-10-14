@@ -17,6 +17,7 @@ using Windows.Storage;
 using System.Diagnostics;
 using Microsoft.UI.Xaml.Media.Animation;
 using BeamSkinMaster.pages;
+using Microsoft.UI.Composition.SystemBackdrops;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -31,6 +32,7 @@ namespace BeamSkinMaster
         public DownloadingUVPage()
         {
             this.InitializeComponent();
+
         }
 
 
@@ -554,6 +556,11 @@ namespace BeamSkinMaster
             ContentFrame.Navigate(typeof(uploadingUVPage), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
             downloadbutton.IsEnabled = false;
             MainWindow.progressBar.Value = 50;
+        }
+
+        private void backbutton_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

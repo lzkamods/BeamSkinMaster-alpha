@@ -5,27 +5,35 @@
     <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
     <RootNamespace>BeamSkinMaster</RootNamespace>
     <ApplicationManifest>app.manifest</ApplicationManifest>
-    <Platforms>x86;x64;ARM64</Platforms>
-    <RuntimeIdentifiers>win10-x86;win10-x64;win10-arm64</RuntimeIdentifiers>
+    <Platforms>x86;x64</Platforms>
+    <RuntimeIdentifiers>win10-x86;win10-x64</RuntimeIdentifiers>
     <PublishProfile>win10-$(Platform).pubxml</PublishProfile>
     <UseWinUI>true</UseWinUI>
     <EnableMsixTooling>true</EnableMsixTooling>
     <DefaultLanguage>ru-RU</DefaultLanguage>
     <GenerateAppInstallerFile>False</GenerateAppInstallerFile>
-    <AppxPackageSigningEnabled>False</AppxPackageSigningEnabled>
-    <PackageCertificateThumbprint>EF1479B6E5D50EF582E50357F1B7E95239552772</PackageCertificateThumbprint>
+    <AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
     <AppxPackageSigningTimestampDigestAlgorithm>SHA256</AppxPackageSigningTimestampDigestAlgorithm>
-    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
     <AppxSymbolPackageEnabled>False</AppxSymbolPackageEnabled>
     <GenerateTestArtifacts>True</GenerateTestArtifacts>
-    <AppxBundle>Never</AppxBundle>
+    <AppxBundle>Auto</AppxBundle>
     <AppInstallerUri>D:\ins</AppInstallerUri>
-    <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
+    <HoursBetweenUpdateChecks>336</HoursBetweenUpdateChecks>
+    <PackageCertificateKeyFile>BeamSkinMaster_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <AppxBundlePlatforms>x86|x64</AppxBundlePlatforms>
+	<WindowsPackageType>MSIX</WindowsPackageType>
+	<WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained>
+	<AppxPackageDir>D:\packages\</AppxPackageDir>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Assets\App icon 16.svg" />
     <None Remove="Assets\autobello_skin_UVs.png" />
     <None Remove="Assets\icon.png" />
+    <None Remove="Assets\SplashScreen.scale-100.png" />
+    <None Remove="Assets\SplashScreen.scale-125.png" />
+    <None Remove="Assets\SplashScreen.scale-150.png" />
+    <None Remove="Assets\SplashScreen.scale-400.png" />
     <None Remove="Assets\text_files\autobello\autobello.jbeam" />
     <None Remove="Assets\text_files\autobello\info_SKINNAME.json" />
     <None Remove="Assets\text_files\autobello\materials.json" />
@@ -155,10 +163,18 @@
     <None Remove="Assets\text_files\wigeon\SKINNAME.pc" />
     <None Remove="Assets\text_files\wigeon\wigeon.jbeam" />
     <None Remove="DownloadingUVPage.xaml" />
+    <None Remove="pages\assets\backicon.png" />
+    <None Remove="pages\assets\bluecar.png" />
+    <None Remove="pages\assets\bluecloud.png" />
+    <None Remove="pages\assets\galohcka.png" />
+    <None Remove="pages\assets\imageicon.png" />
+    <None Remove="pages\assets\orangekaka.png" />
     <None Remove="pages\ChoosingNamePage.xaml" />
     <None Remove="pages\FinishPage.xaml" />
     <None Remove="pages\Group 1.png" />
+    <None Remove="pages\icon.png" />
     <None Remove="pages\PackingPage.xaml" />
+    <None Remove="pages\StoreLogo.png" />
     <None Remove="pages\uploadingUVPage.xaml" />
     <None Remove="ZipPage.xaml" />
   </ItemGroup>
@@ -171,12 +187,25 @@
     <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
-    <Content Include="pages\App icon 16.svg">
+    <Content Include="pages\assets\App icon 16.svg">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Content>
-    <Content Include="pages\Group 1.png">
+    <Content Include="pages\assets\backicon.png" />
+    <Content Include="pages\assets\bluecar.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="pages\assets\bluecloud.png" />
+    <Content Include="pages\assets\galohcka.png" />
+    <Content Include="pages\assets\Group 1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pages\assets\icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pages\assets\imageicon.png" />
+    <Content Include="pages\assets\orangekaka.png" />
+    <Content Include="pages\assets\SplashScreen.scale-100.png" />
+    <Content Include="pages\assets\StoreLogo.png" />
   </ItemGroup>
 
   <ItemGroup>
