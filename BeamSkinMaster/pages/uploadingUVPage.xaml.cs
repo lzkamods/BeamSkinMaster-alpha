@@ -89,5 +89,11 @@ namespace BeamSkinMaster.pages
             Uploadingdalee.IsEnabled = false;
             MainWindow.progressBar.Value = 74;
         }
+
+        private void backbutton_Click(object sender, RoutedEventArgs e)
+        {
+            ContentFrame.Navigate(typeof(DownloadingUVPage), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
+            MainWindow.progressBar.Value = 37;
+        }
     }
 }

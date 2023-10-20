@@ -9,7 +9,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid Background="#2B2B2B">
+    <Grid Background="#202020">
         <Image Source="assets/orangekaka.png" Height="235" Margin="167.5,0,0,0" HorizontalAlignment="Left"/>
         <TextBlock x:Name="downloadtext" FontSize="20" Margin="0,124,226,0" Foreground="#B0B0B0" HorizontalAlignment="Right">
                 <Run x:Name="downloadtextrun">Нажмите на кнопку и загрузите изображение</Run>               

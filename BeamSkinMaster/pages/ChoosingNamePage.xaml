@@ -9,15 +9,28 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <TextBlock Text="Выбор имени" x:Name="head" HorizontalAlignment="Center" Margin="50" FontSize="30"/>
-        <TextBlock Text="Выбор локального имени(interial name)" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="60,0,0,80" FontSize="14" FontWeight="SemiBold"/>
-        <TextBox x:Name="inttextbox" Height="20" Width="300" PlaceholderText="Только латиница без пробелов"/>
-       
-        <TextBlock Text="Выбор внешнего имени" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="60,100,0,0" FontSize="14" FontWeight="SemiBold"/>
-        <TextBox x:Name="exttextbox" Height="20" Width="300" Margin="0,170,0,0" PlaceholderText="Латиница и Кириллица. Пробелы разрешены"/>
+    <Grid Background="#202020">
+        <TextBlock Text="Выбор имнеи скина" x:Name="head" HorizontalAlignment="Right" Margin="0,82,347,0" FontSize="32"/>
+        <TextBlock Foreground="#B0B0B0" FontSize="20" Margin="0,144,449,0" HorizontalAlignment="Right">
+            отображаться в игре
+        </TextBlock>
+        
+        <TextBlock Foreground="#B0B0B0" FontSize="20" Margin="0,124,283,0" HorizontalAlignment="Right">
+            Впишите имена своего скина, он будет
+        </TextBlock>
+        <TextBlock Text="Выбор локального имени(interial name)" HorizontalAlignment="Right" Margin="0,283,386,0" FontSize="14"/>
+        <TextBox x:Name="inttextbox" Height="32" Margin="0,316,124,0" Width="517" VerticalAlignment="Top" HorizontalAlignment="Right" PlaceholderText="Только латиница без пробелов"/>
 
-        <Button HorizontalAlignment="Right" x:Name="namedalee" Click="namedalee_Click" VerticalAlignment="Bottom" Margin="30" Style="{StaticResource AccentButtonStyle}">Далее</Button>
+        <TextBlock Text="Выбор внешнего имени(external name)" HorizontalAlignment="Right" Margin="0,371,389,0" FontSize="14"/>
+        <TextBox x:Name="exttextbox" Height="32" Width="517" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,404,124,0" PlaceholderText="Латиница и Кириллица. Пробелы разрешены"/>
+
+        <Button x:Name="namedalee" Click="namedalee_Click" HorizontalAlignment="Right" Height="32" Width="120" VerticalAlignment="Bottom" Margin="0,0,48,48" Style="{StaticResource AccentButtonStyle}">Далее</Button>
+        <Button x:Name="backbutton" Click="backbutton_Click" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,178,48" Height="32" Width="32" Background="#373737">
+            <StackPanel>
+                <Image Height="10" Width="10" Source="assets/backicon.png"/>
+            </StackPanel>
+        </Button>
+        <Image Source="assets\qwe.png" Height="178" HorizontalAlignment="Left" Margin="221,0,0,0"/>
 
         <Frame x:Name="ContentFrame">
             <Frame.ContentTransitions>

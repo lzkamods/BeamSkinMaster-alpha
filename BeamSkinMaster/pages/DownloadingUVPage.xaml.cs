@@ -50,8 +50,8 @@ namespace BeamSkinMaster
 
                 Process.Start("explorer.exe", autobellopath);
 
-                downloadtextrun.Text = "UV карта загружена,";
-                downloadtextspan.Text = "отредактируйте её и нажмите далее.";
+
+
             }
 
             if (MainWindow.endtext == "midtruck")
@@ -66,8 +66,8 @@ namespace BeamSkinMaster
 
                 Process.Start("explorer.exe", midtruckpath);
 
-                downloadtextrun.Text = "UV карта загружена,";
-                downloadtextspan.Text = "отредактируйте её и нажмите далее.";
+
+
             }
 
             if (MainWindow.endtext == "bastion")
@@ -82,8 +82,8 @@ namespace BeamSkinMaster
 
                 Process.Start("explorer.exe", bastionpath);
 
-                downloadtextrun.Text = "UV карта загружена,";
-                downloadtextspan.Text = "отредактируйте её и нажмите далее.";
+
+
             }
 
             if (MainWindow.endtext == "legran")
@@ -98,8 +98,8 @@ namespace BeamSkinMaster
 
                 Process.Start("explorer.exe", legranpath);
 
-                downloadtextrun.Text = "UV карта загружена,";
-                downloadtextspan.Text = "отредактируйте её и нажмите далее.";
+
+
             }
 
             if (MainWindow.endtext == "burnside")
@@ -114,8 +114,8 @@ namespace BeamSkinMaster
 
                 Process.Start("explorer.exe", burnsidepath);
 
-                downloadtextrun.Text = "UV карта загружена,";
-                downloadtextspan.Text = "отредактируйте её и нажмите далее.";
+
+
             }
 
             if (MainWindow.endtext == "vivace")
@@ -130,8 +130,8 @@ namespace BeamSkinMaster
 
                 Process.Start("explorer.exe", vivacepath);
 
-                downloadtextrun.Text = "UV карта загружена,";
-                downloadtextspan.Text = "отредактируйте её и нажмите далее.";
+
+
             }
 
             if (MainWindow.endtext == "bolide")
@@ -146,8 +146,8 @@ namespace BeamSkinMaster
 
                 Process.Start("explorer.exe", bolidepath);
 
-                downloadtextrun.Text = "UV карта загружена,";
-                downloadtextspan.Text = "отредактируйте её и нажмите далее.";
+
+
             }
 
             if (MainWindow.endtext == "scintilla")
@@ -162,8 +162,8 @@ namespace BeamSkinMaster
 
                 Process.Start("explorer.exe", scintillapath);
 
-                downloadtextrun.Text = "UV карта загружена,";
-                downloadtextspan.Text = "отредактируйте её и нажмите далее.";
+
+
             }
 
             if (MainWindow.endtext == "etk800")
@@ -178,8 +178,8 @@ namespace BeamSkinMaster
 
                 Process.Start("explorer.exe", etk800path);
 
-                downloadtextrun.Text = "UV карта загружена,";
-                downloadtextspan.Text = "отредактируйте её и нажмите далее.";
+
+
             }
 
             if (MainWindow.endtext == "etki")
@@ -194,8 +194,8 @@ namespace BeamSkinMaster
 
                 Process.Start("explorer.exe", etkipath);
 
-                downloadtextrun.Text = "UV карта загружена,";
-                downloadtextspan.Text = "отредактируйте её и нажмите далее.";
+
+
             }
 
             if (MainWindow.endtext == "etkc")
@@ -210,8 +210,8 @@ namespace BeamSkinMaster
 
                 Process.Start("explorer.exe", etkcpath);
 
-                downloadtextrun.Text = "UV карта загружена,";
-                downloadtextspan.Text = "отредактируйте её и нажмите далее.";
+
+
             }
 
             if (MainWindow.endtext == "barstow")
@@ -226,8 +226,8 @@ namespace BeamSkinMaster
 
                 Process.Start("explorer.exe", barstowpath);
 
-                downloadtextrun.Text = "UV карта загружена,";
-                downloadtextspan.Text = "отредактируйте её и нажмите далее.";
+
+
             }
 
             if (MainWindow.endtext == "bluebuck")
@@ -242,8 +242,8 @@ namespace BeamSkinMaster
 
                 Process.Start("explorer.exe", bluebuckpath);
 
-                downloadtextrun.Text = "UV карта загружена,";
-                downloadtextspan.Text = "отредактируйте её и нажмите далее.";
+
+
             }
 
             if (MainWindow.endtext == "pickup")
@@ -258,8 +258,8 @@ namespace BeamSkinMaster
 
                 Process.Start("explorer.exe", pickuppath);
 
-                downloadtextrun.Text = "UV карта загружена,";
-                downloadtextspan.Text = "отредактируйте её и нажмите далее.";
+
+
             }
 
             if (MainWindow.endtext == "fullsize")
@@ -274,8 +274,8 @@ namespace BeamSkinMaster
 
                 Process.Start("explorer.exe", fullsizepath);
 
-                downloadtextrun.Text = "UV карта загружена,";
-                downloadtextspan.Text = "отредактируйте её и нажмите далее.";
+
+
             }
 
             if (MainWindow.endtext == "van")
@@ -290,8 +290,8 @@ namespace BeamSkinMaster
 
                 Process.Start("explorer.exe", vanpath);
 
-                downloadtextrun.Text = "UV карта загружена,";
-                downloadtextspan.Text = "отредактируйте её и нажмите далее.";
+
+
             }
 
             if (MainWindow.endtext == "roamer")
@@ -306,8 +306,8 @@ namespace BeamSkinMaster
 
                 Process.Start("explorer.exe", roamerpath);
 
-                downloadtextrun.Text = "UV карта загружена,";
-                downloadtextspan.Text = "отредактируйте её и нажмите далее.";
+
+
             }
 
             if (MainWindow.endtext == "semi")
@@ -322,8 +322,8 @@ namespace BeamSkinMaster
 
                 Process.Start("explorer.exe", semipath);
 
-                downloadtextrun.Text = "UV карта загружена,";
-                downloadtextspan.Text = "отредактируйте её и нажмите далее.";
+
+
             }
 
             if (MainWindow.endtext == "sbr")
@@ -338,8 +338,8 @@ namespace BeamSkinMaster
 
                 Process.Start("explorer.exe", sbrpath);
 
-                downloadtextrun.Text = "UV карта загружена,";
-                downloadtextspan.Text = "отредактируйте её и нажмите далее.";
+
+
             }
 
             if (MainWindow.endtext == "sunburst")
@@ -354,8 +354,8 @@ namespace BeamSkinMaster
 
                 Process.Start("explorer.exe", sunburstpath);
 
-                downloadtextrun.Text = "UV карта загружена,";
-                downloadtextspan.Text = "отредактируйте её и нажмите далее.";
+
+
             }
 
             if (MainWindow.endtext == "coupe")
@@ -370,8 +370,8 @@ namespace BeamSkinMaster
 
                 Process.Start("explorer.exe", coupepath);
 
-                downloadtextrun.Text = "UV карта загружена,";
-                downloadtextspan.Text = "отредактируйте её и нажмите далее.";
+
+
             }
 
             if (MainWindow.endtext == "covet")
@@ -386,8 +386,8 @@ namespace BeamSkinMaster
 
                 Process.Start("explorer.exe", covetpath);
 
-                downloadtextrun.Text = "UV карта загружена,";
-                downloadtextspan.Text = "отредактируйте её и нажмите далее.";
+
+
             }
 
             if (MainWindow.endtext == "hopper")
@@ -402,8 +402,8 @@ namespace BeamSkinMaster
 
                 Process.Start("explorer.exe", hopperpath);
 
-                downloadtextrun.Text = "UV карта загружена,";
-                downloadtextspan.Text = "отредактируйте её и нажмите далее.";
+
+
             }
 
             if (MainWindow.endtext == "miramar")
@@ -418,8 +418,8 @@ namespace BeamSkinMaster
 
                 Process.Start("explorer.exe", miramarpath);
 
-                downloadtextrun.Text = "UV карта загружена,";
-                downloadtextspan.Text = "отредактируйте её и нажмите далее.";
+
+
             }
 
             if (MainWindow.endtext == "pessima")
@@ -434,8 +434,8 @@ namespace BeamSkinMaster
 
                 Process.Start("explorer.exe", pessimapath);
 
-                downloadtextrun.Text = "UV карта загружена,";
-                downloadtextspan.Text = "отредактируйте её и нажмите далее.";
+
+
             }
 
             if (MainWindow.endtext == "midsize")
@@ -450,8 +450,8 @@ namespace BeamSkinMaster
 
                 Process.Start("explorer.exe", midsizepath);
 
-                downloadtextrun.Text = "UV карта загружена,";
-                downloadtextspan.Text = "отредактируйте её и нажмите далее.";
+
+
             }
 
             if (MainWindow.endtext == "pigeon")
@@ -466,8 +466,8 @@ namespace BeamSkinMaster
 
                 Process.Start("explorer.exe", pigeonpath);
 
-                downloadtextrun.Text = "UV карта загружена,";
-                downloadtextspan.Text = "отредактируйте её и нажмите далее.";
+
+
             }
 
             if (MainWindow.endtext == "wigeon")
@@ -482,8 +482,8 @@ namespace BeamSkinMaster
 
                 Process.Start("explorer.exe", wigeonpath);
 
-                downloadtextrun.Text = "UV карта загружена,";
-                downloadtextspan.Text = "отредактируйте её и нажмите далее.";
+
+
             }
 
             if (MainWindow.endtext == "lansdale")
@@ -498,8 +498,8 @@ namespace BeamSkinMaster
 
                 Process.Start("explorer.exe", lansdalepath);
 
-                downloadtextrun.Text = "UV карта загружена,";
-                downloadtextspan.Text = "отредактируйте её и нажмите далее.";
+
+
             }
 
             if (MainWindow.endtext == "wendover")
@@ -514,8 +514,8 @@ namespace BeamSkinMaster
 
                 Process.Start("explorer.exe", wendoverpath);
 
-                downloadtextrun.Text = "UV карта загружена,";
-                downloadtextspan.Text = "отредактируйте её и нажмите далее.";
+
+
             }
 
             if (MainWindow.endtext == "racetruck")
@@ -530,8 +530,8 @@ namespace BeamSkinMaster
 
                 Process.Start("explorer.exe", racetruckpath);
 
-                downloadtextrun.Text = "UV карта загружена,";
-                downloadtextspan.Text = "отредактируйте её и нажмите далее.";
+
+
             }
 
             if (MainWindow.endtext == "citybus")
@@ -546,8 +546,8 @@ namespace BeamSkinMaster
 
                 Process.Start("explorer.exe", citybuspath);
 
-                downloadtextrun.Text = "UV карта загружена,";
-                downloadtextspan.Text = "отредактируйте её и нажмите далее.";
+
+
             }
         }
 
@@ -560,7 +560,8 @@ namespace BeamSkinMaster
 
         private void backbutton_Click(object sender, RoutedEventArgs e)
         {
-
+            ContentFrame.Navigate(typeof(MainWindow), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
+            MainWindow.progressBar.Value = 27;
         }
     }
 }

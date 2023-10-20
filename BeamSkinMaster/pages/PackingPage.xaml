@@ -9,11 +9,10 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <TextBlock Text="Почти Готово" HorizontalAlignment="Center" FontSize="30" Margin="50"/>
-        <ProgressRing Height="100" Width="100"/>
-        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Text="Подождите..." Margin="0,170,0,0" FontSize="30"/>
-        <TextBlock x:Name="waittext" VerticalAlignment="Center" HorizontalAlignment="Center" Text="Чистим Кеш файлы" Margin="0,250,0,0" FontSize="14"/>
+    <Grid Background="#202020">
+        <ProgressRing Height="195" Width="195" HorizontalAlignment="Left" Margin="187,0,0,0"/>
+        <TextBlock HorizontalAlignment="Right" Text="Подождите..." Margin="0,320,343,0" FontSize="36"/>
+        <TextBlock Foreground="#BABABA" x:Name="waittext" HorizontalAlignment="Right" Text="Чистим Кеш файлы" Margin="0,369,358,0" FontSize="20"/>
 
         <Frame x:Name="ContentFrame">
             <Frame.ContentTransitions>

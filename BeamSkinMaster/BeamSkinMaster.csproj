@@ -169,6 +169,8 @@
     <None Remove="pages\assets\galohcka.png" />
     <None Remove="pages\assets\imageicon.png" />
     <None Remove="pages\assets\orangekaka.png" />
+    <None Remove="pages\assets\qwe.png" />
+    <None Remove="pages\assets\zip.png" />
     <None Remove="pages\ChoosingNamePage.xaml" />
     <None Remove="pages\FinishPage.xaml" />
     <None Remove="pages\Group 1.png" />
@@ -204,8 +206,10 @@
     </Content>
     <Content Include="pages\assets\imageicon.png" />
     <Content Include="pages\assets\orangekaka.png" />
+    <Content Include="pages\assets\qwe.png" />
     <Content Include="pages\assets\SplashScreen.scale-100.png" />
     <Content Include="pages\assets\StoreLogo.png" />
+    <Content Include="pages\assets\zip.png" />
   </ItemGroup>
 
   <ItemGroup>

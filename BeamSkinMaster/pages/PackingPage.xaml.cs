@@ -47,7 +47,7 @@ namespace BeamSkinMaster.pages
             File.Delete(pngpath);
             Directory.CreateDirectory(path);
 
-            await Task.Delay(3000);
+            await Task.Delay(4000);
             waittext.Text = "ѕакуем мод в ZIP";
 
             string source = Path.Combine(pathes.dir, "vehicles");

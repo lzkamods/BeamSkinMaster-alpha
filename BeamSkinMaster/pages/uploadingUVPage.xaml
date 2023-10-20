@@ -9,16 +9,33 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <TextBlock x:Name="vibiriauto" Text="Отправка готового Скина" HorizontalAlignment="Center" Margin="50" FontSize="25"/>
+    <Grid Background="#202020">
+        <TextBlock x:Name="vibiriauto" Text="Отправка готового Скина" HorizontalAlignment="Right" Margin="0,82,277,0" FontSize="32"/>
 
         <Image Source="App icon 16.svg" Height="40" Margin="0,0,5,80" HorizontalAlignment="Center"/>
-        <TextBlock x:Name="downloadtext" Margin="0,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Center">
+        <TextBlock x:Name="downloadtext" Margin="0,339,309,0" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Right">
                 <Run x:Name="downloadtextrun">Отправьте ваш готовый скин,</Run>
         </TextBlock>
-        <TextBlock x:Name="downloadtextspan" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,35,0,0" Text="сделанный по чертежу"/>
-        <Button x:Name="PickAFileButton" Content="Отправить" HorizontalAlignment="Center" VerticalAlignment="Center" CornerRadius="15" Style="{StaticResource ButtonRevealStyle}" Click="PickAFileButton_Click" Margin="0,110,0,0"/>
-        <Button x:Name="Uploadingdalee" Click="Uploadingdalee_Click" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="30" Style="{StaticResource AccentButtonStyle}">Далее</Button>
+        <TextBlock x:Name="downloadtextspan" HorizontalAlignment="Right" FontSize="20" VerticalAlignment="Top" Margin="0,359,339,0" Text="сделанный по чертежу"/>
+        <Button x:Name="Uploadingdalee" Click="Uploadingdalee_Click" HorizontalAlignment="Right" Height="32" Width="120" VerticalAlignment="Bottom" Margin="0,0,48,48" Style="{StaticResource AccentButtonStyle}">Далее</Button>
+        <Button x:Name="backbutton" Click="backbutton_Click" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,178,48" Height="32" Width="32" Background="#373737">
+            <StackPanel>
+                <Image Height="10" Width="10" Source="assets/backicon.png"/>
+            </StackPanel>
+        </Button>
+        <TextBlock Foreground="#B0B0B0" HorizontalAlignment="Right" Margin="0,124,270,0" FontSize="20">
+            Нажмите на кнопку и отправте DDS файл
+        </TextBlock>
+        <TextBlock Foreground="#B0B0B0" HorizontalAlignment="Right" Margin="0,142,230,0" FontSize="20">
+            вашего готового скина сделаного по чертежу
+        </TextBlock>
+        <Image Source="assets/bluecloud.png" Margin="152,0,227,0" HorizontalAlignment="Left" Height="266.5"/>
+        
+        <Button Click="PickAFileButton_Click" x:Name="PickAFileButton" VerticalAlignment="Top" HorizontalAlignment="Right" Height="40" Width="136.25" Margin="0,419,376.75,0" CornerRadius="18" Background="#373737">
+            <StackPanel>
+                <TextBlock Text="Отправить" VerticalAlignment="Center" Margin="0,0,0,0"/>
+            </StackPanel>
+        </Button>
 
         <Frame x:Name="ContentFrame">
             <Frame.ContentTransitions>

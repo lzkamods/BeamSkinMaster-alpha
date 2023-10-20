@@ -1798,7 +1798,14 @@ namespace BeamSkinMaster.pages
             }
 
             ContentFrame.Navigate(typeof(PackingPage), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
+            MainWindow.progressBar.Value = 100;
             MainWindow.progressBar.IsIndeterminate = false;
+        }
+
+        private void backbutton_Click(object sender, RoutedEventArgs e)
+        {
+            ContentFrame.Navigate(typeof(uploadingUVPage), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
+            MainWindow.progressBar.Value = 50;
         }
     }
 }

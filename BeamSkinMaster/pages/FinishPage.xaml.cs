@@ -28,6 +28,7 @@ namespace BeamSkinMaster.pages
         public FinishPage()
         {
             this.InitializeComponent();
+            zipnametext.Text = ChoosingNamePage.inttxt + ".zip";
         }
 
         private void folderbutton_Click(object sender, RoutedEventArgs e)
@@ -37,6 +38,11 @@ namespace BeamSkinMaster.pages
         }
 
         private void exitbtn_Click(object sender, RoutedEventArgs e)
+        {
+            App.Current.Exit();
+        }
+
+        private void restartbtn_Click(object sender, RoutedEventArgs e)
         {
             App.Current.Exit();
         }

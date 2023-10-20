@@ -9,12 +9,15 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <TextBlock Text="Готово!" HorizontalAlignment="Center" FontSize="30" Margin="50"/>
-        <Image Source="Group 1.png" Height="100" Width="100" Margin="0,0,0,60"/>
-        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Text="Ваш мод готов!" Margin="0,110,0,0" FontSize="30"/>
-        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Text="теперь вы можете открыть папку и скопировть zip в игру" Margin="0,180,0,0" FontSize="14"/>
-        <Button VerticalAlignment="Center" HorizontalAlignment="Center" x:Name="folderbutton" Click="folderbutton_Click" Margin="0,270,0,0" Style="{StaticResource AccentButtonStyle}">Открыть папку</Button>
-        <Button x:Name="exitbtn" Click="exitbtn_Click" Style="{StaticResource ButtonRevealStyle}" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="20,0,0,30">Выйти</Button>
+    <Grid Background="#202020">
+        <TextBlock Text="Готово!" HorizontalAlignment="Right" FontSize="30" Margin="0,83,531,0"/>
+        <Image Source="assets\galohcka.png" Height="204" Width="204" HorizontalAlignment="Left" Margin="183,0,0,0"/>
+        <TextBlock HorizontalAlignment="Right" Text="Теперь вы можете открыть папку и переметить" Margin="0,125,197,0" FontSize="20" Foreground="#B0B0B0"/>
+        <TextBlock HorizontalAlignment="Right" Text="мод (.ZIP) архив в игру" Margin="0,145,427,0" FontSize="20" Foreground="#B0B0B0"/>
+        <Image Source="assets/zip.png" Height="54" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,282,393,0"/>
+        <TextBlock x:Name="zipnametext" Text="SkinName.zip" HorizontalAlignment="Right" Margin="0,336,349,0" FontSize="24"/>
+        <Button HorizontalAlignment="Right" VerticalAlignment="Top" x:Name="folderbutton" Click="folderbutton_Click" Margin="0,379,363,0" Style="{StaticResource AccentButtonStyle}">Открыть папку</Button>
+        <Button x:Name="exitbtn" Height="30" Width="118" Click="exitbtn_Click" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,643,182,30">Выйти</Button>
+        <Button x:Name="restartbtn" Click="restartbtn_Click" Height="32" Width="120" Style="{StaticResource AccentButtonStyle}" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,642,48,0">Начать заново</Button>
     </Grid>
 </Page>
