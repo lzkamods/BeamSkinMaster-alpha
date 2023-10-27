@@ -27,6 +27,8 @@ using BeamSkinMaster.classes;
 using Windows.Storage.Pickers;
 using System.Threading.Tasks;
 using Microsoft.UI.Composition.SystemBackdrops;
+using Windows.UI.ViewManagement;
+using BeamSkinMaster.pages;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -40,6 +42,7 @@ namespace BeamSkinMaster
     {
         public AppWindow m_AppWindow;
 
+
         public MainWindow()
         {
             this.InitializeComponent();
@@ -49,7 +52,7 @@ namespace BeamSkinMaster
 
             IntPtr hWnd = WinRT.Interop.WindowNative.GetWindowHandle(this);
             var windowId = Microsoft.UI.Win32Interop.GetWindowIdFromWindow(hWnd);
-            var appWindow = Microsoft.UI.Windowing.AppWindow.GetFromWindowId(windowId);
+            var appWindow = Microsoft.UI.Windowing.AppWindow.GetFromWindowId(windowId);      
             appWindow.Resize(new Windows.Graphics.SizeInt32 { Width = 1282, Height = 722 });
 
             Directory.CreateDirectory(pathes.pth);
@@ -251,6 +254,11 @@ namespace BeamSkinMaster
         private void ProgressBarOn_ValueChanged(object sender, RangeBaseValueChangedEventArgs e)
         {
 
+        }
+
+        private void settingbtn_Click(object sender, RoutedEventArgs e)
+        {
+            ContentFrame.Navigate(typeof(SettingsPage), null, new DrillInNavigationTransitionInfo());
         }
     }
 }

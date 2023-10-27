@@ -5,26 +5,20 @@
     <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
     <RootNamespace>BeamSkinMaster</RootNamespace>
     <ApplicationManifest>app.manifest</ApplicationManifest>
-    <Platforms>x86;x64</Platforms>
-    <RuntimeIdentifiers>win10-x86;win10-x64</RuntimeIdentifiers>
+    <Platforms>x86;x64;ARM64</Platforms>
+    <RuntimeIdentifiers>win10-x86;win10-x64;win10-arm64</RuntimeIdentifiers>
     <PublishProfile>win10-$(Platform).pubxml</PublishProfile>
     <UseWinUI>true</UseWinUI>
     <EnableMsixTooling>true</EnableMsixTooling>
-    <DefaultLanguage>ru-RU</DefaultLanguage>
     <GenerateAppInstallerFile>False</GenerateAppInstallerFile>
     <AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
     <AppxPackageSigningTimestampDigestAlgorithm>SHA256</AppxPackageSigningTimestampDigestAlgorithm>
     <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
     <AppxSymbolPackageEnabled>False</AppxSymbolPackageEnabled>
     <GenerateTestArtifacts>True</GenerateTestArtifacts>
-    <AppxBundle>Auto</AppxBundle>
-    <AppInstallerUri>D:\ins</AppInstallerUri>
-    <HoursBetweenUpdateChecks>336</HoursBetweenUpdateChecks>
+    <AppxBundle>Never</AppxBundle>
+    <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
     <PackageCertificateKeyFile>BeamSkinMaster_TemporaryKey.pfx</PackageCertificateKeyFile>
-    <AppxBundlePlatforms>x86|x64</AppxBundlePlatforms>
-	<WindowsPackageType>MSIX</WindowsPackageType>
-	<WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained>
-	<AppxPackageDir>D:\packages\</AppxPackageDir>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Assets\App icon 16.svg" />
@@ -176,8 +170,11 @@
     <None Remove="pages\Group 1.png" />
     <None Remove="pages\icon.png" />
     <None Remove="pages\PackingPage.xaml" />
+    <None Remove="pages\SettingsPage.xaml" />
     <None Remove="pages\StoreLogo.png" />
     <None Remove="pages\uploadingUVPage.xaml" />
+    <None Remove="Views\AboutView.xaml" />
+    <None Remove="Views\LocalizationView.xaml" />
     <None Remove="ZipPage.xaml" />
   </ItemGroup>
 
@@ -257,6 +254,11 @@
     <AppxManifest Remove="Package.appxmanifest" />
   </ItemGroup>
   <ItemGroup>
+    <Content Remove="Assets\BadgeLogo.scale-100.png" />
+    <Content Remove="Assets\BadgeLogo.scale-125.png" />
+    <Content Remove="Assets\BadgeLogo.scale-150.png" />
+    <Content Remove="Assets\BadgeLogo.scale-200.png" />
+    <Content Remove="Assets\BadgeLogo.scale-400.png" />
     <Content Remove="Assets\bastion_skin_SKINNAME.png" />
     <Content Remove="Assets\midtruck_main_skin_uv.png" />
     <Content Remove="Package.appxmanifest" />
@@ -652,6 +654,11 @@
     <Content Update="Assets\icon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="pages\SettingsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Page Update="pages\FinishPage.xaml">

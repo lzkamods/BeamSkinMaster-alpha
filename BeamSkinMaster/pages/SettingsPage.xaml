@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="BeamSkinMaster.pages.SettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BeamSkinMaster.pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <NavigationView x:Name="settingsnav"
+             Canvas.ZIndex="0"
+             IsSettingsVisible="False"
+             IsBackEnabled="True"
+             BackRequested="settingsnav_BackRequested"
+             SelectionChanged="settingsnav_SelectionChanged"
+             Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+            <NavigationView.Resources>
+                <SolidColorBrush x:Key="NavigationViewContentBackground" Color="Transparent" />
+            </NavigationView.Resources>
+            
+            <NavigationView.MenuItems>
+                <NavigationViewItem Icon="Character" Content="Локализация и оформление" Tag="LocalizationView"/>
+                <NavigationViewItem Icon="Contact" Content="О Приложении" Tag="AboutView" />
+            </NavigationView.MenuItems>
+
+            <NavigationView.Header>
+                <Border>
+                    <TextBlock Text="Настройки"/>
+                </Border>
+            </NavigationView.Header>
+            <Frame x:Name="contentFrame"/>
+        </NavigationView>
+
+        <Frame x:Name="ContentFrame">
+            <Frame.ContentTransitions>
+                <TransitionCollection>
+                    <NavigationThemeTransition  />
+                </TransitionCollection>
+            </Frame.ContentTransitions>
+        </Frame>
+    </Grid>
+</Page>
