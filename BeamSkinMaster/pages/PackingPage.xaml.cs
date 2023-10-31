@@ -33,11 +33,11 @@ namespace BeamSkinMaster.pages
         public PackingPage()
         {
             this.InitializeComponent();
-            MainWindow.progressBar.ShowPaused = true;
+            MainPage.progressBar.ShowPaused = true;
         }
 
-        string pngpath = MainWindow.pppth + @"\" + MainWindow.endtext + "_skin_SKINNAME.png";
-        string path = System.IO.Path.Combine(pathes.dir, MainWindow.endtext);
+        string pngpath = MainPage.pppth + @"\" + MainPage.endtext + "_skin_SKINNAME.png";
+        string path = System.IO.Path.Combine(pathes.dir, MainPage.endtext);
 
 
         protected override async void OnNavigatedTo(NavigationEventArgs e)
@@ -51,25 +51,25 @@ namespace BeamSkinMaster.pages
             waittext.Text = "ѕакуем мод в ZIP";
 
             string source = Path.Combine(pathes.dir, "vehicles");
-            string pathh = Path.Combine(pathes.dir, MainWindow.endtext, "vehicles");
-            string autopath = Path.Combine(pathh, MainWindow.endtext);
-            string intpath = Path.Combine(pathh, MainWindow.endtext, ChoosingNamePage.inttxt);
+            string pathh = Path.Combine(pathes.dir, MainPage.endtext, "vehicles");
+            string autopath = Path.Combine(pathh, MainPage.endtext);
+            string intpath = Path.Combine(pathh, MainPage.endtext, ChoosingNamePage.inttxt);
             string pcfile = ChoosingNamePage.inttxt + ".pc";
-            string jbeamfile = MainWindow.endtext + ".jbeam";
-            string ddsfile = MainWindow.endtext + "_skin_" + ChoosingNamePage.inttxt + ".dds";
+            string jbeamfile = MainPage.endtext + ".jbeam";
+            string ddsfile = MainPage.endtext + "_skin_" + ChoosingNamePage.inttxt + ".dds";
             string jsonfile = "info_" + ChoosingNamePage.inttxt + ".json";
-            string matspath = Path.Combine(pathes.dir, "vehicles", MainWindow.endtext, ChoosingNamePage.inttxt, "materials.json");
+            string matspath = Path.Combine(pathes.dir, "vehicles", MainPage.endtext, ChoosingNamePage.inttxt, "materials.json");
             string matdspath = Path.Combine(intpath, "materials.json");
-            string jbeamspath = Path.Combine(pathes.dir, "vehicles", MainWindow.endtext, ChoosingNamePage.inttxt, jbeamfile);
+            string jbeamspath = Path.Combine(pathes.dir, "vehicles", MainPage.endtext, ChoosingNamePage.inttxt, jbeamfile);
             string jbeamdspath = Path.Combine(intpath, jbeamfile);
-            string ddsspath = Path.Combine(pathes.dir, "vehicles", MainWindow.endtext, ChoosingNamePage.inttxt, ddsfile);
+            string ddsspath = Path.Combine(pathes.dir, "vehicles", MainPage.endtext, ChoosingNamePage.inttxt, ddsfile);
             string ddsdspath = Path.Combine(intpath, ddsfile);
-            string pcspath = Path.Combine(pathes.dir, "vehicles", MainWindow.endtext, pcfile);
-            string jsonspath = Path.Combine(pathes.dir, "vehicles", MainWindow.endtext, jsonfile);
+            string pcspath = Path.Combine(pathes.dir, "vehicles", MainPage.endtext, pcfile);
+            string jsonspath = Path.Combine(pathes.dir, "vehicles", MainPage.endtext, jsonfile);
             string pcdspath = Path.Combine(autopath, pcfile);
             string jsondspath = Path.Combine(autopath, jsonfile);
             string zippath = Path.Combine(source, ChoosingNamePage.inttxt + ".zip");
-            string zipspath = Path.Combine(pathes.dir, MainWindow.endtext);
+            string zipspath = Path.Combine(pathes.dir, MainPage.endtext);
 
             try
             {
@@ -96,7 +96,7 @@ namespace BeamSkinMaster.pages
                     finish.CloseButtonClick += (s, args) =>
                     {
                         ContentFrame.Navigate(typeof(FinishPage), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
-                        MainWindow.progressBar.Value = 100;
+                        MainPage.progressBar.Value = 100;
                     };
 
                     ContentDialogResult result = await finish.ShowAsync();

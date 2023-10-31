@@ -9,7 +9,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid Background="#202020">
+    <Grid>
         <Image Source="assets/orangekaka.png" Height="235" Margin="167.5,0,0,0" HorizontalAlignment="Left"/>
         <TextBlock x:Name="downloadtext" FontSize="20" Margin="0,124,226,0" Foreground="#B0B0B0" HorizontalAlignment="Right">
                 <Run x:Name="downloadtextrun">Нажмите на кнопку и загрузите изображение</Run>               
@@ -21,17 +21,12 @@
 
         <TextBlock x:Name="vibiriauto" Text="Загрузка UV автомобиля" HorizontalAlignment="Right" Margin="0,82,278,0" FontSize="32"/>
         <Button x:Name="dalee2btn" Click="dalee2btn_Click" HorizontalAlignment="Right" Height="32" Width="120" VerticalAlignment="Bottom" Margin="0,0,48,48" Style="{StaticResource AccentButtonStyle}">Далее</Button>
-        <Button x:Name="backbutton" Click="backbutton_Click" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,178,48" Height="32" Width="32" Background="#373737">
+        <Button x:Name="backbutton" Click="backbutton_Click" HorizontalAlignment="Right" ToolTipService.ToolTip="Back" VerticalAlignment="Bottom" Margin="0,0,178,48" Height="32" Width="32" Background="#373737">
             <StackPanel>
                 <Image Height="10" Width="10" Source="assets/backicon.png"/>
             </StackPanel>
         </Button>
-        <Button x:Name="downloadbutton" Click="downloadbutton_Click" VerticalAlignment="Top" HorizontalAlignment="Right" Height="40" Width="136.25" Margin="0,419,376.75,0" CornerRadius="18" Background="#373737">
-            <StackPanel>
-                <TextBlock Text="Загрузить" VerticalAlignment="Center" Margin="0,0,0,0"/>
-            </StackPanel>
-        </Button>
-
+        <Button x:Name="downloadbutton" Click="downloadbutton_Click" VerticalAlignment="Top" HorizontalAlignment="Right" Height="32" Width="120" Margin="0,419,386.75,0" Style="{StaticResource AccentButtonStyle}">Загрузить</Button>
         <Frame x:Name="ContentFrame">
             <Frame.ContentTransitions>
                 <TransitionCollection>

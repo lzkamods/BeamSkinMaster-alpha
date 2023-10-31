@@ -28,7 +28,7 @@ namespace BeamSkinMaster.pages
         public SettingsPage()
         {
             this.InitializeComponent();
-            MainWindow.progressBar.Visibility  = Visibility.Collapsed;
+            MainPage.progressBar.Visibility  = Visibility.Collapsed;
         }
 
         private void settingsnav_SelectionChanged(NavigationView sender, NavigationViewSelectionChangedEventArgs args)
@@ -49,7 +49,7 @@ namespace BeamSkinMaster.pages
 
                     case "LocalizationView":
                         contentFrame.Navigate(typeof(LocalizationViev));
-                        settingsnav.Header = "Локализация";
+                        settingsnav.Header = "Локализация и оформление";
                         break;
                 }
             }
@@ -57,7 +57,7 @@ namespace BeamSkinMaster.pages
 
         private void settingsnav_BackRequested(NavigationView sender, NavigationViewBackRequestedEventArgs args)
         {
-          ContentFrame.Navigate(typeof(MainWindow), null);
+            ContentFrame.Navigate(typeof(MainPage), null, new DrillInNavigationTransitionInfo());
         }
     }
 }

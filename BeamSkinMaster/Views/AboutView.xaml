@@ -6,10 +6,54 @@
     xmlns:local="using:BeamSkinMaster.pages.Views"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:labs="using:CommunityToolkit.Labs.WinUI"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <StackPanel Margin="56,44,56,44">
+            <labs:SettingsExpander Header="BeamSkinMaster" Description="2023 lzkamods">
+                <labs:SettingsExpander.HeaderIcon>
+                    <ImageIcon Source="StoreLogo.png"/>
+                </labs:SettingsExpander.HeaderIcon>
 
+                <labs:SettingsExpander.Items>
+                    <labs:SettingsCard Header="GitHub Repository">
+                        <TextBlock Text="https://github.com/lzkamods/BeamSkinMaster-alpha" Foreground="#bebebe"/>
+                    </labs:SettingsCard>
+
+                    <labs:SettingsCard Header="Author">
+                        <TextBlock Text="lezzka aka. lzkamods" Foreground="#bebebe"/>
+                    </labs:SettingsCard>
+
+                    <labs:SettingsCard Header="Current version and development state">
+                        <TextBlock Text="291023.1642B | Developer Beta Test" Foreground="#bebebe"/>
+                    </labs:SettingsCard>
+                </labs:SettingsExpander.Items>
+            </labs:SettingsExpander>
+
+            <labs:SettingsCard>
+
+                <labs:SettingsCard.HeaderIcon>
+                    <FontIcon Glyph="&#xE770;"/>
+                </labs:SettingsCard.HeaderIcon>
+                <TextBlock>
+                   Программа была написана на XAML и C# (WinUi 3)
+                <LineBreak/>
+                за 1 месяц украинским 12 летним парнем. 
+                <LineBreak/>
+                   Данная программа поможет вам создать свой УНИКАЛЬНЫЙ скин ЗА 10 МИНУТ.
+                       <LineBreak/>
+                       Просто выберите машину, 
+                <LineBreak/>
+                      скачайте ув и отредакритуйте его, затем выгрузите его выберите имя...
+                       <LineBreak/>
+                       И вот ваш новенький скин готов
+                <LineBreak/>
+                     и импортирования мода в игру. Пока-что не могу добавить английскую
+                       локализацию в софт, но все возможно
+                </TextBlock>
+            </labs:SettingsCard>
+        </StackPanel>
     </Grid>
 </Page>

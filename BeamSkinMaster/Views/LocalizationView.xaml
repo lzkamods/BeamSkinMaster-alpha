@@ -6,28 +6,39 @@
     xmlns:local="using:BeamSkinMaster.pages.Views"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:labs="using:CommunityToolkit.Labs.WinUI"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Grid Background="#2b2b2b" Height="70" Width="800" CornerRadius="5" VerticalAlignment="Top" Margin="0,70,0,0">
-            <FontIcon Glyph="&#xF17F;" HorizontalAlignment="Left" FontSize="25" Margin="40,0,0,0"/>
-            <TextBlock Text="Язык интерфейса BeamSkinMaster" FontSize="15" Margin="100,24,0,0"/>
-            <ComboBox x:Name="languagecombobox" SelectionChanged="languagecombobox_SelectionChanged" Width="200" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,40,0" PlaceholderText="Русский">
-                <x:String>Русский (Russian)</x:String>
-                <x:String>English (Английский)</x:String>
-                <x:String>Українська (Ukrainian, Украинский)</x:String>
-            </ComboBox>
-        </Grid>
+        <StackPanel Margin="65,44,56,44">
 
-        <Grid Background="#2b2b2b" Height="70" Width="800" CornerRadius="5" VerticalAlignment="Top" Margin="0,150,0,0">
-            <FontIcon Glyph="&#xE790;" HorizontalAlignment="Left" FontSize="25" Margin="40,0,0,0"/>
-            <TextBlock Text="Тема приложения" FontSize="15" Margin="100,24,0,0"/>
-            <ComboBox x:Name="themecombobox" SelectionChanged="themecombobox_SelectionChanged" Width="200" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,40,0" PlaceholderText="Использовать тему системы">
-                <x:String>Стетлая</x:String>
-                <x:String>Темная</x:String>
-                <x:String>Использовать тему системы</x:String>
-            </ComboBox>
-        </Grid>
+            <labs:SettingsCard Header="Язык интерфейса приложения" Description="На этом языке будут показываться интерфейс прилоления">
+                <labs:SettingsCard.HeaderIcon>
+                    <FontIcon Glyph="&#xECAA;"/>
+                </labs:SettingsCard.HeaderIcon>
+
+                <labs:SettingsCard.Content>
+                    <ComboBox x:Name="languagecombobox" SelectionChanged="languagecombobox_SelectionChanged" PlaceholderText="Русский (Russian)">
+                        <x:String>Русский (Russian)</x:String>
+                        <x:String>English (Английский)</x:String>
+                        <x:String>Українська (Ukrainian, Украинский)</x:String>
+                    </ComboBox>
+                </labs:SettingsCard.Content>
+            </labs:SettingsCard>
+
+            <labs:SettingsCard
+                Header="Тема приложения"
+                Description="Выберите темы приложения для отображения">
+                <labs:SettingsCard.HeaderIcon>
+                    <FontIcon Glyph="&#xE790;"/>
+                </labs:SettingsCard.HeaderIcon>
+                <StackPanel x:Name="themePanel">
+                    <RadioButton Content="Light"  Command="{x:Bind ViewModel.SetThemeCommnad}" CommandParameter="Light"/>
+                    <RadioButton Content="Dark" Command="{x:Bind ViewModel.SetThemeCommnad}" CommandParameter="Dark"/>
+                    <RadioButton Content="Default" Command="{x:Bind ViewModel.SetThemeCommnad}" IsChecked="True" CommandParameter="Default"/>
+                </StackPanel>
+            </labs:SettingsCard>
+        </StackPanel>
     </Grid>
 </Page>

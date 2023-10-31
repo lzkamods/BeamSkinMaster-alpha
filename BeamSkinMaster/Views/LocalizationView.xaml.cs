@@ -11,7 +11,12 @@ using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
+using Windows.System;
 using Windows.Foundation.Collections;
+using BeamSkinMaster.classes;
+using Microsoft.UI;
+using CommunityToolkit.Mvvm.DependencyInjection;
+using System.Reflection;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -23,22 +28,15 @@ namespace BeamSkinMaster.pages.Views
     /// </summary>
     public sealed partial class LocalizationViev : Page
     {
+        public LocalizatoinViewViewModel ViewModel { get; }
+
         public LocalizationViev()
         {
             this.InitializeComponent();
-        }
-
-        private void myListButton_Click(SplitButton sender, SplitButtonClickEventArgs args)
-        {
-
+            ViewModel = Ioc.Default.GetRequiredService<LocalizatoinViewViewModel>();
         }
 
         private void languagecombobox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
-
-        private void themecombobox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
         }

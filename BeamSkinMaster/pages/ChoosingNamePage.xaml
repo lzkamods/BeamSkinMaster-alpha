@@ -9,7 +9,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid Background="#202020">
+    <Grid>
         <TextBlock Text="Выбор имнеи скина" x:Name="head" HorizontalAlignment="Right" Margin="0,82,347,0" FontSize="32"/>
         <TextBlock Foreground="#B0B0B0" FontSize="20" Margin="0,144,449,0" HorizontalAlignment="Right">
             отображаться в игре

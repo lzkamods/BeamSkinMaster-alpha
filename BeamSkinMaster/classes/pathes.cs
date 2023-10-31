@@ -15,7 +15,5 @@ namespace BeamSkinMaster.classes
 
         public static string direrctory = Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory).FullName;
         public static string dirrr = Path.Combine(direrctory + @"\vehicles");
-
-        public static string endtxt = MainWindow.endtext;
     }
 }

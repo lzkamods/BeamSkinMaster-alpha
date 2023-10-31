@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="BeamSkinMaster.pages.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BeamSkinMaster.pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button Background="Transparent" VerticalAlignment="Top" HorizontalAlignment="Left" x:Name="settingbtn" Click="settingbtn_Click" Margin="20,70,0,0" BorderBrush="Transparent">
+            <FontIcon Glyph="&#xE713;" FontSize="17"/>
+        </Button>
+
+        <GridView SelectionMode="None" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="156,0,0,0">
+            <Image Height="262" Source="D:\BSM\BeamSkinMaster\BeamSkinMaster\pages\assets\bluecar.png"/>
+        </GridView>
+        <Button x:Name="page1dalee" Click="page1dalee_Click" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="120" Height="32" Margin="0,0,48,48" Style="{StaticResource AccentButtonStyle}">Далее</Button>
+        <TextBlock x:Name="vibiriauto" Text="Выбор автомобиля" HorizontalAlignment="Right" Margin="0,82,357,0" FontSize="32"/>
+        <TextBlock Text="Выберите нужный автомобиль для создания скина" HorizontalAlignment="Right" FontSize="20" Margin="0,134,169,0" Foreground="#B0B0B0"/>
+        <TextBlock Text="и нажмите далее" HorizontalAlignment="Right" Margin="0,154,482,0" FontSize="20" Foreground="#B0B0B0"/>
+        <ComboBox x:Name="Combobox1" SelectionChanged="ComboBox_SelectionChanged" PlaceholderText="автомобиль ..." HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,123,0" Width="517">
+            <x:String>Autobello Piccolina</x:String>
+            <x:String>Autobello Stambecco</x:String>
+            <x:String>Bruckell Bastion</x:String>
+            <x:String>Bruckell LeGran</x:String>
+            <x:String>Burnside Special</x:String>
+            <x:String>Cherrier Tograc</x:String>
+            <x:String>Cherrier Vivace</x:String>
+            <x:String>Civetta Bolide</x:String>
+            <x:String>Civetta Scintilla</x:String>
+            <x:String>ETK 800 Series</x:String>
+            <x:String>ETK I-Series</x:String>
+            <x:String>ETK K-Series</x:String>
+            <x:String>Gavril Barstow</x:String>
+            <x:String>Gavril Bluebuck</x:String>
+            <x:String>Gavril D-Series</x:String>
+            <x:String>Gavril Grand Marshal</x:String>
+            <x:String>Gavril H-Series</x:String>
+            <x:String>Gavril Roamer</x:String>
+            <x:String>Gavril T-Series</x:String>
+            <x:String>Hirochi SBR4</x:String>
+            <x:String>Hirochi Sunburst</x:String>
+            <x:String>Ibishu 200BX</x:String>
+            <x:String>Ibishu Covet</x:String>
+            <x:String>Ibishu Hopper</x:String>
+            <x:String>Ibishu Miramar</x:String>
+            <x:String>Ibishu Pessima 88</x:String>
+            <x:String>Ibishu Pessima 96</x:String>
+            <x:String>Ibishu Pigeon</x:String>
+            <x:String>Ibishu Wigeon</x:String>
+            <x:String>Soliad Lansdale</x:String>
+            <x:String>Soliad Wendover</x:String>
+            <x:String>SP Dunekicker</x:String>
+            <x:String>Wentward DT40L</x:String>
+
+        </ComboBox>
+
+        <Frame x:Name="ContentFrame">
+            <Frame.ContentTransitions>
+                <TransitionCollection>
+                    <NavigationThemeTransition  />
+                </TransitionCollection>
+            </Frame.ContentTransitions>
+        </Frame>
+
+        <Grid x:Name="AppTitleBar"
+              Canvas.ZIndex="1"
+              Height="32"
+              IsHitTestVisible="True"
+              VerticalAlignment="Top">
+
+            <TextBlock x:Name="AppTitleTextBlock" Text="BeamSkinMaster"
+                       TextWrapping="NoWrap"
+                       Style="{StaticResource CaptionTextBlockStyle}" 
+                       VerticalAlignment="Center"
+                       FontSize="12"
+                       Margin="48,14,0,0"/>
+        </Grid>
+
+        <InfoBar HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="40,0,0,40"
+            IsOpen="True"
+            Severity="Warning"
+            Title="BETA VERSION"
+            Message="build 051023.1213B">
+        </InfoBar>
+
+        <ProgressBar x:Name="ProgressOnTop" ValueChanged="ProgressBarOn_ValueChanged" Width="1249" Value="27" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,48,0,0"/>
+
+    </Grid>
+</Page>

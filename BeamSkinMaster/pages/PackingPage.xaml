@@ -9,7 +9,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid Background="#202020">
+    <Grid>
         <ProgressRing Height="195" Width="195" HorizontalAlignment="Left" Margin="187,0,0,0"/>
         <TextBlock HorizontalAlignment="Right" Text="Подождите..." Margin="0,320,343,0" FontSize="36"/>
         <TextBlock Foreground="#BABABA" x:Name="waittext" HorizontalAlignment="Right" Text="Чистим Кеш файлы" Margin="0,369,358,0" FontSize="20"/>

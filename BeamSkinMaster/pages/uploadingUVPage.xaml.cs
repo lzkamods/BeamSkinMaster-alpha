@@ -39,47 +39,63 @@ namespace BeamSkinMaster.pages
 
         public async void PickAFileButton_Click(object sender, RoutedEventArgs e)
         {
-            // Create a file picker
-            var openPicker = new Windows.Storage.Pickers.FileOpenPicker();
-
-            // Retrieve the window handle (HWND) of the current WinUI 3 window.
-            IntPtr hWnd = WindowNative.GetWindowHandle(App.Window);
-
-
-            // Initialize the file picker with the window handle (HWND).
-            WinRT.Interop.InitializeWithWindow.Initialize(openPicker, hWnd);
-
-            // Set options for your file picker
-            openPicker.ViewMode = PickerViewMode.Thumbnail;
-            openPicker.FileTypeFilter.Add(".dds");
-
-            // Open the picker for the user to pick a file
-            var file = await openPicker.PickSingleFileAsync();
-            if (file != null)
+            try
             {
-                StorageFile imagefile = await StorageFile.GetFileFromPathAsync(file.Path);
+                // Create a file picker
+                var openPicker = new Windows.Storage.Pickers.FileOpenPicker();
 
-                string imagepath = MainWindow.pppth;
-                StorageFolder imageendpath = await StorageFolder.GetFolderFromPathAsync(imagepath);
+                // Retrieve the window handle (HWND) of the current WinUI 3 window.
+                IntPtr hWnd = WindowNative.GetWindowHandle(App.Window);
 
 
-                await imagefile.CopyAsync(imageendpath);
+                // Initialize the file picker with the window handle (HWND).
+                WinRT.Interop.InitializeWithWindow.Initialize(openPicker, hWnd);
 
+                // Set options for your file picker
+                openPicker.ViewMode = PickerViewMode.Thumbnail;
+                openPicker.FileTypeFilter.Add(".dds");
+
+                // Open the picker for the user to pick a file
+                var file = await openPicker.PickSingleFileAsync();
+                if (file != null)
+                {
+                    StorageFile imagefile = await StorageFile.GetFileFromPathAsync(file.Path);
+
+                    string imagepath = MainPage.pppth;
+                    StorageFolder imageendpath = await StorageFolder.GetFolderFromPathAsync(imagepath);
+
+
+                    await imagefile.CopyAsync(imageendpath);
+
+                }
+                else
+                {
+                    ContentDialog cancelled = new ContentDialog
+                    {
+                        Title = "Ошибка выбора изображения",
+                        Content = "Невозможно Скопировть изображение, так как оно пустое. Пожалуйста, выберите изображение.",
+                        CloseButtonText = "OK",
+                    };
+                    cancelled.XamlRoot = PickAFileButton.XamlRoot;
+
+                    ContentDialogResult result = await cancelled.ShowAsync();
+                }
+
+                button = PickAFileButton;
             }
-            else
+            catch (Exception ex)
             {
-                ContentDialog cancelled = new ContentDialog
+                ContentDialog autoerror = new ContentDialog
                 {
                     Title = "Ошибка выбора изображения",
-                    Content = "Невозможно Скопировть изображение, так как оно пустое. Пожалуйста, выберите изображение.",
+                    Content = "Файл уже существует. Пожалуйста, нажмите Далее",
                     CloseButtonText = "OK",
                 };
-                cancelled.XamlRoot = PickAFileButton.XamlRoot;
+                autoerror.XamlRoot = PickAFileButton.XamlRoot;
 
-                ContentDialogResult result = await cancelled.ShowAsync();
+                ContentDialogResult result = await autoerror.ShowAsync();
             }
 
-            button = PickAFileButton;
         }
 
         private void Uploadingdalee_Click(object sender, RoutedEventArgs e)
@@ -87,13 +103,13 @@ namespace BeamSkinMaster.pages
             ContentFrame.Navigate(typeof(ChoosingNamePage), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
             PickAFileButton.IsEnabled = false;
             Uploadingdalee.IsEnabled = false;
-            MainWindow.progressBar.Value = 74;
+            MainPage.progressBar.Value = 74;
         }
 
         private void backbutton_Click(object sender, RoutedEventArgs e)
         {
             ContentFrame.Navigate(typeof(DownloadingUVPage), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
-            MainWindow.progressBar.Value = 37;
+            MainPage.progressBar.Value = 37;
         }
     }
 }

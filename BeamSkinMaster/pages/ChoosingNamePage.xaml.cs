@@ -34,7 +34,7 @@ namespace BeamSkinMaster.pages
             this.InitializeComponent();
         }
 
-        public static string mwpath = MainWindow.pppth;
+        public static string mwpath = MainPage.pppth;
         public static string inttxt;
         public static string namepathh;
 
@@ -43,17 +43,17 @@ namespace BeamSkinMaster.pages
             string inttext = inttextbox.Text;
             inttxt = inttext;
             string exttext = exttextbox.Text;
-            string namepath = System.IO.Path.Combine(MainWindow.pppth, inttext);
+            string namepath = System.IO.Path.Combine(MainPage.pppth, inttext);
             Directory.CreateDirectory(namepath);
             namepathh = namepath;
 
-            string imgfile = MainWindow.intauto + "_skin_SKINNAME.dds";
-            string imgfileph = "/" + MainWindow.intauto + "_skin_" + inttextbox.Text + ".dds";
+            string imgfile = MainPage.intauto + "_skin_SKINNAME.dds";
+            string imgfileph = "/" + MainPage.intauto + "_skin_" + inttextbox.Text + ".dds";
             string imgfilepath = namepath + imgfileph;
-            string imgpath = System.IO.Path.Combine(MainWindow.pppth, imgfile);
+            string imgpath = System.IO.Path.Combine(MainPage.pppth, imgfile);
             File.Move(imgpath, imgfilepath);
 
-            if(MainWindow.endtext == "etk800")
+            if(MainPage.endtext == "etk800")
             {
                 string etk800stpc = "/" + "SKINNAME.pc";
                 string etk800stinfo = "/" + "info_SKINNAME.json";
@@ -107,7 +107,7 @@ namespace BeamSkinMaster.pages
                 File.WriteAllText(etk800infopathh, etk800infoo);
             }
 
-            if (MainWindow.endtext == "autobello")
+            if (MainPage.endtext == "autobello")
             {
                 string autobellostpc = "/" + "SKINNAME.pc";
                 string autobellostinfo = "/" + "info_SKINNAME.json";
@@ -161,7 +161,7 @@ namespace BeamSkinMaster.pages
                 File.WriteAllText(autobelloinfopathh, autobelloinfoo);
             }
 
-            if (MainWindow.endtext == "midtruck")
+            if (MainPage.endtext == "midtruck")
             {
                 string midtruckstpc = "/" + "SKINNAME.pc";
                 string midtruckstinfo = "/" + "info_SKINNAME.json";
@@ -215,7 +215,7 @@ namespace BeamSkinMaster.pages
                 File.WriteAllText(midtruckinfopathh, midtruckinfoo);
             }
 
-            if (MainWindow.endtext == "bastion")
+            if (MainPage.endtext == "bastion")
             {
                 string bastionstpc = "/" + "SKINNAME.pc";
                 string bastionstinfo = "/" + "info_SKINNAME.json";
@@ -269,7 +269,7 @@ namespace BeamSkinMaster.pages
                 File.WriteAllText(bastioninfopathh, bastioninfoo);
             }
 
-            if (MainWindow.endtext == "legran")
+            if (MainPage.endtext == "legran")
             {
                 string legranstpc = "/" + "SKINNAME.pc";
                 string legranstinfo = "/" + "info_SKINNAME.json";
@@ -323,7 +323,7 @@ namespace BeamSkinMaster.pages
                 File.WriteAllText(legraninfopathh, legraninfoo);
             }
 
-            if (MainWindow.endtext == "burnside")
+            if (MainPage.endtext == "burnside")
             {
                 string burnsidestpc = "/" + "SKINNAME.pc";
                 string burnsidestinfo = "/" + "info_SKINNAME.json";
@@ -377,7 +377,7 @@ namespace BeamSkinMaster.pages
                 File.WriteAllText(burnsideinfopathh, burnsideinfoo);
             }
 
-            if (MainWindow.endtext == "vivace")
+            if (MainPage.endtext == "vivace")
             {
                 string vivacestpc = "/" + "SKINNAME.pc";
                 string vivacestinfo = "/" + "info_SKINNAME.json";
@@ -431,7 +431,7 @@ namespace BeamSkinMaster.pages
                 File.WriteAllText(vivaceinfopathh, vivaceinfoo);
             }
 
-            if (MainWindow.endtext == "bolide")
+            if (MainPage.endtext == "bolide")
             {
                 string bolidestpc = "/" + "SKINNAME.pc";
                 string bolidestinfo = "/" + "info_SKINNAME.json";
@@ -487,7 +487,7 @@ namespace BeamSkinMaster.pages
 
             try
             {
-                if (MainWindow.endtext == "scintilla")
+                if (MainPage.endtext == "scintilla")
                 {
                     string scintillastpc = "/" + "SKINNAME.pc";
                     string scintillastinfo = "/" + "info_SKINNAME.json";
@@ -555,7 +555,7 @@ namespace BeamSkinMaster.pages
                 ContentDialogResult result = await error.ShowAsync();
             }
 
-            if (MainWindow.endtext == "etki")
+            if (MainPage.endtext == "etki")
             {
                 string etkistpc = "/" + "SKINNAME.pc";
                 string etkistinfo = "/" + "info_SKINNAME.json";
@@ -609,7 +609,7 @@ namespace BeamSkinMaster.pages
                 File.WriteAllText(etkiinfopathh, etkiinfoo);
             }
 
-            if (MainWindow.endtext == "etkc")
+            if (MainPage.endtext == "etkc")
             {
                 string etkcstpc = "/" + "SKINNAME.pc";
                 string etkcstinfo = "/" + "info_SKINNAME.json";
@@ -663,7 +663,7 @@ namespace BeamSkinMaster.pages
                 File.WriteAllText(etkcinfopathh, etkcinfoo);
             }
 
-            if (MainWindow.endtext == "barstow")
+            if (MainPage.endtext == "barstow")
             {
                 string barstowstpc = "/" + "SKINNAME.pc";
                 string barstowstinfo = "/" + "info_SKINNAME.json";
@@ -717,7 +717,7 @@ namespace BeamSkinMaster.pages
                 File.WriteAllText(barstowinfopathh, barstowinfoo);
             }
 
-            if (MainWindow.endtext == "bluebuck")
+            if (MainPage.endtext == "bluebuck")
             {
                 string bluebuckstpc = "/" + "SKINNAME.pc";
                 string bluebuckstinfo = "/" + "info_SKINNAME.json";
@@ -771,7 +771,7 @@ namespace BeamSkinMaster.pages
                 File.WriteAllText(bluebuckinfopathh, bluebuckinfoo);
             }
 
-            if (MainWindow.endtext == "pickup")
+            if (MainPage.endtext == "pickup")
             {
                 string pickupstpc = "/" + "SKINNAME.pc";
                 string pickupstinfo = "/" + "info_SKINNAME.json";
@@ -825,7 +825,7 @@ namespace BeamSkinMaster.pages
                 File.WriteAllText(pickupinfopathh, pickupinfoo);
             }
 
-            if (MainWindow.endtext == "fullsize")
+            if (MainPage.endtext == "fullsize")
             {
                 string fullsizestpc = "/" + "SKINNAME.pc";
                 string fullsizestinfo = "/" + "info_SKINNAME.json";
@@ -879,7 +879,7 @@ namespace BeamSkinMaster.pages
                 File.WriteAllText(fullsizeinfopathh, fullsizeinfoo);
             }
 
-            if (MainWindow.endtext == "van")
+            if (MainPage.endtext == "van")
             {
                 string vanstpc = "/" + "SKINNAME.pc";
                 string vanstinfo = "/" + "info_SKINNAME.json";
@@ -933,7 +933,7 @@ namespace BeamSkinMaster.pages
                 File.WriteAllText(vaninfopathh, vaninfoo);
             }
 
-            if (MainWindow.endtext == "roamer")
+            if (MainPage.endtext == "roamer")
             {
                 string roamerstpc = "/" + "SKINNAME.pc";
                 string roamerstinfo = "/" + "info_SKINNAME.json";
@@ -987,7 +987,7 @@ namespace BeamSkinMaster.pages
                 File.WriteAllText(roamerinfopathh, roamerinfoo);
             }
 
-            if (MainWindow.endtext == "semi")
+            if (MainPage.endtext == "semi")
             {
                 string semistpc = "/" + "SKINNAME.pc";
                 string semistinfo = "/" + "info_SKINNAME.json";
@@ -1041,7 +1041,7 @@ namespace BeamSkinMaster.pages
                 File.WriteAllText(semiinfopathh, semiinfoo);
             }
 
-            if (MainWindow.endtext == "sbr")
+            if (MainPage.endtext == "sbr")
             {
                 string sbrstpc = "/" + "SKINNAME.pc";
                 string sbrstinfo = "/" + "info_SKINNAME.json";
@@ -1095,7 +1095,7 @@ namespace BeamSkinMaster.pages
                 File.WriteAllText(sbrinfopathh, sbrinfoo);
             }
 
-            if (MainWindow.endtext == "sunburst")
+            if (MainPage.endtext == "sunburst")
             {
                 string sunburststpc = "/" + "SKINNAME.pc";
                 string sunburststinfo = "/" + "info_SKINNAME.json";
@@ -1149,7 +1149,7 @@ namespace BeamSkinMaster.pages
                 File.WriteAllText(sunburstinfopathh, sunburstinfoo);
             }
 
-            if (MainWindow.endtext == "coupe")
+            if (MainPage.endtext == "coupe")
             {
                 string coupestpc = "/" + "SKINNAME.pc";
                 string coupestinfo = "/" + "info_SKINNAME.json";
@@ -1203,7 +1203,7 @@ namespace BeamSkinMaster.pages
                 File.WriteAllText(coupeinfopathh, coupeinfoo);
             }
 
-            if (MainWindow.endtext == "covet")
+            if (MainPage.endtext == "covet")
             {
                 string covetstpc = "/" + "SKINNAME.pc";
                 string covetstinfo = "/" + "info_SKINNAME.json";
@@ -1257,7 +1257,7 @@ namespace BeamSkinMaster.pages
                 File.WriteAllText(covetinfopathh, covetinfoo);
             }
 
-            if (MainWindow.endtext == "hopper")
+            if (MainPage.endtext == "hopper")
             {
                 string hopperstpc = "/" + "SKINNAME.pc";
                 string hopperstinfo = "/" + "info_SKINNAME.json";
@@ -1311,7 +1311,7 @@ namespace BeamSkinMaster.pages
                 File.WriteAllText(hopperinfopathh, hopperinfoo);
             }
 
-            if (MainWindow.endtext == "miramar")
+            if (MainPage.endtext == "miramar")
             {
                 string miramarstpc = "/" + "SKINNAME.pc";
                 string miramarstinfo = "/" + "info_SKINNAME.json";
@@ -1365,7 +1365,7 @@ namespace BeamSkinMaster.pages
                 File.WriteAllText(miramarinfopathh, miramarinfoo);
             }
 
-            if (MainWindow.endtext == "pessima")
+            if (MainPage.endtext == "pessima")
             {
                 string pessimastpc = "/" + "SKINNAME.pc";
                 string pessimastinfo = "/" + "info_SKINNAME.json";
@@ -1419,7 +1419,7 @@ namespace BeamSkinMaster.pages
                 File.WriteAllText(pessimainfopathh, pessimainfoo);
             }
 
-            if (MainWindow.endtext == "midsize")
+            if (MainPage.endtext == "midsize")
             {
                 string midsizestpc = "/" + "SKINNAME.pc";
                 string midsizestinfo = "/" + "info_SKINNAME.json";
@@ -1473,7 +1473,7 @@ namespace BeamSkinMaster.pages
                 File.WriteAllText(midsizeinfopathh, midsizeinfoo);
             }
 
-            if (MainWindow.endtext == "pigeon")
+            if (MainPage.endtext == "pigeon")
             {
                 string pigeonstpc = "/" + "SKINNAME.pc";
                 string pigeonstinfo = "/" + "info_SKINNAME.json";
@@ -1527,7 +1527,7 @@ namespace BeamSkinMaster.pages
                 File.WriteAllText(pigeoninfopathh, pigeoninfoo);
             }
 
-            if (MainWindow.endtext == "wigeon")
+            if (MainPage.endtext == "wigeon")
             {
                 string wigeonstpc = "/" + "SKINNAME.pc";
                 string wigeonstinfo = "/" + "info_SKINNAME.json";
@@ -1581,7 +1581,7 @@ namespace BeamSkinMaster.pages
                 File.WriteAllText(wigeoninfopathh, wigeoninfoo);
             }
 
-            if (MainWindow.endtext == "lansdale")
+            if (MainPage.endtext == "lansdale")
             {
                 string lansdalestpc = "/" + "SKINNAME.pc";
                 string lansdalestinfo = "/" + "info_SKINNAME.json";
@@ -1635,7 +1635,7 @@ namespace BeamSkinMaster.pages
                 File.WriteAllText(lansdaleinfopathh, lansdaleinfoo);
             }
 
-            if (MainWindow.endtext == "wendover")
+            if (MainPage.endtext == "wendover")
             {
                 string wendoverstpc = "/" + "SKINNAME.pc";
                 string wendoverstinfo = "/" + "info_SKINNAME.json";
@@ -1689,7 +1689,7 @@ namespace BeamSkinMaster.pages
                 File.WriteAllText(wendoverinfopathh, wendoverinfoo);
             }
 
-            if (MainWindow.endtext == "racetruck")
+            if (MainPage.endtext == "racetruck")
             {
                 string racetruckstpc = "/" + "SKINNAME.pc";
                 string racetruckstinfo = "/" + "info_SKINNAME.json";
@@ -1743,7 +1743,7 @@ namespace BeamSkinMaster.pages
                 File.WriteAllText(racetruckinfopathh, racetruckinfoo);
             }
 
-            if (MainWindow.endtext == "citybus")
+            if (MainPage.endtext == "citybus")
             {
                 string citybusstpc = "/" + "SKINNAME.pc";
                 string citybusstinfo = "/" + "info_SKINNAME.json";
@@ -1798,14 +1798,14 @@ namespace BeamSkinMaster.pages
             }
 
             ContentFrame.Navigate(typeof(PackingPage), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
-            MainWindow.progressBar.Value = 100;
-            MainWindow.progressBar.IsIndeterminate = false;
+            MainPage.progressBar.Value = 100;
+            MainPage.progressBar.IsIndeterminate = false;
         }
 
         private void backbutton_Click(object sender, RoutedEventArgs e)
         {
             ContentFrame.Navigate(typeof(uploadingUVPage), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
-            MainWindow.progressBar.Value = 50;
+            MainPage.progressBar.Value = 50;
         }
     }
 }

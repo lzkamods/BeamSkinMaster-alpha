@@ -9,7 +9,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid Background="#202020">
+    <Grid>
         <TextBlock x:Name="vibiriauto" Text="Отправка готового Скина" HorizontalAlignment="Right" Margin="0,82,277,0" FontSize="32"/>
 
         <Image Source="App icon 16.svg" Height="40" Margin="0,0,5,80" HorizontalAlignment="Center"/>
@@ -30,14 +30,10 @@
             вашего готового скина сделаного по чертежу
         </TextBlock>
         <Image Source="assets/bluecloud.png" Margin="152,0,227,0" HorizontalAlignment="Left" Height="266.5"/>
-        
-        <Button Click="PickAFileButton_Click" x:Name="PickAFileButton" VerticalAlignment="Top" HorizontalAlignment="Right" Height="40" Width="136.25" Margin="0,419,376.75,0" CornerRadius="18" Background="#373737">
-            <StackPanel>
-                <TextBlock Text="Отправить" VerticalAlignment="Center" Margin="0,0,0,0"/>
-            </StackPanel>
-        </Button>
 
-        <Frame x:Name="ContentFrame">
+        <Button Click="PickAFileButton_Click" x:Name="PickAFileButton" VerticalAlignment="Top" HorizontalAlignment="Right" Height="32" Width="120" Margin="0,419,386.75,0" Style="{StaticResource AccentButtonStyle}">Отправить</Button>
+
+            <Frame x:Name="ContentFrame">
             <Frame.ContentTransitions>
                 <TransitionCollection>
                     <NavigationThemeTransition  />
