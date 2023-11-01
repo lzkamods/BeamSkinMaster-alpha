@@ -32,6 +32,7 @@ namespace BeamSkinMaster.pages
             this.InitializeComponent();
             progressBar = ProgressOnTop;
             MainTitleBar = AppTitleBar;
+            Directory.CreateDirectory(pathes.pth);
         }
 
         public static ProgressBar progressBar { get; set; }

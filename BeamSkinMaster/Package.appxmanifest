@@ -9,9 +9,9 @@
   IgnorableNamespaces="uap rescap uap4">
 
   <Identity
-    Name="a1436303-8247-4850-81f1-db47fe54c5e2"
+    Name="lzkamods.BeamSkinMaster"
     Publisher="CN=lzkamods"
-    Version="0.1.23.0" />
+    Version="0.1.6.0" />
 
   <mp:PhoneIdentity PhoneProductId="a1436303-8247-4850-81f1-db47fe54c5e2" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
@@ -50,6 +50,6 @@
   </Applications>
 
   <Capabilities>
-    <rescap:Capability Name="runFullTrust" />
+        <rescap:Capability Name="runFullTrust" />
   </Capabilities>
 </Package>

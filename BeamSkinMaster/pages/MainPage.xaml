@@ -10,13 +10,14 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <GridView SelectionMode="None" Visibility="Visible" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="156,0,0,0">
+            <Image Height="262" Source="assets\bluecar.png"/>
+        </GridView>
+
         <Button Background="Transparent" VerticalAlignment="Top" HorizontalAlignment="Left" x:Name="settingbtn" Click="settingbtn_Click" Margin="20,70,0,0" BorderBrush="Transparent">
             <FontIcon Glyph="&#xE713;" FontSize="17"/>
         </Button>
-
-        <GridView SelectionMode="None" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="156,0,0,0">
-            <Image Height="262" Source="D:\BSM\BeamSkinMaster\BeamSkinMaster\pages\assets\bluecar.png"/>
-        </GridView>
+        
         <Button x:Name="page1dalee" Click="page1dalee_Click" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="120" Height="32" Margin="0,0,48,48" Style="{StaticResource AccentButtonStyle}">Далее</Button>
         <TextBlock x:Name="vibiriauto" Text="Выбор автомобиля" HorizontalAlignment="Right" Margin="0,82,357,0" FontSize="32"/>
         <TextBlock Text="Выберите нужный автомобиль для создания скина" HorizontalAlignment="Right" FontSize="20" Margin="0,134,169,0" Foreground="#B0B0B0"/>

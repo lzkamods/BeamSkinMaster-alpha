@@ -34,9 +34,9 @@
                     <FontIcon Glyph="&#xE790;"/>
                 </labs:SettingsCard.HeaderIcon>
                 <StackPanel x:Name="themePanel">
-                    <RadioButton Content="Light"  Command="{x:Bind ViewModel.SetThemeCommnad}" CommandParameter="Light"/>
-                    <RadioButton Content="Dark" Command="{x:Bind ViewModel.SetThemeCommnad}" CommandParameter="Dark"/>
-                    <RadioButton Content="Default" Command="{x:Bind ViewModel.SetThemeCommnad}" IsChecked="True" CommandParameter="Default"/>
+                    <RadioButton Content="Светлая"  Command="{x:Bind ViewModel.SetThemeCommnad}" CommandParameter="Light"/>
+                    <RadioButton Content="Темная" Command="{x:Bind ViewModel.SetThemeCommnad}" CommandParameter="Dark"/>
+                    <RadioButton Content="Параметр системы" Command="{x:Bind ViewModel.SetThemeCommnad}" IsChecked="True" CommandParameter="Default"/>
                 </StackPanel>
             </labs:SettingsCard>
         </StackPanel>

@@ -19,7 +19,7 @@
     <AppxBundle>Never</AppxBundle>
     <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
     <PackageCertificateKeyFile>BeamSkinMaster_TemporaryKey.pfx</PackageCertificateKeyFile>
-    <AppxPackageDir>D:\combobox tutoriial\</AppxPackageDir>
+    <AppxPackageDir>D:\debian\</AppxPackageDir>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Assets\App icon 16.svg" />
