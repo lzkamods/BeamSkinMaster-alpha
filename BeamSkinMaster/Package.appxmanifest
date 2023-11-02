@@ -18,7 +18,7 @@
   <Properties>
     <DisplayName>BeamSkinMaster</DisplayName>
     <PublisherDisplayName>lzkamods</PublisherDisplayName>
-    <Logo>Assets\StoreLogo.png</Logo>
+    <Logo>Assets\icons\StoreLogo.png</Logo>
   </Properties>
 
   <Dependencies>
@@ -38,13 +38,14 @@
         DisplayName="BeamSkinMaster"
         Description="BeamSkinMaster a skin cod creater for BeamNG.drive"
         BackgroundColor="transparent"
-        Square150x150Logo="Assets\Square150x150Logo.png"
-        Square44x44Logo="Assets\Square44x44Logo.png">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
-        <uap:SplashScreen Image="Assets\SplashScreen.png" />
+        Square150x150Logo="Assets\icons\Square150x150Logo.png"
+        Square44x44Logo="Assets\icons\Square44x44Logo.png">
+        <uap:DefaultTile Wide310x150Logo="Assets\icons\Wide310x150Logo.png"  ShortName="BeamSkinMaster" Square71x71Logo="Assets\icons\SmallTile.png" Square310x310Logo="Assets\icons\LargeTile.png">
+        </uap:DefaultTile >
+        <uap:SplashScreen Image="Assets\icons\SplashScreen.png"  BackgroundColor="transparent"/>
         <uap:InitialRotationPreference>
           <uap:Rotation Preference="landscape"/></uap:InitialRotationPreference>
-        <uap:LockScreen BadgeLogo="Assets\BadgeLogo.png" Notification="badge"/>
+        <uap:LockScreen BadgeLogo="Assets\icons\BadgeLogo.png" Notification="badge"/>
       </uap:VisualElements>
     </Application>
   </Applications>
