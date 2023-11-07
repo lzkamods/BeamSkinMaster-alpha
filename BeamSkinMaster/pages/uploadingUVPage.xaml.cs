@@ -72,8 +72,8 @@ namespace BeamSkinMaster.pages
                 {
                     ContentDialog cancelled = new ContentDialog
                     {
-                        Title = "Ошибка выбора изображения",
-                        Content = "Невозможно Скопировть изображение, так как оно пустое. Пожалуйста, выберите изображение.",
+                        Title = UpldCntDlgTitle.Text,
+                        Content = UpldCntDngCnt.Text,
                         CloseButtonText = "OK",
                     };
                     cancelled.XamlRoot = PickAFileButton.XamlRoot;
@@ -87,8 +87,8 @@ namespace BeamSkinMaster.pages
             {
                 ContentDialog autoerror = new ContentDialog
                 {
-                    Title = "Ошибка выбора изображения",
-                    Content = "Файл уже существует. Пожалуйста, нажмите Далее",
+                    Title = UpldErrDlgTitle.Text,
+                    Content = UpldErrDngCnt.Text,
                     CloseButtonText = "OK",
                 };
                 autoerror.XamlRoot = PickAFileButton.XamlRoot;

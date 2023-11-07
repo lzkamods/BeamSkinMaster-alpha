@@ -13,7 +13,7 @@
     <Grid>
         <StackPanel Margin="65,44,56,44">
 
-            <labs:SettingsCard Header="Язык интерфейса приложения" Description="На этом языке будут показываться интерфейс прилоления">
+            <labs:SettingsCard x:Uid="LangStg" Header="Язык интерфейса приложения" Description="На этом языке будут показываться интерфейс прилоления">
                 <labs:SettingsCard.HeaderIcon>
                     <FontIcon Glyph="&#xECAA;"/>
                 </labs:SettingsCard.HeaderIcon>
@@ -27,16 +27,16 @@
                 </labs:SettingsCard.Content>
             </labs:SettingsCard>
 
-            <labs:SettingsCard
+            <labs:SettingsCard x:Uid="ThmeStg"
                 Header="Тема приложения"
-                Description="Выберите темы приложения для отображения">
+                 Description="Выберите темы приложения для отображения">
                 <labs:SettingsCard.HeaderIcon>
                     <FontIcon Glyph="&#xE790;"/>
                 </labs:SettingsCard.HeaderIcon>
                 <StackPanel x:Name="themePanel">
-                    <RadioButton Content="Светлая"  Command="{x:Bind ViewModel.SetThemeCommnad}" CommandParameter="Light"/>
-                    <RadioButton Content="Темная" Command="{x:Bind ViewModel.SetThemeCommnad}" CommandParameter="Dark"/>
-                    <RadioButton Content="Параметр системы" Command="{x:Bind ViewModel.SetThemeCommnad}" IsChecked="True" CommandParameter="Default"/>
+                    <RadioButton x:Uid="LghtStg" Content="Светлая"  Command="{x:Bind ViewModel.SetThemeCommnad}" CommandParameter="Light"/>
+                    <RadioButton x:Uid="DrkStg" Content="Темная" Command="{x:Bind ViewModel.SetThemeCommnad}" CommandParameter="Dark"/>
+                    <RadioButton x:Uid="SysStg" Content="Параметр системы" Command="{x:Bind ViewModel.SetThemeCommnad}" IsChecked="True" CommandParameter="Default"/>
                 </StackPanel>
             </labs:SettingsCard>
         </StackPanel>

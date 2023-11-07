@@ -10,30 +10,30 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock x:Name="vibiriauto" Text="Отправка готового Скина" HorizontalAlignment="Right" Margin="0,82,277,0" FontSize="32"/>
+        <TextBlock x:Uid="UpldHdr" x:Name="vibiriauto" Text="Отправка готового Скина" HorizontalAlignment="Right" Margin="0,82,277,0" FontSize="32"/>
 
         <Image Source="App icon 16.svg" Height="40" Margin="0,0,5,80" HorizontalAlignment="Center"/>
-        <TextBlock x:Name="downloadtext" Margin="0,339,309,0" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Right">
-                <Run x:Name="downloadtextrun">Отправьте ваш готовый скин,</Run>
-        </TextBlock>
-        <TextBlock x:Name="downloadtextspan" HorizontalAlignment="Right" FontSize="20" VerticalAlignment="Top" Margin="0,359,339,0" Text="сделанный по чертежу"/>
-        <Button x:Name="Uploadingdalee" Click="Uploadingdalee_Click" HorizontalAlignment="Right" Height="32" Width="120" VerticalAlignment="Bottom" Margin="0,0,48,48" Style="{StaticResource AccentButtonStyle}">Далее</Button>
+        <TextBlock x:Uid="UpldTxt" x:Name="downloadtextrun" Text="Отправьте ваш готовый скин," Margin="0,339,309,0" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Right"/>
+        <TextBlock x:Uid="UpldTxtSpn" x:Name="downloadtextspan" HorizontalAlignment="Right" FontSize="20" VerticalAlignment="Top" Margin="0,359,339,0" Text="сделанный по чертежу"/>
+        <Button x:Uid="UpldNxtBtn" x:Name="Uploadingdalee" Click="Uploadingdalee_Click" HorizontalAlignment="Right" Height="32" Width="120" VerticalAlignment="Bottom" Margin="0,0,48,48" Style="{StaticResource AccentButtonStyle}">Далее</Button>
         <Button x:Name="backbutton" Click="backbutton_Click" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,178,48" Height="32" Width="32" Background="#373737">
             <StackPanel>
                 <Image Height="10" Width="10" Source="assets/backicon.png"/>
             </StackPanel>
         </Button>
-        <TextBlock Foreground="#B0B0B0" HorizontalAlignment="Right" Margin="0,124,270,0" FontSize="20">
-            Нажмите на кнопку и отправте DDS файл
-        </TextBlock>
-        <TextBlock Foreground="#B0B0B0" HorizontalAlignment="Right" Margin="0,142,230,0" FontSize="20">
-            вашего готового скина сделаного по чертежу
-        </TextBlock>
+        <TextBlock x:Uid="UpldHlp" Foreground="#B0B0B0" Text="Нажмите на кнопку и отправьте DDS файл" HorizontalAlignment="Right" Margin="0,124,270,0" FontSize="20"/>
+        <TextBlock x:Uid="UpldHlpSpn" Text="вашего готового скина сделанного по чертежу" Foreground="#B0B0B0" HorizontalAlignment="Right" Margin="0,142,230,0" FontSize="20"/>
+        
         <Image Source="assets/bluecloud.png" Margin="152,0,227,0" HorizontalAlignment="Left" Height="266.5"/>
 
-        <Button Click="PickAFileButton_Click" x:Name="PickAFileButton" VerticalAlignment="Top" HorizontalAlignment="Right" Height="32" Width="120" Margin="0,419,386.75,0" Style="{StaticResource AccentButtonStyle}">Отправить</Button>
+        <Button Click="PickAFileButton_Click" x:Uid="PckFleBtn" x:Name="PickAFileButton" VerticalAlignment="Top" HorizontalAlignment="Right" Height="32" Width="120" Margin="0,419,386.75,0" Style="{StaticResource AccentButtonStyle}">Отправить</Button>
 
-            <Frame x:Name="ContentFrame">
+        <TextBlock Text="Ошибка выбора изображения" x:Uid="UpldCnlCntDlgTitle" x:Name="UpldCntDlgTitle" Visibility="Collapsed"/>
+        <TextBlock Text="Невозможно Скопировть изображение, так как оно пустое. Пожалуйста, выберите изображение." x:Uid="UpldCnlCntDngCnt" x:Name="UpldCntDngCnt" Visibility="Collapsed"/>
+        <TextBlock Text="Ошибка выбора изображения" x:Uid="UpldCnlErrDlgTitle" x:Name="UpldErrDlgTitle" Visibility="Collapsed"/>
+        <TextBlock Text="Файл уже существует. Пожалуйста, нажмите Далее" x:Uid="UpldErrCntDngCnt" x:Name="UpldErrDngCnt" Visibility="Collapsed"/>
+
+        <Frame x:Name="ContentFrame">
             <Frame.ContentTransitions>
                 <TransitionCollection>
                     <NavigationThemeTransition  />

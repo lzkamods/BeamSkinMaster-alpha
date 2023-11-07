@@ -11,8 +11,18 @@
 
     <Grid>
         <ProgressRing Height="195" Width="195" HorizontalAlignment="Left" Margin="187,0,0,0"/>
-        <TextBlock HorizontalAlignment="Right" Text="Подождите..." Margin="0,320,343,0" FontSize="36"/>
-        <TextBlock Foreground="#BABABA" x:Name="waittext" HorizontalAlignment="Right" Text="Чистим Кеш файлы" Margin="0,369,358,0" FontSize="20"/>
+        <TextBlock x:Uid="WaitTxt" HorizontalAlignment="Right" Text="Подождите..." Margin="0,320,397,0" FontSize="36"/>
+        <TextBlock x:Uid="ChcTxt" Foreground="#BABABA" x:Name="waittext" HorizontalAlignment="Right" Text="Чистим Кеш файлы" Margin="0,369,358,0" FontSize="20"/>
+        <TextBlock x:Uid="PckTxt" Text="Пакуем мод в ZIP" x:Name="PckTxt" Visibility="Collapsed"/>
+
+        <TextBlock x:Uid="PckDlgTitle" x:Name="PckDlgTitle" Text="Перемещение успешно" Visibility="Collapsed"/>
+        <TextBlock x:Uid="PckDlgCnt" x:Name="PckDlgCnt" Text="Для продолжения нажимте ОК" Visibility="Collapsed"/>
+
+        <TextBlock x:Uid="PckDlgDntTitle" x:Name="PckDlgDntTitle" Text="Ошибка при перемещнии" Visibility="Collapsed"/>
+        <TextBlock x:Uid="PckDlgDntCnt" x:Name="PckDlgDntCnt" Text="Невозможно переместить папку, так как она не существует" Visibility="Collapsed"/>
+
+        <TextBlock x:Uid="PckDlgErrTitle" x:Name="PckDlgErrTitle" Text="Ошибка при перемещнии" Visibility="Collapsed"/>
+        <TextBlock x:Uid="PckDlgErrCnt" x:Name="PckDlgErrCnt" Text="Невозможно переместить папку, по причине:" Visibility="Collapsed"/>
 
         <Frame x:Name="ContentFrame">
             <Frame.ContentTransitions>

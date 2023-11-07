@@ -12,10 +12,10 @@ namespace BeamSkinMaster.classes
 {
     public class LocalizatoinViewViewModel : ObservableObject
     {
-        private string? _topTitle;
+        private string _topTitle;
         private readonly IThemeSelectorService _themeSelectorService;
 
-        public string? TopTitle
+        public string TopTitle
         {
             get => _topTitle;
             set => SetProperty(ref _topTitle, value);

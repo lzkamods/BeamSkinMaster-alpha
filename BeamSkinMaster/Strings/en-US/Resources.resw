@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AbtStg.Content" xml:space="preserve">
+    <value>About the Application</value>
+  </data>
+  <data name="AutoComboBox.PlaceholderText" xml:space="preserve">
+    <value>Choose a car here...</value>
+  </data>
+  <data name="ChcTxt.Text" xml:space="preserve">
+    <value>Cleaning cache files</value>
+  </data>
+  <data name="ChooseAuto.Margin" xml:space="preserve">
+    <value>0,82,457,0</value>
+  </data>
+  <data name="ChooseAuto.Text" xml:space="preserve">
+    <value>Car selection</value>
+  </data>
+  <data name="CntDlgCnt.Text" xml:space="preserve">
+    <value>The car selection field is empty. Please select a car.</value>
+  </data>
+  <data name="CntDlgTitle.Text" xml:space="preserve">
+    <value>Error moving to next step</value>
+  </data>
+  <data name="DlwdCntDlgCnt.Text" xml:space="preserve">
+    <value>The file already exists. Please click Next</value>
+  </data>
+  <data name="DrkStg.Content" xml:space="preserve">
+    <value>Dark</value>
+  </data>
+  <data name="DwldBtn.Content" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="DwldCntDlgTitle.Text" xml:space="preserve">
+    <value>Error downloading image</value>
+  </data>
+  <data name="DwldTxt.Margin" xml:space="preserve">
+    <value>0,124,244,0</value>
+  </data>
+  <data name="DwldTxt.Text" xml:space="preserve">
+    <value>Click the button and upload the image</value>
+  </data>
+  <data name="DwldTxtSpn.Margin" xml:space="preserve">
+    <value>0,144,342,0</value>
+  </data>
+  <data name="DwldTxtSpn.Text" xml:space="preserve">
+    <value>then edit it to suit your skin</value>
+  </data>
+  <data name="Extbtn.Content" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="ExtTxt.Margin" xml:space="preserve">
+    <value>0,371,469,0</value>
+  </data>
+  <data name="ExtTxt.Text" xml:space="preserve">
+    <value>Selecting an external name</value>
+  </data>
+  <data name="ExtTxtBox.PlaceholderText" xml:space="preserve">
+    <value>Latin and Cyrillic. Spaces allowed</value>
+  </data>
+  <data name="FldBtn.Content" xml:space="preserve">
+    <value>Open folder</value>
+  </data>
+  <data name="FnshHdr.Margin" xml:space="preserve">
+    <value>0,83,551,0</value>
+  </data>
+  <data name="FnshHdr.Text" xml:space="preserve">
+    <value>Ready!</value>
+  </data>
+  <data name="FnshHlp.Margin" xml:space="preserve">
+    <value>0,125,270,0</value>
+  </data>
+  <data name="FnshHlp.Text" xml:space="preserve">
+    <value>Now you can open the folder and re-label</value>
+  </data>
+  <data name="FnshHlpSpn.Margin" xml:space="preserve">
+    <value>0,145,360,0</value>
+  </data>
+  <data name="FnshHlpSpn.Text" xml:space="preserve">
+    <value>mod (.ZIP) archive for the game</value>
+  </data>
+  <data name="HelpText.Margin" xml:space="preserve">
+    <value>0,134,310,0</value>
+  </data>
+  <data name="HelpText.Text" xml:space="preserve">
+    <value>Select the desired car to create a skin</value>
+  </data>
+  <data name="HelpTextSpan.Margin" xml:space="preserve">
+    <value>0,154,517,0</value>
+  </data>
+  <data name="HelpTextSpan.Text" xml:space="preserve">
+    <value>and click next</value>
+  </data>
+  <data name="IntTxt.Margin" xml:space="preserve">
+    <value>0,283,474,0</value>
+  </data>
+  <data name="IntTxt.Text" xml:space="preserve">
+    <value>Selecting an internal name</value>
+  </data>
+  <data name="IntTxtBox.PlaceholderText" xml:space="preserve">
+    <value>Only Latin alphabet without spaces</value>
+  </data>
+  <data name="LangStg.Description" xml:space="preserve">
+    <value>The application interface will be displayed in this language</value>
+  </data>
+  <data name="LangStg.Header" xml:space="preserve">
+    <value>Application interface language</value>
+  </data>
+  <data name="LctzStg.Content" xml:space="preserve">
+    <value>Localization and design</value>
+  </data>
+  <data name="LghtStg.Content" xml:space="preserve">
+    <value>Light</value>
+  </data>
+  <data name="NameHdr.Margin" xml:space="preserve">
+    <value>0,82,334,0</value>
+  </data>
+  <data name="NameHdr.Text" xml:space="preserve">
+    <value>Selecting a skin name</value>
+  </data>
+  <data name="NameHlp.Margin" xml:space="preserve">
+    <value>0,144,499,0</value>
+  </data>
+  <data name="NameHlp.Text" xml:space="preserve">
+    <value>appear in game</value>
+  </data>
+  <data name="NameHlpSpn.Margin" xml:space="preserve">
+    <value>0,124,303,0</value>
+  </data>
+  <data name="NameHlpSpn.Text" xml:space="preserve">
+    <value>Enter the names of your skin, it will be</value>
+  </data>
+  <data name="NameNextBtn.Content" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="NxtBtnDwld.Content" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Page1Next.Content" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="PckDlgCnt.Text" xml:space="preserve">
+    <value>Click OK to continue</value>
+  </data>
+  <data name="PckDlgDntCnt.Text" xml:space="preserve">
+    <value>The folder cannot be moved because it does not exist</value>
+  </data>
+  <data name="PckDlgDntTitle.Text" xml:space="preserve">
+    <value>Error while moving</value>
+  </data>
+  <data name="PckDlgErrCnt.Text" xml:space="preserve">
+    <value>The folder cannot be moved due to:</value>
+  </data>
+  <data name="PckDlgErrTitle.Text" xml:space="preserve">
+    <value>Error while moving</value>
+  </data>
+  <data name="PckDlgTitle.Text" xml:space="preserve">
+    <value>Move successfully</value>
+  </data>
+  <data name="PckFleBtn.Content" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="RstBtn.Content" xml:space="preserve">
+    <value>Start again</value>
+  </data>
+  <data name="StgHdr.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="SysStg.Content" xml:space="preserve">
+    <value>System Parametr</value>
+  </data>
+  <data name="ThmeStg.Description" xml:space="preserve">
+    <value>Select app themes to display</value>
+  </data>
+  <data name="ThmeStg.Header" xml:space="preserve">
+    <value>Application theme</value>
+  </data>
+  <data name="UpldCnlCntDlgTitle.Text" xml:space="preserve">
+    <value>Image selection error</value>
+  </data>
+  <data name="UpldCnlCntDngCnt.Text" xml:space="preserve">
+    <value>The image cannot be copied because it is empty. Please select an image.</value>
+  </data>
+  <data name="UpldCnlErrDlgTitle.Text" xml:space="preserve">
+    <value>Image selection error</value>
+  </data>
+  <data name="UpldErrCntDngCnt.Text" xml:space="preserve">
+    <value>The file already exists. Please click Next</value>
+  </data>
+  <data name="UpldHdr.Text" xml:space="preserve">
+    <value>Sending the finished Skin</value>
+  </data>
+  <data name="UpldHlp.Margin" xml:space="preserve">
+    <value>0,124,300,0</value>
+  </data>
+  <data name="UpldHlp.Text" xml:space="preserve">
+    <value>Click the button and send the DDS file</value>
+  </data>
+  <data name="UpldHlpSpn.Margin" xml:space="preserve">
+    <value>0,142,200,0</value>
+  </data>
+  <data name="UpldHlpSpn.Text" xml:space="preserve">
+    <value>your finished skin made according to the drawing</value>
+  </data>
+  <data name="UpldNxtBtn.Content" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="UpldTxt.Margin" xml:space="preserve">
+    <value>0,339,345,0</value>
+  </data>
+  <data name="UpldTxt.Text" xml:space="preserve">
+    <value>Send your finished skin,</value>
+  </data>
+  <data name="UpldTxtSpn.Margin" xml:space="preserve">
+    <value>0,359,329,0</value>
+  </data>
+  <data name="UpldTxtSpn.Text" xml:space="preserve">
+    <value>made according to drawing</value>
+  </data>
+  <data name="UvDwldHdr.Text" xml:space="preserve">
+    <value>Loading of the car UV</value>
+  </data>
+  <data name="UVmapRdy.Text" xml:space="preserve">
+    <value>Your UV map is ready</value>
+  </data>
+  <data name="UvmapRdy2.Margin" xml:space="preserve">
+    <value>0,364,297,0</value>
+  </data>
+  <data name="UvmapRdy2.Text" xml:space="preserve">
+    <value>Click on the button to download</value>
+  </data>
+  <data name="WaitTxt.Text" xml:space="preserve">
+    <value>Wait...</value>
+  </data>
+</root>

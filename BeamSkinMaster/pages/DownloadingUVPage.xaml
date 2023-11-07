@@ -11,22 +11,24 @@
 
     <Grid>
         <Image Source="assets/orangekaka.png" Height="235" Margin="167.5,0,0,0" HorizontalAlignment="Left"/>
-        <TextBlock x:Name="downloadtext" FontSize="20" Margin="0,124,226,0" Foreground="#B0B0B0" HorizontalAlignment="Right">
-                <Run x:Name="downloadtextrun">Нажмите на кнопку и загрузите изображение</Run>               
-        </TextBlock>
-        <TextBlock x:Name="downloadtextspan" HorizontalAlignment="Right" FontSize="20" Foreground="#B0B0B0" Margin="0,144,271,0" Text="затем отредактируйте его под свой скин"/>
+        <TextBlock x:Uid="DwldTxt" x:Name="downloadtextrun" Text="Нажмите на кнопку и загрузите изображение" FontSize="20" Margin="0,124,226,0" Foreground="#B0B0B0" HorizontalAlignment="Right"/>
+        <TextBlock x:Uid="DwldTxtSpn" x:Name="downloadtextspan" HorizontalAlignment="Right" FontSize="20" Foreground="#B0B0B0" Margin="0,144,271,0" Text="затем отредактируйте его под свой скин"/>
 
-        <TextBlock Text="Ваша UV карта готова" HorizontalAlignment="Right" Margin="0,339,345,0" FontSize="20"/>
-        <TextBlock Text="Нажмите на кнопку чтобы загрузить" HorizontalAlignment="Right" Margin="0,364,277,0" FontSize="20"/>
+        <TextBlock x:Uid="UVmapRdy" Text="Ваша UV карта готова" HorizontalAlignment="Right" Margin="0,339,345,0" FontSize="20"/>
+        <TextBlock x:Uid="UvmapRdy2" Text="Нажмите на кнопку чтобы загрузить" HorizontalAlignment="Right" Margin="0,364,277,0" FontSize="20"/>
 
-        <TextBlock x:Name="vibiriauto" Text="Загрузка UV автомобиля" HorizontalAlignment="Right" Margin="0,82,278,0" FontSize="32"/>
-        <Button x:Name="dalee2btn" Click="dalee2btn_Click" HorizontalAlignment="Right" Height="32" Width="120" VerticalAlignment="Bottom" Margin="0,0,48,48" Style="{StaticResource AccentButtonStyle}">Далее</Button>
-        <Button x:Name="backbutton" Click="backbutton_Click" HorizontalAlignment="Right" ToolTipService.ToolTip="Back" VerticalAlignment="Bottom" Margin="0,0,178,48" Height="32" Width="32" Background="#373737">
+        <TextBlock x:Uid="UvDwldHdr" Text="Загрузка UV автомобиля" HorizontalAlignment="Right" Margin="0,82,278,0" FontSize="32"/>
+        <Button x:Uid="NxtBtnDwld" x:Name="dalee2btn" Click="dalee2btn_Click" HorizontalAlignment="Right" Height="32" Width="120" VerticalAlignment="Bottom" Margin="0,0,48,48" Style="{StaticResource AccentButtonStyle}">Далее</Button>
+        <Button x:Uid="DwldBckBtn" x:Name="backbutton" Click="backbutton_Click" HorizontalAlignment="Right" ToolTipService.ToolTip="Back" VerticalAlignment="Bottom" Margin="0,0,178,48" Height="32" Width="32" Background="#373737">
             <StackPanel>
                 <Image Height="10" Width="10" Source="assets/backicon.png"/>
             </StackPanel>
         </Button>
-        <Button x:Name="downloadbutton" Click="downloadbutton_Click" VerticalAlignment="Top" HorizontalAlignment="Right" Height="32" Width="120" Margin="0,419,386.75,0" Style="{StaticResource AccentButtonStyle}">Загрузить</Button>
+        <Button x:Uid="DwldBtn" x:Name="downloadbutton" Click="downloadbutton_Click" VerticalAlignment="Top" HorizontalAlignment="Right" Height="32" Width="120" Margin="0,419,386.75,0" Style="{StaticResource AccentButtonStyle}">Загрузить</Button>
+
+        <TextBlock Text="Ошибка загрузки изображения" Visibility="Collapsed" x:Uid="DwldCntDlgTitle" x:Name="DwldCntDlgTitle"/>
+        <TextBlock x:Uid="DlwdCntDlgCnt" x:Name="DlwdCntDlgCnt" Visibility="Collapsed" Text="Файл уже существует. Пожалуйста, нажмите Далее"/>
+        
         <Frame x:Name="ContentFrame">
             <Frame.ContentTransitions>
                 <TransitionCollection>

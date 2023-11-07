@@ -16,6 +16,7 @@ using BeamSkinMaster.classes;
 using Microsoft.UI.Xaml.Media.Animation;
 using Windows.Graphics;
 using Microsoft.UI.Windowing;
+using Microsoft.Windows.ApplicationModel.Resources;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -198,12 +199,14 @@ namespace BeamSkinMaster.pages
 
         public async void page1dalee_Click(object sender, RoutedEventArgs e)
         {
+            var resourceLoader = new Microsoft.Windows.ApplicationModel.Resources.ResourceLoader();
+
             if (combobox == null)
             {
                 ContentDialog autoerror = new ContentDialog
                 {
-                    Title = "Ошибка перехода на следуйщий этап",
-                    Content = "Поле выбора авто пустое. Пожалуйста, выберите автомобиль.",
+                    Title = CntDlgTitle.Text,
+                    Content = CntDlgCnt.Text,
                     CloseButtonText = "OK",
                 };
                 autoerror.XamlRoot = page1dalee.XamlRoot;

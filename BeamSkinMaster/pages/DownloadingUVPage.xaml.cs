@@ -55,8 +55,8 @@ namespace BeamSkinMaster
                 {
                     ContentDialog autoerror = new ContentDialog
                     {
-                        Title = "Ошибка загрузки изображения",
-                        Content = "Файл уже существует. Пожалуйста, нажмите Далее",
+                        Title = DwldCntDlgTitle.Text,
+                        Content = DlwdCntDlgCnt,
                         CloseButtonText = "OK",
                     };
                     autoerror.XamlRoot = downloadbutton.XamlRoot;
@@ -83,8 +83,8 @@ namespace BeamSkinMaster
                 {
                     ContentDialog autoerror = new ContentDialog
                     {
-                        Title = "Ошибка загрузки изображения",
-                        Content = "Файл уже существует. Пожалуйста, нажмите Далее",
+                        Title = DwldCntDlgTitle.Text,
+                        Content = DlwdCntDlgCnt.Text,
                         CloseButtonText = "OK",
                     };
                     autoerror.XamlRoot = downloadbutton.XamlRoot;
@@ -111,8 +111,8 @@ namespace BeamSkinMaster
                 {
                     ContentDialog autoerror = new ContentDialog
                     {
-                        Title = "Ошибка загрузки изображения",
-                        Content = "Файл уже существует. Пожалуйста, нажмите Далее",
+                        Title = DwldCntDlgTitle.Text,
+                        Content = DlwdCntDlgCnt.Text,
                         CloseButtonText = "OK",
                     };
                     autoerror.XamlRoot = downloadbutton.XamlRoot;
@@ -140,8 +140,8 @@ namespace BeamSkinMaster
                 {
                     ContentDialog autoerror = new ContentDialog
                     {
-                        Title = "Ошибка загрузки изображения",
-                        Content = "Файл уже существует. Пожалуйста, нажмите Далее",
+                        Title = DwldCntDlgTitle.Text,
+                        Content = DlwdCntDlgCnt.Text,
                         CloseButtonText = "OK",
                     };
                     autoerror.XamlRoot = downloadbutton.XamlRoot;
@@ -168,8 +168,8 @@ namespace BeamSkinMaster
                 {
                     ContentDialog autoerror = new ContentDialog
                     {
-                        Title = "Ошибка загрузки изображения",
-                        Content = "Файл уже существует. Пожалуйста, нажмите Далее",
+                        Title = DwldCntDlgTitle.Text,
+                        Content = DlwdCntDlgCnt.Text,
                         CloseButtonText = "OK",
                     };
                     autoerror.XamlRoot = downloadbutton.XamlRoot;
@@ -196,8 +196,8 @@ namespace BeamSkinMaster
                 {
                     ContentDialog autoerror = new ContentDialog
                     {
-                        Title = "Ошибка загрузки изображения",
-                        Content = "Файл уже существует. Пожалуйста, нажмите Далее",
+                        Title = DwldCntDlgTitle.Text,
+                        Content = DlwdCntDlgCnt.Text,
                         CloseButtonText = "OK",
                     };
                     autoerror.XamlRoot = downloadbutton.XamlRoot;
@@ -224,8 +224,8 @@ namespace BeamSkinMaster
                 {
                     ContentDialog autoerror = new ContentDialog
                     {
-                        Title = "Ошибка загрузки изображения",
-                        Content = "Файл уже существует. Пожалуйста, нажмите Далее",
+                        Title = DwldCntDlgTitle.Text,
+                        Content = DlwdCntDlgCnt.Text,
                         CloseButtonText = "OK",
                     };
                     autoerror.XamlRoot = downloadbutton.XamlRoot;
@@ -252,8 +252,8 @@ namespace BeamSkinMaster
                 {
                     ContentDialog autoerror = new ContentDialog
                     {
-                        Title = "Ошибка загрузки изображения",
-                        Content = "Файл уже существует. Пожалуйста, нажмите Далее",
+                        Title = DwldCntDlgTitle.Text,
+                        Content = DlwdCntDlgCnt.Text,
                         CloseButtonText = "OK",
                     };
                     autoerror.XamlRoot = downloadbutton.XamlRoot;
@@ -280,8 +280,8 @@ namespace BeamSkinMaster
                 {
                     ContentDialog autoerror = new ContentDialog
                     {
-                        Title = "Ошибка загрузки изображения",
-                        Content = "Файл уже существует. Пожалуйста, нажмите Далее",
+                        Title = DwldCntDlgTitle.Text,
+                        Content = DlwdCntDlgCnt.Text,
                         CloseButtonText = "OK",
                     };
                     autoerror.XamlRoot = downloadbutton.XamlRoot;
@@ -308,8 +308,8 @@ namespace BeamSkinMaster
                 {
                     ContentDialog autoerror = new ContentDialog
                     {
-                        Title = "Ошибка загрузки изображения",
-                        Content = "Файл уже существует. Пожалуйста, нажмите Далее",
+                        Title = DwldCntDlgTitle.Text,
+                        Content = DlwdCntDlgCnt.Text,
                         CloseButtonText = "OK",
                     };
                     autoerror.XamlRoot = downloadbutton.XamlRoot;
@@ -336,8 +336,8 @@ namespace BeamSkinMaster
                 {
                     ContentDialog autoerror = new ContentDialog
                     {
-                        Title = "Ошибка загрузки изображения",
-                        Content = "Файл уже существует. Пожалуйста, нажмите Далее",
+                        Title = DwldCntDlgTitle.Text,
+                        Content = DlwdCntDlgCnt.Text,
                         CloseButtonText = "OK",
                     };
                     autoerror.XamlRoot = downloadbutton.XamlRoot;
@@ -364,8 +364,8 @@ namespace BeamSkinMaster
                 {
                     ContentDialog autoerror = new ContentDialog
                     {
-                        Title = "Ошибка загрузки изображения",
-                        Content = "Файл уже существует. Пожалуйста, нажмите Далее",
+                        Title = DwldCntDlgTitle.Text,
+                        Content = DlwdCntDlgCnt.Text,
                         CloseButtonText = "OK",
                     };
                     autoerror.XamlRoot = downloadbutton.XamlRoot;
@@ -392,8 +392,8 @@ namespace BeamSkinMaster
                 {
                     ContentDialog autoerror = new ContentDialog
                     {
-                        Title = "Ошибка загрузки изображения",
-                        Content = "Файл уже существует. Пожалуйста, нажмите Далее",
+                        Title = DwldCntDlgTitle.Text,
+                        Content = DlwdCntDlgCnt.Text,
                         CloseButtonText = "OK",
                     };
                     autoerror.XamlRoot = downloadbutton.XamlRoot;
@@ -420,8 +420,8 @@ namespace BeamSkinMaster
                 {
                     ContentDialog autoerror = new ContentDialog
                     {
-                        Title = "Ошибка загрузки изображения",
-                        Content = "Файл уже существует. Пожалуйста, нажмите Далее",
+                        Title = DwldCntDlgTitle.Text,
+                        Content = DlwdCntDlgCnt.Text,
                         CloseButtonText = "OK",
                     };
                     autoerror.XamlRoot = downloadbutton.XamlRoot;
@@ -448,8 +448,8 @@ namespace BeamSkinMaster
                 {
                     ContentDialog autoerror = new ContentDialog
                     {
-                        Title = "Ошибка загрузки изображения",
-                        Content = "Файл уже существует. Пожалуйста, нажмите Далее",
+                        Title = DwldCntDlgTitle.Text,
+                        Content = DlwdCntDlgCnt.Text,
                         CloseButtonText = "OK",
                     };
                     autoerror.XamlRoot = downloadbutton.XamlRoot;
@@ -476,8 +476,8 @@ namespace BeamSkinMaster
                 {
                     ContentDialog autoerror = new ContentDialog
                     {
-                        Title = "Ошибка загрузки изображения",
-                        Content = "Файл уже существует. Пожалуйста, нажмите Далее",
+                        Title = DwldCntDlgTitle.Text,
+                        Content = DlwdCntDlgCnt.Text,
                         CloseButtonText = "OK",
                     };
                     autoerror.XamlRoot = downloadbutton.XamlRoot;
@@ -504,8 +504,8 @@ namespace BeamSkinMaster
                 {
                     ContentDialog autoerror = new ContentDialog
                     {
-                        Title = "Ошибка загрузки изображения",
-                        Content = "Файл уже существует. Пожалуйста, нажмите Далее",
+                        Title = DwldCntDlgTitle.Text,
+                        Content = DlwdCntDlgCnt.Text,
                         CloseButtonText = "OK",
                     };
                     autoerror.XamlRoot = downloadbutton.XamlRoot;
@@ -532,8 +532,8 @@ namespace BeamSkinMaster
                 {
                     ContentDialog autoerror = new ContentDialog
                     {
-                        Title = "Ошибка загрузки изображения",
-                        Content = "Файл уже существует. Пожалуйста, нажмите Далее",
+                        Title = DwldCntDlgTitle.Text,
+                        Content = DlwdCntDlgCnt.Text,
                         CloseButtonText = "OK",
                     };
                     autoerror.XamlRoot = downloadbutton.XamlRoot;
@@ -560,8 +560,8 @@ namespace BeamSkinMaster
                 {
                     ContentDialog autoerror = new ContentDialog
                     {
-                        Title = "Ошибка загрузки изображения",
-                        Content = "Файл уже существует. Пожалуйста, нажмите Далее",
+                        Title = DwldCntDlgTitle.Text,
+                        Content = DlwdCntDlgCnt.Text,
                         CloseButtonText = "OK",
                     };
                     autoerror.XamlRoot = downloadbutton.XamlRoot;
@@ -588,8 +588,8 @@ namespace BeamSkinMaster
                 {
                     ContentDialog autoerror = new ContentDialog
                     {
-                        Title = "Ошибка загрузки изображения",
-                        Content = "Файл уже существует. Пожалуйста, нажмите Далее",
+                        Title = DwldCntDlgTitle.Text,
+                        Content = DlwdCntDlgCnt.Text,
                         CloseButtonText = "OK",
                     };
                     autoerror.XamlRoot = downloadbutton.XamlRoot;
@@ -616,8 +616,8 @@ namespace BeamSkinMaster
                 {
                     ContentDialog autoerror = new ContentDialog
                     {
-                        Title = "Ошибка загрузки изображения",
-                        Content = "Файл уже существует. Пожалуйста, нажмите Далее",
+                        Title = DwldCntDlgTitle.Text,
+                        Content = DlwdCntDlgCnt.Text,
                         CloseButtonText = "OK",
                     };
                     autoerror.XamlRoot = downloadbutton.XamlRoot;
@@ -644,8 +644,8 @@ namespace BeamSkinMaster
                 {
                     ContentDialog autoerror = new ContentDialog
                     {
-                        Title = "Ошибка загрузки изображения",
-                        Content = "Файл уже существует. Пожалуйста, нажмите Далее",
+                        Title = DwldCntDlgTitle.Text,
+                        Content = DlwdCntDlgCnt.Text,
                         CloseButtonText = "OK",
                     };
                     autoerror.XamlRoot = downloadbutton.XamlRoot;
@@ -672,8 +672,8 @@ namespace BeamSkinMaster
                 {
                     ContentDialog autoerror = new ContentDialog
                     {
-                        Title = "Ошибка загрузки изображения",
-                        Content = "Файл уже существует. Пожалуйста, нажмите Далее",
+                        Title = DwldCntDlgTitle.Text,
+                        Content = DlwdCntDlgCnt.Text,
                         CloseButtonText = "OK",
                     };
                     autoerror.XamlRoot = downloadbutton.XamlRoot;
@@ -700,8 +700,8 @@ namespace BeamSkinMaster
                 {
                     ContentDialog autoerror = new ContentDialog
                     {
-                        Title = "Ошибка загрузки изображения",
-                        Content = "Файл уже существует. Пожалуйста, нажмите Далее",
+                        Title = DwldCntDlgTitle.Text,
+                        Content = DlwdCntDlgCnt.Text,
                         CloseButtonText = "OK",
                     };
                     autoerror.XamlRoot = downloadbutton.XamlRoot;
@@ -728,8 +728,8 @@ namespace BeamSkinMaster
                 {
                     ContentDialog autoerror = new ContentDialog
                     {
-                        Title = "Ошибка загрузки изображения",
-                        Content = "Файл уже существует. Пожалуйста, нажмите Далее",
+                        Title = DwldCntDlgTitle.Text,
+                        Content = DlwdCntDlgCnt.Text,
                         CloseButtonText = "OK",
                     };
                     autoerror.XamlRoot = downloadbutton.XamlRoot;
@@ -756,8 +756,8 @@ namespace BeamSkinMaster
                 {
                     ContentDialog autoerror = new ContentDialog
                     {
-                        Title = "Ошибка загрузки изображения",
-                        Content = "Файл уже существует. Пожалуйста, нажмите Далее",
+                        Title = DwldCntDlgTitle.Text,
+                        Content = DlwdCntDlgCnt.Text,
                         CloseButtonText = "OK",
                     };
                     autoerror.XamlRoot = downloadbutton.XamlRoot;
@@ -784,8 +784,8 @@ namespace BeamSkinMaster
                 {
                     ContentDialog autoerror = new ContentDialog
                     {
-                        Title = "Ошибка загрузки изображения",
-                        Content = "Файл уже существует. Пожалуйста, нажмите Далее",
+                        Title = DwldCntDlgTitle.Text,
+                        Content = DlwdCntDlgCnt.Text,
                         CloseButtonText = "OK",
                     };
                     autoerror.XamlRoot = downloadbutton.XamlRoot;
@@ -812,8 +812,8 @@ namespace BeamSkinMaster
                 {
                     ContentDialog autoerror = new ContentDialog
                     {
-                        Title = "Ошибка загрузки изображения",
-                        Content = "Файл уже существует. Пожалуйста, нажмите Далее",
+                        Title = DwldCntDlgTitle.Text,
+                        Content = DlwdCntDlgCnt.Text,
                         CloseButtonText = "OK",
                     };
                     autoerror.XamlRoot = downloadbutton.XamlRoot;
@@ -840,8 +840,8 @@ namespace BeamSkinMaster
                 {
                     ContentDialog autoerror = new ContentDialog
                     {
-                        Title = "Ошибка загрузки изображения",
-                        Content = "Файл уже существует. Пожалуйста, нажмите Далее",
+                        Title = DwldCntDlgTitle.Text,
+                        Content = DlwdCntDlgCnt.Text,
                         CloseButtonText = "OK",
                     };
                     autoerror.XamlRoot = downloadbutton.XamlRoot;
@@ -868,8 +868,8 @@ namespace BeamSkinMaster
                 {
                     ContentDialog autoerror = new ContentDialog
                     {
-                        Title = "Ошибка загрузки изображения",
-                        Content = "Файл уже существует. Пожалуйста, нажмите Далее",
+                        Title = DwldCntDlgTitle.Text,
+                        Content = DlwdCntDlgCnt.Text,
                         CloseButtonText = "OK",
                     };
                     autoerror.XamlRoot = downloadbutton.XamlRoot;
@@ -896,8 +896,8 @@ namespace BeamSkinMaster
                 {
                     ContentDialog autoerror = new ContentDialog
                     {
-                        Title = "Ошибка загрузки изображения",
-                        Content = "Файл уже существует. Пожалуйста, нажмите Далее",
+                        Title = DwldCntDlgTitle.Text,
+                        Content = DlwdCntDlgCnt.Text,
                         CloseButtonText = "OK",
                     };
                     autoerror.XamlRoot = downloadbutton.XamlRoot;
@@ -924,8 +924,8 @@ namespace BeamSkinMaster
                 {
                     ContentDialog autoerror = new ContentDialog
                     {
-                        Title = "Ошибка загрузки изображения",
-                        Content = "Файл уже существует. Пожалуйста, нажмите Далее",
+                        Title = DwldCntDlgTitle.Text,
+                        Content = DlwdCntDlgCnt.Text,
                         CloseButtonText = "OK",
                     };
                     autoerror.XamlRoot = downloadbutton.XamlRoot;

@@ -88,8 +88,8 @@ namespace BeamSkinMaster.pages
                     ZipFile.CreateFromDirectory(zipspath, zippath);
                     ContentDialog finish = new ContentDialog
                     {
-                        Title = "Перемещение успешно",
-                        Content = "Для продолжения нажимте ОК",
+                        Title = PckDlgTitle.Text,
+                        Content = PckDlgCnt.Text,
                         CloseButtonText = "OK",
                     };
                     finish.XamlRoot = waittext.XamlRoot;
@@ -105,8 +105,8 @@ namespace BeamSkinMaster.pages
                 {
                     ContentDialog na = new ContentDialog
                     {
-                        Title = "Ошибка при перемещнии",
-                        Content = "Невозможно переместить папку, так как она не существует",
+                        Title = PckDlgDntTitle.Text,
+                        Content = PckDlgDntCnt.Text,
                         CloseButtonText = "OK",
                     };
                     na.XamlRoot = waittext.XamlRoot;
@@ -118,8 +118,8 @@ namespace BeamSkinMaster.pages
             {
                 ContentDialog error = new ContentDialog
                 {
-                    Title = "Ошибка при перемещнии",
-                    Content = $"Невозможно переместить папку, по причине: {ex.Message}",
+                    Title = PckDlgErrTitle.Text,
+                    Content =$"{PckDlgErrCnt.Text} {ex.Message}",
                     CloseButtonText = "OK",
                 };
                 error.XamlRoot = waittext.XamlRoot;

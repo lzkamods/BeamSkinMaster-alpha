@@ -6,6 +6,7 @@
     xmlns:local="using:BeamSkinMaster.pages"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:l="using:WinUI3Localizer"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
@@ -18,11 +19,11 @@
             <FontIcon Glyph="&#xE713;" FontSize="17"/>
         </Button>
         
-        <Button x:Name="page1dalee" Click="page1dalee_Click" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="120" Height="32" Margin="0,0,48,48" Style="{StaticResource AccentButtonStyle}">Далее</Button>
-        <TextBlock x:Name="vibiriauto" Text="Выбор автомобиля" HorizontalAlignment="Right" Margin="0,82,357,0" FontSize="32"/>
-        <TextBlock Text="Выберите нужный автомобиль для создания скина" HorizontalAlignment="Right" FontSize="20" Margin="0,134,169,0" Foreground="#B0B0B0"/>
-        <TextBlock Text="и нажмите далее" HorizontalAlignment="Right" Margin="0,154,482,0" FontSize="20" Foreground="#B0B0B0"/>
-        <ComboBox x:Name="Combobox1" SelectionChanged="ComboBox_SelectionChanged" PlaceholderText="автомобиль ..." HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,123,0" Width="517">
+        <Button x:Name="page1dalee" x:Uid="Page1Next" Click="page1dalee_Click" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="120" Height="32" Margin="0,0,48,48" Style="{StaticResource AccentButtonStyle}">Далее</Button>
+        <TextBlock x:Uid="ChooseAuto" HorizontalAlignment="Right" Margin="0,82,357,0" FontSize="32"/>
+        <TextBlock x:Uid="HelpText" Text="Выберите нужный автомобиль для создания скина" HorizontalAlignment="Right" FontSize="20" Margin="0,134,169,0" Foreground="#B0B0B0"/>
+        <TextBlock x:Uid="HelpTextSpan" Text="и нажмите далее" HorizontalAlignment="Right" Margin="0,154,482,0" FontSize="20" Foreground="#B0B0B0"/>
+        <ComboBox x:Name="Combobox1" x:Uid="AutoComboBox" SelectionChanged="ComboBox_SelectionChanged" PlaceholderText="автомобиль ..." HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,123,0" Width="517">
             <x:String>Autobello Piccolina</x:String>
             <x:String>Autobello Stambecco</x:String>
             <x:String>Bruckell Bastion</x:String>
@@ -58,6 +59,9 @@
             <x:String>Wentward DT40L</x:String>
 
         </ComboBox>
+
+        <TextBlock x:Uid="CntDlgTitle" x:Name="CntDlgTitle" Visibility="Collapsed" Text="Ошибка перехода на следуйщий этап"/>
+        <TextBlock x:Uid="CntDlgCnt" x:Name="CntDlgCnt" Visibility="Collapsed" Text="Поле выбора авто пустое. Пожалуйста, выберите автомобиль."/>
 
         <Frame x:Name="ContentFrame">
             <Frame.ContentTransitions>

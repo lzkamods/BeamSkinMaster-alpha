@@ -17,12 +17,15 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.Graphics;
+using Windows.Storage;
 using Windows.UI.ViewManagement;
+using WinUI3Localizer;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -51,6 +54,8 @@ namespace BeamSkinMaster
         /// <param name="args">Details about the launch request and process.</param>
         protected override void OnLaunched(Microsoft.UI.Xaml.LaunchActivatedEventArgs args)
         {
+
+
             // Create a Frame to act as the navigation context and navigate to the first page
             Frame rootFrame = new Frame();
             rootFrame.NavigationFailed += OnNavigationFailed;
@@ -65,6 +70,50 @@ namespace BeamSkinMaster
             
             // Ensure the MainWindow is active
             Window.Activate();
+        }
+
+        private async Task InitializeLocalizer()
+        {
+
+            // Initialize a "Strings" folder in the "LocalFolder" for the packaged app.
+            StorageFolder localFolder = ApplicationData.Current.LocalFolder;
+            StorageFolder stringsFolder = await localFolder.CreateFolderAsync(
+              "Strings",
+               CreationCollisionOption.OpenIfExists);
+
+            // Create string resources file from app resources if doesn't exists.
+            string resourceFileName = "Resources.resw";
+            await CreateStringResourceFileIfNotExists(stringsFolder, "en-US", resourceFileName);
+            await CreateStringResourceFileIfNotExists(stringsFolder, "ru-RU", resourceFileName);
+            await CreateStringResourceFileIfNotExists(stringsFolder, "uk-UA", resourceFileName);
+
+            ILocalizer localizer = await new LocalizerBuilder()
+                .AddStringResourcesFolderForLanguageDictionaries(stringsFolder.Path)
+                .SetOptions(options =>
+                {
+                    options.DefaultLanguage = "en-US";
+                })
+                .Build();
+        }
+
+        private static async Task CreateStringResourceFileIfNotExists(StorageFolder stringsFolder, string language, string resourceFileName)
+        {
+            StorageFolder languageFolder = await stringsFolder.CreateFolderAsync(
+                language,
+                CreationCollisionOption.OpenIfExists);
+
+            if (await languageFolder.TryGetItemAsync(resourceFileName) is null)
+            {
+                string resourceFilePath = System.IO.Path.Combine(stringsFolder.Name, language, resourceFileName);
+                StorageFile resourceFile = await LoadStringResourcesFileFromAppResource(resourceFilePath);
+                _ = await resourceFile.CopyAsync(languageFolder);
+            }
+        }
+
+        private static async Task<StorageFile> LoadStringResourcesFileFromAppResource(string filePath)
+        {
+            Uri resourcesFileUri = new($"ms-appx:///{filePath}");
+            return await StorageFile.GetFileFromApplicationUriAsync(resourcesFileUri);
         }
 
         void OnNavigationFailed(object sender, NavigationFailedEventArgs e)

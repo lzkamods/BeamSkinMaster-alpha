@@ -23,13 +23,13 @@
             </NavigationView.Resources>
             
             <NavigationView.MenuItems>
-                <NavigationViewItem Icon="Character" Content="Локализация и оформление" Tag="LocalizationView"/>
-                <NavigationViewItem Icon="Contact" Content="О Приложении" Tag="AboutView" />
+                <NavigationViewItem Icon="Character" x:Uid="LctzStg" Content="Локализация и оформление" Tag="LocalizationView"/>
+                <NavigationViewItem Icon="Contact" x:Uid="AbtStg" Content="О Приложении" Tag="AboutView" />
             </NavigationView.MenuItems>
 
             <NavigationView.Header>
                 <Border>
-                    <TextBlock Text="Настройки"/>
+                    <TextBlock x:Uid="StgHdr" Text="Настройки"/>
                 </Border>
             </NavigationView.Header>
             <Frame x:Name="contentFrame"/>

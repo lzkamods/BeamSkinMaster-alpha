@@ -13,10 +13,10 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.System;
 using Windows.Foundation.Collections;
-using BeamSkinMaster.classes;
 using Microsoft.UI;
 using CommunityToolkit.Mvvm.DependencyInjection;
 using System.Reflection;
+using BeamSkinMaster.classes;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.

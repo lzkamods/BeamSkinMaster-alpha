@@ -11,7 +11,7 @@
   <Identity
     Name="lzkamods.BeamSkinMaster"
     Publisher="CN=lzkamods"
-    Version="0.1.6.0" />
+    Version="0.1.7.0" />
 
   <mp:PhoneIdentity PhoneProductId="a1436303-8247-4850-81f1-db47fe54c5e2" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
@@ -36,7 +36,7 @@
       EntryPoint="$targetentrypoint$">
       <uap:VisualElements
         DisplayName="BeamSkinMaster"
-        Description="BeamSkinMaster a skin cod creater for BeamNG.drive"
+        Description="BeamSkinMaster a skin mod creator for BeamNG.drive"
         BackgroundColor="transparent"
         Square150x150Logo="Assets\icons\Square150x150Logo.png"
         Square44x44Logo="Assets\icons\Square44x44Logo.png">
