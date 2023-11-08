@@ -19,10 +19,15 @@
                 </labs:SettingsCard.HeaderIcon>
 
                 <labs:SettingsCard.Content>
-                    <ComboBox x:Name="languagecombobox" SelectionChanged="languagecombobox_SelectionChanged" PlaceholderText="Русский (Russian)">
-                        <x:String>Русский (Russian)</x:String>
-                        <x:String>English (Английский)</x:String>
-                        <x:String>Українська (Ukrainian, Украинский)</x:String>
+                    <ComboBox
+                         ItemsSource="{x:Bind LanguageItems, Mode=OneWay}"
+                         Loaded="ComboBox_Loaded"
+                         SelectionChanged="ComboBox_SelectionChanged">
+                        <ComboBox.ItemTemplate>
+                            <DataTemplate x:DataType="local:LanguageItem">
+                                <TextBlock Text="{x:Bind DisplayName}" />
+                            </DataTemplate>
+                        </ComboBox.ItemTemplate>
                     </ComboBox>
                 </labs:SettingsCard.Content>
             </labs:SettingsCard>

@@ -118,240 +118,243 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AbtStg.Content" xml:space="preserve">
-    <value>About the Application</value>
+    <value>О Приложении</value>
   </data>
   <data name="AutoComboBox.PlaceholderText" xml:space="preserve">
-    <value>Choose a car here...</value>
+    <value>автомобиль ...</value>
   </data>
   <data name="ChcTxt.Text" xml:space="preserve">
-    <value>Cleaning cache files</value>
+    <value>Чистим Кеш файлы</value>
   </data>
   <data name="ChooseAuto.Margin" xml:space="preserve">
-    <value>0,82,457,0</value>
+    <value>0,82,357,0</value>
   </data>
   <data name="ChooseAuto.Text" xml:space="preserve">
-    <value>Car selection</value>
+    <value>Выбор автомобиля</value>
   </data>
   <data name="CntDlgCnt.Text" xml:space="preserve">
-    <value>The car selection field is empty. Please select a car.</value>
+    <value>Поле выбора автомобиля пустое. Пожалуйста, выберите автомобиль</value>
   </data>
   <data name="CntDlgTitle.Text" xml:space="preserve">
-    <value>Error moving to next step</value>
+    <value>Ошибка перехода на следующий этап</value>
   </data>
   <data name="DlwdCntDlgCnt.Text" xml:space="preserve">
-    <value>The file already exists. Please click Next</value>
+    <value>Файл уже существует. Пожалуйста, нажмите Далее</value>
   </data>
   <data name="DrkStg.Content" xml:space="preserve">
-    <value>Dark</value>
+    <value>Темная</value>
   </data>
   <data name="DwldBtn.Content" xml:space="preserve">
-    <value>Download</value>
+    <value>Загрузить</value>
   </data>
   <data name="DwldCntDlgTitle.Text" xml:space="preserve">
-    <value>Error downloading image</value>
+    <value>Ошибка загрузки изображения</value>
   </data>
   <data name="DwldTxt.Margin" xml:space="preserve">
-    <value>0,124,244,0</value>
+    <value>0,124,226,0</value>
   </data>
   <data name="DwldTxt.Text" xml:space="preserve">
-    <value>Click the button and upload the image</value>
+    <value>Нажмите на кнопку и загрузите изображение</value>
   </data>
   <data name="DwldTxtSpn.Margin" xml:space="preserve">
-    <value>0,144,342,0</value>
+    <value>0,144,271,0</value>
   </data>
   <data name="DwldTxtSpn.Text" xml:space="preserve">
-    <value>then edit it to suit your skin</value>
+    <value>затем отредактируйте его под свой скин</value>
   </data>
   <data name="en-US" xml:space="preserve">
-    <value>English (United States)</value>
+    <value>Английский</value>
   </data>
   <data name="Extbtn.Content" xml:space="preserve">
-    <value>Exit</value>
+    <value>Выход</value>
   </data>
   <data name="ExtTxt.Margin" xml:space="preserve">
-    <value>0,371,469,0</value>
+    <value>0,371,389,0</value>
   </data>
   <data name="ExtTxt.Text" xml:space="preserve">
-    <value>Selecting an external name</value>
+    <value>Выбор внешнего имени(external name)</value>
   </data>
   <data name="ExtTxtBox.PlaceholderText" xml:space="preserve">
-    <value>Latin and Cyrillic. Spaces allowed</value>
+    <value>Латиница и Кириллица. Пробелы разрешены</value>
   </data>
   <data name="FldBtn.Content" xml:space="preserve">
-    <value>Open folder</value>
+    <value>Открыть папку</value>
   </data>
   <data name="FnshHdr.Margin" xml:space="preserve">
-    <value>0,83,551,0</value>
+    <value>0,83,531,0</value>
   </data>
   <data name="FnshHdr.Text" xml:space="preserve">
-    <value>Ready!</value>
+    <value>Готово!</value>
   </data>
   <data name="FnshHlp.Margin" xml:space="preserve">
-    <value>0,125,270,0</value>
+    <value>0,125,197,0</value>
   </data>
   <data name="FnshHlp.Text" xml:space="preserve">
-    <value>Now you can open the folder and move</value>
+    <value>Теперь вы можете открыть папку и переместить</value>
   </data>
   <data name="FnshHlpSpn.Margin" xml:space="preserve">
-    <value>0,145,360,0</value>
+    <value>0,145,427,0</value>
   </data>
   <data name="FnshHlpSpn.Text" xml:space="preserve">
-    <value>mod (.ZIP) archive for the game</value>
+    <value>мод (.ZIP) архив в игру</value>
   </data>
   <data name="HelpText.Margin" xml:space="preserve">
-    <value>0,134,310,0</value>
+    <value>0,134,169,0</value>
   </data>
   <data name="HelpText.Text" xml:space="preserve">
-    <value>Select the desired car to create a skin</value>
+    <value>Выберите нужный автомобиль для создания скина</value>
   </data>
   <data name="HelpTextSpan.Margin" xml:space="preserve">
-    <value>0,154,517,0</value>
+    <value>0,154,482,0</value>
   </data>
   <data name="HelpTextSpan.Text" xml:space="preserve">
-    <value>and click next</value>
+    <value>и нажмите далее</value>
   </data>
   <data name="IntTxt.Margin" xml:space="preserve">
-    <value>0,283,474,0</value>
+    <value>0,283,386,0</value>
   </data>
   <data name="IntTxt.Text" xml:space="preserve">
-    <value>Selecting an internal name</value>
+    <value>Выбор локального имени(interial name)</value>
   </data>
   <data name="IntTxtBox.PlaceholderText" xml:space="preserve">
-    <value>Only Latin alphabet without spaces</value>
+    <value>Только латиница без пробелов</value>
   </data>
   <data name="LangStg.Description" xml:space="preserve">
-    <value>The application interface will be displayed in this language</value>
+    <value>На этом языке будут показываться интерфейс прилоления</value>
   </data>
   <data name="LangStg.Header" xml:space="preserve">
-    <value>Application interface language</value>
+    <value>Язык интерфейса приложения</value>
   </data>
   <data name="LctzStg.Content" xml:space="preserve">
-    <value>Localization and design</value>
+    <value>Локализация и оформление</value>
   </data>
   <data name="LghtStg.Content" xml:space="preserve">
-    <value>Light</value>
+    <value>Светлая</value>
   </data>
   <data name="NameHdr.Margin" xml:space="preserve">
-    <value>0,82,334,0</value>
+    <value>0,82,347,0</value>
   </data>
   <data name="NameHdr.Text" xml:space="preserve">
-    <value>Selecting a skin name</value>
+    <value>Выбор имени скина</value>
   </data>
   <data name="NameHlp.Margin" xml:space="preserve">
-    <value>0,144,499,0</value>
+    <value>0,144,449,0</value>
   </data>
   <data name="NameHlp.Text" xml:space="preserve">
-    <value>appear in game</value>
+    <value>отображаться в игре</value>
   </data>
   <data name="NameHlpSpn.Margin" xml:space="preserve">
     <value>0,124,303,0</value>
   </data>
   <data name="NameHlpSpn.Text" xml:space="preserve">
-    <value>Enter the names of your skin, it will be</value>
+    <value>Впишите имена своего скина, он будет</value>
   </data>
   <data name="NameNextBtn.Content" xml:space="preserve">
-    <value>Next</value>
+    <value>Далее</value>
   </data>
   <data name="NxtBtnDwld.Content" xml:space="preserve">
-    <value>Next</value>
+    <value>Далее</value>
   </data>
   <data name="Page1Next.Content" xml:space="preserve">
-    <value>Next</value>
+    <value>Далее</value>
   </data>
   <data name="PckDlgCnt.Text" xml:space="preserve">
-    <value>Click OK to continue</value>
+    <value>Нажмите ОК чтобы продолжить</value>
   </data>
   <data name="PckDlgDntCnt.Text" xml:space="preserve">
-    <value>The folder cannot be moved because it does not exist</value>
+    <value>Невозможно переместить папку, так как она не существует</value>
   </data>
   <data name="PckDlgDntTitle.Text" xml:space="preserve">
-    <value>Error while moving</value>
+    <value>Ошибка перемещения</value>
   </data>
   <data name="PckDlgErrCnt.Text" xml:space="preserve">
-    <value>The folder cannot be moved due to:</value>
+    <value>Невозможно переместить папку по причине:</value>
   </data>
   <data name="PckDlgErrTitle.Text" xml:space="preserve">
-    <value>Error while moving</value>
+    <value>Ошибка перемещения</value>
   </data>
   <data name="PckDlgTitle.Text" xml:space="preserve">
-    <value>Move successfully</value>
+    <value>Перемещение успешно</value>
   </data>
   <data name="PckFleBtn.Content" xml:space="preserve">
-    <value>Upload</value>
+    <value>Отправить</value>
   </data>
   <data name="RstBtn.Content" xml:space="preserve">
-    <value>Start again</value>
+    <value>Начать заново</value>
   </data>
   <data name="ru-RU" xml:space="preserve">
-    <value>Russian</value>
+    <value>Русский</value>
   </data>
   <data name="StgHdr.Text" xml:space="preserve">
-    <value>Settings</value>
+    <value>Настройки</value>
   </data>
   <data name="SysStg.Content" xml:space="preserve">
-    <value>System Parametr</value>
+    <value>Пареметр системы</value>
   </data>
   <data name="ThmeStg.Description" xml:space="preserve">
-    <value>Select app themes to display</value>
+    <value>Выберите тему приложения для отображения</value>
   </data>
   <data name="ThmeStg.Header" xml:space="preserve">
-    <value>Application theme</value>
+    <value>Тема приложения</value>
   </data>
   <data name="UpldCnlCntDlgTitle.Text" xml:space="preserve">
-    <value>Image selection error</value>
+    <value>Ошибка выбора изображения</value>
   </data>
   <data name="UpldCnlCntDngCnt.Text" xml:space="preserve">
-    <value>The image cannot be copied because it is empty. Please select an image.</value>
+    <value>Невозможно скопировать изображение, так как оно пустое</value>
   </data>
   <data name="UpldCnlErrDlgTitle.Text" xml:space="preserve">
-    <value>Image selection error</value>
+    <value>Ошибка выбора изображения</value>
   </data>
   <data name="UpldErrCntDngCnt.Text" xml:space="preserve">
-    <value>The file already exists. Please click Next</value>
+    <value>Файл уже существует. Пожалуйста, нажмите Далее</value>
   </data>
   <data name="UpldHdr.Text" xml:space="preserve">
-    <value>Sending the finished Skin</value>
+    <value>Отправка готового скина</value>
   </data>
   <data name="UpldHlp.Margin" xml:space="preserve">
-    <value>0,124,300,0</value>
+    <value>0,124,270,0</value>
   </data>
   <data name="UpldHlp.Text" xml:space="preserve">
-    <value>Click the button and send the DDS file</value>
+    <value>Нажмите на кнопку и отправьте DDS файл</value>
   </data>
   <data name="UpldHlpSpn.Margin" xml:space="preserve">
-    <value>0,142,200,0</value>
+    <value>0,142,230,0</value>
   </data>
   <data name="UpldHlpSpn.Text" xml:space="preserve">
-    <value>your finished skin made according to the drawing</value>
+    <value>вашего готового скина сделанного по чертежу</value>
   </data>
   <data name="UpldNxtBtn.Content" xml:space="preserve">
-    <value>Next</value>
+    <value>Далее</value>
   </data>
   <data name="UpldTxt.Margin" xml:space="preserve">
-    <value>0,339,345,0</value>
+    <value>0,339,309,0</value>
   </data>
   <data name="UpldTxt.Text" xml:space="preserve">
-    <value>Send your finished skin,</value>
+    <value>Отправьте ваш готовый скин,</value>
   </data>
   <data name="UpldTxtSpn.Margin" xml:space="preserve">
-    <value>0,359,329,0</value>
+    <value>0,359,339,0</value>
   </data>
   <data name="UpldTxtSpn.Text" xml:space="preserve">
-    <value>made according to drawing</value>
+    <value>сделанный по чертежу</value>
   </data>
   <data name="UvDwldHdr.Text" xml:space="preserve">
-    <value>Loading of the car UV</value>
+    <value>Загрузка UV автомобиля</value>
   </data>
   <data name="UVmapRdy.Text" xml:space="preserve">
-    <value>Your UV map is ready</value>
+    <value>Ваша UV карта готова</value>
   </data>
   <data name="UvmapRdy2.Margin" xml:space="preserve">
-    <value>0,364,297,0</value>
+    <value>0,364,277,0</value>
   </data>
   <data name="UvmapRdy2.Text" xml:space="preserve">
-    <value>Click on the button to download</value>
+    <value>Нажмите на кнопку чтобы загрузить</value>
+  </data>
+  <data name="WaitTxt.Margin" xml:space="preserve">
+    <value>0,320,343,0</value>
   </data>
   <data name="WaitTxt.Text" xml:space="preserve">
-    <value>Wait...</value>
+    <value>Подождите...</value>
   </data>
 </root>
