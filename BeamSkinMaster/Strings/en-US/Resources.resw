@@ -351,6 +351,9 @@
   <data name="UvmapRdy2.Text" xml:space="preserve">
     <value>Click on the button to download</value>
   </data>
+  <data name="WaitTxt.Margin" xml:space="preserve">
+    <value>0,320,397,0</value>
+  </data>
   <data name="WaitTxt.Text" xml:space="preserve">
     <value>Wait...</value>
   </data>

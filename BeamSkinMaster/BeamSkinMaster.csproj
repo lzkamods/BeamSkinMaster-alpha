@@ -201,7 +201,7 @@
     <None Remove="Assets\text_files\scintilla\info_SKINNAME.json" />
     <None Remove="Assets\text_files\scintilla\materials.json" />
     <None Remove="Assets\text_files\scintilla\scintilla.jbeam" />
-    <None Remove="Assets\text_files\scintilla\SKINANME.pc" />
+    <None Remove="Assets\text_files\scintilla\SKINNAME.pc" />
     <None Remove="Assets\text_files\semi\info_SKINNAME.json" />
     <None Remove="Assets\text_files\semi\materials.json" />
     <None Remove="Assets\text_files\semi\semi.jbeam" />
@@ -659,7 +659,7 @@
     <Content Update="Assets\text_files\scintilla\scintilla.jbeam">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Update="Assets\text_files\scintilla\SKINANME.pc">
+    <Content Update="Assets\text_files\scintilla\SKINNAME.pc">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Update="Assets\text_files\semi\info_SKINNAME.json">

@@ -11,7 +11,7 @@
   <Identity
     Name="lzkamods.BeamSkinMaster"
     Publisher="CN=lzkamods"
-    Version="0.1.7.0" />
+    Version="0.1.8.0" />
 
   <mp:PhoneIdentity PhoneProductId="a1436303-8247-4850-81f1-db47fe54c5e2" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
