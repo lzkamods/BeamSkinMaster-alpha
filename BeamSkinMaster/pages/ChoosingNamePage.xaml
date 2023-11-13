@@ -28,6 +28,9 @@
         </Button>
         <Image Source="assets\qwe.png" Height="178" HorizontalAlignment="Left" Margin="221,0,0,0"/>
 
+        <TextBlock x:Uid="CNPTitle" x:Name="CNPTitle" Visibility="Collapsed"/>
+        <TextBlock x:Uid="CNPCnt" x:Name="CNPCnt" Visibility="Collapsed"/>
+
         <Frame x:Name="ContentFrame">
             <Frame.ContentTransitions>
                 <TransitionCollection>

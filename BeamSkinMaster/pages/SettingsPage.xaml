@@ -35,6 +35,9 @@
             <Frame x:Name="contentFrame"/>
         </NavigationView>
 
+        <TextBlock Text="О приложении" x:Uid="AbtVw" x:Name="AbtVw" Visibility="Collapsed"/>
+        <TextBlock Text="Локализация и оформление" x:Uid="LcztVw" x:Name="LcztVw" Visibility="Collapsed"/>
+
         <Frame x:Name="ContentFrame">
             <Frame.ContentTransitions>
                 <TransitionCollection>

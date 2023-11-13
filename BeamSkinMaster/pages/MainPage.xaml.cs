@@ -36,13 +36,13 @@ namespace BeamSkinMaster.pages
             Directory.CreateDirectory(pathes.pth);
         }
 
-        public static ProgressBar progressBar { get; set; }
         public static string endtext;
         public static string endpathh;
         private string combobox;
         public static string intauto;
-        public static Grid MainTitleBar { get; set; }
         public static string pppth;
+        public static ProgressBar progressBar { get; set; }
+        public static Grid MainTitleBar { get; set; }
         public XamlRoot XamlRoot { get; set; }
 
         public void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)

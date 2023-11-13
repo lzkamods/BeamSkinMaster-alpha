@@ -120,6 +120,9 @@
   <data name="AbtStg.Content" xml:space="preserve">
     <value>О Приложении</value>
   </data>
+  <data name="AbtVw.Text" xml:space="preserve">
+    <value>О приложении</value>
+  </data>
   <data name="AutoComboBox.PlaceholderText" xml:space="preserve">
     <value>автомобиль ...</value>
   </data>
@@ -131,6 +134,12 @@
   </data>
   <data name="ChooseAuto.Text" xml:space="preserve">
     <value>Выбор автомобиля</value>
+  </data>
+  <data name="CNPCnt.Text" xml:space="preserve">
+    <value>Невозможно создать файлы, так как поля текста пусты</value>
+  </data>
+  <data name="CNPTitle.Text" xml:space="preserve">
+    <value>Ошибка перехода на следующий этап</value>
   </data>
   <data name="CntDlgCnt.Text" xml:space="preserve">
     <value>Поле выбора автомобиля пустое. Пожалуйста, выберите автомобиль</value>
@@ -163,7 +172,7 @@
     <value>затем отредактируйте его под свой скин</value>
   </data>
   <data name="en-US" xml:space="preserve">
-    <value>Английский</value>
+    <value>Английский (США)</value>
   </data>
   <data name="Extbtn.Content" xml:space="preserve">
     <value>Выход</value>
@@ -228,6 +237,9 @@
   <data name="LctzStg.Content" xml:space="preserve">
     <value>Локализация и оформление</value>
   </data>
+  <data name="LcztVw.Text" xml:space="preserve">
+    <value>Локализация и Оформление</value>
+  </data>
   <data name="LghtStg.Content" xml:space="preserve">
     <value>Светлая</value>
   </data>
@@ -283,7 +295,7 @@
     <value>Начать заново</value>
   </data>
   <data name="ru-RU" xml:space="preserve">
-    <value>Русский</value>
+    <value>Русский (Россия)</value>
   </data>
   <data name="StgHdr.Text" xml:space="preserve">
     <value>Настройки</value>

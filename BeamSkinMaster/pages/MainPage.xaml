@@ -71,28 +71,29 @@
             </Frame.ContentTransitions>
         </Frame>
 
-        <Grid x:Name="AppTitleBar"
+        <Grid>
+            <Grid x:Name="AppTitleBar"
               Canvas.ZIndex="1"
               Height="32"
               IsHitTestVisible="True"
               VerticalAlignment="Top">
 
-            <TextBlock x:Name="AppTitleTextBlock" Text="BeamSkinMaster"
+                <TextBlock x:Name="AppTitleTextBlock" Text="BeamSkinMaster"
                        TextWrapping="NoWrap"
                        Style="{StaticResource CaptionTextBlockStyle}" 
                        VerticalAlignment="Center"
                        FontSize="12"
                        Margin="48,14,0,0"/>
-        </Grid>
+            </Grid>
 
-        <InfoBar HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="40,0,0,40"
+            <InfoBar HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="40,0,0,40"
             IsOpen="True"
             Severity="Warning"
             Title="BETA VERSION"
             Message="build 051023.1213B">
-        </InfoBar>
+            </InfoBar>
 
-        <ProgressBar x:Name="ProgressOnTop" ValueChanged="ProgressBarOn_ValueChanged" Width="1249" Value="27" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,48,0,0"/>
-
+            <ProgressBar x:Name="ProgressOnTop" ValueChanged="ProgressBarOn_ValueChanged" Width="1249" Value="27" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,48,0,0"/>
+        </Grid>
     </Grid>
 </Page>

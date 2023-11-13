@@ -244,6 +244,7 @@
     <None Remove="pages\SettingsPage.xaml" />
     <None Remove="pages\StoreLogo.png" />
     <None Remove="pages\uploadingUVPage.xaml" />
+    <None Remove="UI.xaml" />
     <None Remove="Views\AboutView.xaml" />
     <None Remove="Views\GitHub.png" />
     <None Remove="Views\LocalizationView.xaml" />
@@ -740,6 +741,11 @@
     <Content Update="Assets\icon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="UI.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Page Update="pages\MainPage.xaml">

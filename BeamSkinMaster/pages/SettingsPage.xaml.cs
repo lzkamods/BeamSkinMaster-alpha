@@ -44,12 +44,12 @@ namespace BeamSkinMaster.pages
                 {
                     case "AboutView":
                         contentFrame.Navigate(typeof(AboutView));
-                        settingsnav.Header = "О Приложении";
+                        settingsnav.Header = AbtVw.Text;
                         break;
 
                     case "LocalizationView":
                         contentFrame.Navigate(typeof(LocalizationViev));
-                        settingsnav.Header = "Локализация и оформление";
+                        settingsnav.Header = LcztVw.Text;
                         break;
                 }
             }
