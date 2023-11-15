@@ -28,7 +28,10 @@
 
         <TextBlock Text="Ошибка загрузки изображения" Visibility="Collapsed" x:Uid="DwldCntDlgTitle" x:Name="DwldCntDlgTitle"/>
         <TextBlock x:Uid="DlwdCntDlgCnt" x:Name="DlwdCntDlgCnt" Visibility="Collapsed" Text="Файл уже существует. Пожалуйста, нажмите Далее"/>
-        
+
+        <TextBlock Text="Ошибка перехода на следующий этап" Visibility="Collapsed" x:Uid="Dwlderrtit" x:Name="Dwlderrtit"/>
+        <TextBlock x:Uid="Dwlderrcnt" x:Name="Dwlderrcnt" Visibility="Collapsed" Text="Изображения не существует. Пожалуйста, загрузите изображение"/>
+
         <Frame x:Name="ContentFrame">
             <Frame.ContentTransitions>
                 <TransitionCollection>

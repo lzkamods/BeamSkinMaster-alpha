@@ -234,6 +234,9 @@
   <data name="LangStg.Header" xml:space="preserve">
     <value>Язык интерфейса приложения</value>
   </data>
+  <data name="LangWar.Text" xml:space="preserve">
+    <value>Для применения изменений требуеться перзапустить приложение</value>
+  </data>
   <data name="LctzStg.Content" xml:space="preserve">
     <value>Локализация и оформление</value>
   </data>
@@ -290,6 +293,9 @@
   </data>
   <data name="PckFleBtn.Content" xml:space="preserve">
     <value>Отправить</value>
+  </data>
+  <data name="PckZip.Text" xml:space="preserve">
+    <value>Пакуем мод в ZIP</value>
   </data>
   <data name="RstBtn.Content" xml:space="preserve">
     <value>Начать заново</value>

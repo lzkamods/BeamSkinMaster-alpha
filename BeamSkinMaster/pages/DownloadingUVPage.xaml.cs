@@ -935,11 +935,26 @@ namespace BeamSkinMaster
             }
         }
 
-        private void dalee2btn_Click(object sender, RoutedEventArgs e)
+        private async void dalee2btn_Click(object sender, RoutedEventArgs e)
         {
-            ContentFrame.Navigate(typeof(uploadingUVPage), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
-            downloadbutton.IsEnabled = false;
-            MainPage.progressBar.Value = 50;
+                try
+                {
+                    ContentFrame.Navigate(typeof(uploadingUVPage), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
+                    downloadbutton.IsEnabled = false;
+                    MainPage.progressBar.Value = 50;
+                }
+                catch (Exception ex)
+                {
+                    ContentDialog DwldErr = new ContentDialog
+                    {
+                        Title = Dwlderrtit.Text,
+                        Content = Dwlderrcnt.Text,
+                        CloseButtonText = "OK",
+                    };
+                    DwldErr.XamlRoot = dalee2btn.XamlRoot;
+
+                    ContentDialogResult result = await DwldErr.ShowAsync();
+                }
         }
 
         private void backbutton_Click(object sender, RoutedEventArgs e)

@@ -18,8 +18,9 @@
                     <FontIcon Glyph="&#xECAA;"/>
                 </labs:SettingsCard.HeaderIcon>
 
-                <labs:SettingsCard.Content>
+                <StackPanel>
                     <ComboBox
+                         HorizontalAlignment="Right"
                          ItemsSource="{x:Bind LanguageItems, Mode=OneWay}"
                          Loaded="ComboBox_Loaded"
                          SelectionChanged="ComboBox_SelectionChanged">
@@ -29,7 +30,9 @@
                             </DataTemplate>
                         </ComboBox.ItemTemplate>
                     </ComboBox>
-                </labs:SettingsCard.Content>
+
+                    <TextBlock x:Uid="LangWar" x:Name="LangWar" Text="Для применения изменений требуеться перзапустить приложение" Foreground="#F43D3D" Visibility="Collapsed"/>
+                </StackPanel>
             </labs:SettingsCard>
 
             <labs:SettingsCard x:Uid="ThmeStg"

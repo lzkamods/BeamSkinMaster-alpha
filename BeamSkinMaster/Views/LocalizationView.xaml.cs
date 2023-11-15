@@ -91,6 +91,7 @@ namespace BeamSkinMaster.pages.Views
 
             ResourceContext resourceContext = this.resourceManager.CreateResourceContext();
             resourceContext.QualifierValues["Language"] = selectedLanguageItem.LanguageTag;
+            LangWar.Visibility = Visibility.Visible;
         }
     }
 }

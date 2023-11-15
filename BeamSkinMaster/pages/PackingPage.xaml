@@ -23,6 +23,7 @@
 
         <TextBlock x:Uid="PckDlgErrTitle" x:Name="PckDlgErrTitle" Text="Ошибка при перемещнии" Visibility="Collapsed"/>
         <TextBlock x:Uid="PckDlgErrCnt" x:Name="PckDlgErrCnt" Text="Невозможно переместить папку, по причине:" Visibility="Collapsed"/>
+        <TextBlock x:Uid="PckZip" x:Name="PckZip" Text="Пакуем мод в ZIP" Visibility="Collapsed"/>
 
         <Frame x:Name="ContentFrame">
             <Frame.ContentTransitions>
