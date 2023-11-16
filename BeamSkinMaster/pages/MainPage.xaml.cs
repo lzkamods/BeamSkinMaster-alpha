@@ -17,6 +17,7 @@ using Microsoft.UI.Xaml.Media.Animation;
 using Windows.Graphics;
 using Microsoft.UI.Windowing;
 using Microsoft.Windows.ApplicationModel.Resources;
+using WinUIEx;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.

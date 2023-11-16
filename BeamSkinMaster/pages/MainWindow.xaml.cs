@@ -30,6 +30,8 @@ using Microsoft.UI.Composition.SystemBackdrops;
 using Windows.UI.ViewManagement;
 using BeamSkinMaster.pages;
 using Microsoft.UI.Xaml.Media.Imaging;
+using Microsoft.UI.Xaml.Interop;
+using WinUIEx;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -42,7 +44,16 @@ namespace BeamSkinMaster
     public sealed partial class MainWindow : Window
     {
         public AppWindow m_AppWindow;
+        private AppWindow _apw;
+        private OverlappedPresenter _presenter;
 
+        public void GetAppWindowAndPresenter()
+        {
+            var hWnd = WinRT.Interop.WindowNative.GetWindowHandle(this);
+            WindowId myWndId = Microsoft.UI.Win32Interop.GetWindowIdFromWindow(hWnd);
+            _apw = AppWindow.GetFromWindowId(myWndId);
+            _presenter = _apw.Presenter as OverlappedPresenter;
+        }
 
         public MainWindow()
         {
@@ -52,6 +63,9 @@ namespace BeamSkinMaster
             var windowId = Microsoft.UI.Win32Interop.GetWindowIdFromWindow(hWnd);
             var appWindow = Microsoft.UI.Windowing.AppWindow.GetFromWindowId(windowId);
             appWindow.Resize(new Windows.Graphics.SizeInt32 { Width = 1282, Height = 722 });
+            GetAppWindowAndPresenter();
+            _presenter.IsResizable = false;
+            WindowManager.Get(this).IsMaximizable = false;
         }
     }
 }
