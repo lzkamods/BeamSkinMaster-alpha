@@ -58,6 +58,7 @@ namespace BeamSkinMaster.pages.Views
 
             LanguageItems.Add(new LanguageItem("en-US", this.resourceLoader.GetString("en-US")));
             LanguageItems.Add(new LanguageItem("ru-RU", this.resourceLoader.GetString("ru-RU")));
+            LanguageItems.Add(new LanguageItem("uk-UA", this.resourceLoader.GetString("uk-UA")));
         }
 
         public ObservableCollection<LanguageItem> LanguageItems { get; } = new();

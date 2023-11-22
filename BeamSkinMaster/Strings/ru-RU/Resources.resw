@@ -223,7 +223,7 @@
     <value>0,283,386,0</value>
   </data>
   <data name="IntTxt.Text" xml:space="preserve">
-    <value>Выбор локального имени(interial name)</value>
+    <value>Выбор локального имени(internal name)</value>
   </data>
   <data name="IntTxtBox.PlaceholderText" xml:space="preserve">
     <value>Только латиница без пробелов</value>
@@ -314,6 +314,9 @@
   </data>
   <data name="ThmeStg.Header" xml:space="preserve">
     <value>Тема приложения</value>
+  </data>
+  <data name="uk-UA" xml:space="preserve">
+    <value>Украинский (Украина)</value>
   </data>
   <data name="UpldCnlCntDlgTitle.Text" xml:space="preserve">
     <value>Ошибка выбора изображения</value>

@@ -34,6 +34,7 @@ namespace BeamSkinMaster
             this.InitializeComponent();
         }
 
+        public string img;
 
         private async void downloadbutton_Click(object sender, RoutedEventArgs e)
         {
@@ -50,6 +51,10 @@ namespace BeamSkinMaster
                     await autobelloFile.CopyAsync(autobelloendpath);
 
                     Process.Start("explorer.exe", autobellopath);
+
+                    string autobelloimg = System.IO.Path.Combine(autobellopath, "autobello_skin_SKINNAME.png");
+                    img = autobelloimg;
+
                 }
                 catch (Exception ex)
                 {
@@ -78,6 +83,10 @@ namespace BeamSkinMaster
                     await midtruckFile.CopyAsync(midtruckendpath);
 
                     Process.Start("explorer.exe", midtruckpath);
+
+                    string autobelloimg = System.IO.Path.Combine(midtruckpath, "midtruck_main_skin_uv.png");
+                    img = autobelloimg;
+
                 }
                 catch (Exception ex)
                 {
@@ -106,6 +115,10 @@ namespace BeamSkinMaster
                     await bastionFile.CopyAsync(bastionendpath);
 
                     Process.Start("explorer.exe", bastionpath);
+
+                    string autobelloimg = System.IO.Path.Combine(bastionpath, "bastion_skin_SKINNAME.png");
+                    img = autobelloimg;
+
                 }
                 catch (Exception ex)
                 {
@@ -135,6 +148,10 @@ namespace BeamSkinMaster
                     await legranFile.CopyAsync(legranendpath);
 
                     Process.Start("explorer.exe", legranpath);
+
+                    string autobelloimg = System.IO.Path.Combine(legranpath, "legran_skin_SKINNAME.png");
+                    img = autobelloimg;
+
                 }
                 catch (Exception ex)
                 {
@@ -163,6 +180,10 @@ namespace BeamSkinMaster
                     await burnsideFile.CopyAsync(burnsideendpath);
 
                     Process.Start("explorer.exe", burnsidepath);
+
+                    string autobelloimg = System.IO.Path.Combine(burnsidepath, "burnside_skin_SKINNAME.png");
+                    img = autobelloimg;
+
                 }
                 catch (Exception ex)
                 {
@@ -191,6 +212,10 @@ namespace BeamSkinMaster
                     await vivaceFile.CopyAsync(vivaceendpath);
 
                     Process.Start("explorer.exe", vivacepath);
+
+                    string autobelloimg = System.IO.Path.Combine(vivacepath, "vivace_skin_SKINNAME.png");
+                    img = autobelloimg;
+
                 }
                 catch (Exception ex)
                 {
@@ -219,6 +244,10 @@ namespace BeamSkinMaster
                     await bolideFile.CopyAsync(bolideendpath);
 
                     Process.Start("explorer.exe", bolidepath);
+
+                    string autobelloimg = System.IO.Path.Combine(bolidepath, "bolide_skin_SKINNAME.png");
+                    img = autobelloimg;
+
                 }
                 catch (Exception ex)
                 {
@@ -247,6 +276,10 @@ namespace BeamSkinMaster
                     await scintillaFile.CopyAsync(scintillaendpath);
 
                     Process.Start("explorer.exe", scintillapath);
+
+                    string autobelloimg = System.IO.Path.Combine(scintillapath, "scintilla_skin_SKINNAME.png");
+                    img = autobelloimg;
+
                 }
                 catch (Exception ex)
                 {
@@ -275,6 +308,10 @@ namespace BeamSkinMaster
                 await etk800File.CopyAsync(etk800endpath);
 
                 Process.Start("explorer.exe", etk800path);
+
+                    string autobelloimg = System.IO.Path.Combine(etk800path, "etk800_skin_SKINNAME.png");
+                    img = autobelloimg;
+
                 }
                 catch (Exception ex)
                 {
@@ -303,6 +340,10 @@ namespace BeamSkinMaster
                 await etkiFile.CopyAsync(etkiendpath);
 
                 Process.Start("explorer.exe", etkipath);
+
+                    string autobelloimg = System.IO.Path.Combine(etkipath, "etki_skin_SKINNAME.png");
+                    img = autobelloimg;
+
                 }
                 catch (Exception ex)
                 {
@@ -331,6 +372,10 @@ namespace BeamSkinMaster
                 await etkcFile.CopyAsync(etkcendpath);
 
                 Process.Start("explorer.exe", etkcpath);
+
+                    string autobelloimg = System.IO.Path.Combine(etkcpath, "etkc_skin_SKINNAME.png");
+                    img = autobelloimg;
+
                 }
                 catch (Exception ex)
                 {
@@ -359,6 +404,10 @@ namespace BeamSkinMaster
                 await barstowFile.CopyAsync(barstowendpath);
 
                 Process.Start("explorer.exe", barstowpath);
+
+                    string autobelloimg = System.IO.Path.Combine(barstowpath, "barstow_skin_SKINNAME.png");
+                    img = autobelloimg;
+
                 }
                 catch (Exception ex)
                 {
@@ -387,6 +436,10 @@ namespace BeamSkinMaster
                 await bluebuckFile.CopyAsync(bluebuckendpath);
 
                 Process.Start("explorer.exe", bluebuckpath);
+
+                    string autobelloimg = System.IO.Path.Combine(bluebuckpath, "bluebuck_skin_SKINNAME.png");
+                    img = autobelloimg;
+
                 }
                 catch (Exception ex)
                 {
@@ -415,6 +468,10 @@ namespace BeamSkinMaster
                 await pickupFile.CopyAsync(pickupendpath);
 
                 Process.Start("explorer.exe", pickuppath);
+
+                    string autobelloimg = System.IO.Path.Combine(pickuppath, "pickup_skin_SKINNAME.png");
+                    img = autobelloimg;
+
                 }
                 catch (Exception ex)
                 {
@@ -443,6 +500,10 @@ namespace BeamSkinMaster
                 await fullsizeFile.CopyAsync(fullsizeendpath);
 
                 Process.Start("explorer.exe", fullsizepath);
+
+                    string autobelloimg = System.IO.Path.Combine(fullsizepath, "fullsize_skin_SKINNAME.png");
+                    img = autobelloimg;
+
                 }
                 catch (Exception ex)
                 {
@@ -471,6 +532,10 @@ namespace BeamSkinMaster
                 await vanFile.CopyAsync(vanendpath);
 
                 Process.Start("explorer.exe", vanpath);
+
+                    string autobelloimg = System.IO.Path.Combine(vanpath, "van_skin_SKINNAME.png");
+                    img = autobelloimg;
+
                 }
                 catch (Exception ex)
                 {
@@ -499,6 +564,10 @@ namespace BeamSkinMaster
                 await roamerFile.CopyAsync(roamerendpath);
 
                 Process.Start("explorer.exe", roamerpath);
+
+                    string autobelloimg = System.IO.Path.Combine(roamerpath, "roamer_skin_SKINNAME.png");
+                    img = autobelloimg;
+
                 }
                 catch (Exception ex)
                 {
@@ -527,6 +596,10 @@ namespace BeamSkinMaster
                 await semiFile.CopyAsync(semiendpath);
 
                 Process.Start("explorer.exe", semipath);
+
+                    string autobelloimg = System.IO.Path.Combine(semipath, "semi_skin_SKINNAME.png");
+                    img = autobelloimg;
+
                 }
                 catch (Exception ex)
                 {
@@ -555,6 +628,10 @@ namespace BeamSkinMaster
                 await sbrFile.CopyAsync(sbrendpath);
 
                 Process.Start("explorer.exe", sbrpath);
+
+                    string autobelloimg = System.IO.Path.Combine(sbrpath, "sbr_skin_SKINNAME.png");
+                    img = autobelloimg;
+
                 }
                 catch (Exception ex)
                 {
@@ -583,6 +660,10 @@ namespace BeamSkinMaster
                 await sunburstFile.CopyAsync(sunburstendpath);
 
                 Process.Start("explorer.exe", sunburstpath);
+
+                    string autobelloimg = System.IO.Path.Combine(sunburstpath, "sunburst_skin_SKINNAME.png");
+                    img = autobelloimg;
+
                 }
                 catch (Exception ex)
                 {
@@ -611,6 +692,10 @@ namespace BeamSkinMaster
                 await coupeFile.CopyAsync(coupeendpath);
 
                 Process.Start("explorer.exe", coupepath);
+
+                    string autobelloimg = System.IO.Path.Combine(coupepath, "coupe_skin_SKINNAME.png");
+                    img = autobelloimg;
+
                 }
                 catch (Exception ex)
                 {
@@ -639,6 +724,10 @@ namespace BeamSkinMaster
                 await covetFile.CopyAsync(covetendpath);
 
                 Process.Start("explorer.exe", covetpath);
+
+                    string autobelloimg = System.IO.Path.Combine(covetpath, "covet_skin_SKINNAME.png");
+                    img = autobelloimg;
+
                 }
                 catch (Exception ex)
                 {
@@ -667,6 +756,10 @@ namespace BeamSkinMaster
                 await hopperFile.CopyAsync(hopperendpath);
 
                 Process.Start("explorer.exe", hopperpath);
+
+                    string autobelloimg = System.IO.Path.Combine(hopperpath, "hopper_skin_SKINNAME.png");
+                    img = autobelloimg;
+
                 }
                 catch (Exception ex)
                 {
@@ -695,6 +788,10 @@ namespace BeamSkinMaster
                 await miramarFile.CopyAsync(miramarendpath);
 
                 Process.Start("explorer.exe", miramarpath);
+
+                    string autobelloimg = System.IO.Path.Combine(miramarpath, "miramar_skin_SKINNAME.png");
+                    img = autobelloimg;
+
                 }
                 catch (Exception ex)
                 {
@@ -723,6 +820,10 @@ namespace BeamSkinMaster
                 await pessimaFile.CopyAsync(pessimaendpath);
 
                 Process.Start("explorer.exe", pessimapath);
+
+                    string autobelloimg = System.IO.Path.Combine(pessimapath, "pessima_skin_SKINNAME.png");
+                    img = autobelloimg;
+
                 }
                 catch (Exception ex)
                 {
@@ -751,6 +852,10 @@ namespace BeamSkinMaster
                 await midsizeFile.CopyAsync(midsizeendpath);
 
                 Process.Start("explorer.exe", midsizepath);
+
+                    string autobelloimg = System.IO.Path.Combine(midsizepath, "midsize_skin_SKINNAME.png");
+                    img = autobelloimg;
+
                 }
                 catch (Exception ex)
                 {
@@ -779,6 +884,10 @@ namespace BeamSkinMaster
                 await pigeonFile.CopyAsync(pigeonendpath);
 
                 Process.Start("explorer.exe", pigeonpath);
+
+                    string autobelloimg = System.IO.Path.Combine(pigeonpath, "pigeon_skin_SKINNAME.png");
+                    img = autobelloimg;
+
                 }
                 catch (Exception ex)
                 {
@@ -807,6 +916,10 @@ namespace BeamSkinMaster
                 await wigeonFile.CopyAsync(wigeonendpath);
 
                 Process.Start("explorer.exe", wigeonpath);
+
+                    string autobelloimg = System.IO.Path.Combine(wigeonpath, "wigeon_skin_SKINNAME.png");
+                    img = autobelloimg;
+
                 }
                 catch (Exception ex)
                 {
@@ -835,6 +948,10 @@ namespace BeamSkinMaster
                 await lansdaleFile.CopyAsync(lansdaleendpath);
 
                 Process.Start("explorer.exe", lansdalepath);
+
+                    string autobelloimg = System.IO.Path.Combine(lansdalepath, "lansdale_skin_SKINNAME.png");
+                    img = autobelloimg;
+
                 }
                 catch (Exception ex)
                 {
@@ -863,6 +980,10 @@ namespace BeamSkinMaster
                 await wendoverFile.CopyAsync(wendoverendpath);
 
                 Process.Start("explorer.exe", wendoverpath);
+
+                    string autobelloimg = System.IO.Path.Combine(wendoverpath, "wendover_skin_SKINNAME.png");
+                    img = autobelloimg;
+
                 }
                 catch (Exception ex)
                 {
@@ -891,6 +1012,10 @@ namespace BeamSkinMaster
                 await racetruckFile.CopyAsync(racetruckendpath);
 
                 Process.Start("explorer.exe", racetruckpath);
+
+                    string autobelloimg = System.IO.Path.Combine(racetruckpath, "racetruck_skin_SKINNAME.png");
+                    img = autobelloimg;
+
                 }
                 catch (Exception ex)
                 {
@@ -919,6 +1044,10 @@ namespace BeamSkinMaster
                 await citybusFile.CopyAsync(citybusendpath);
 
                 Process.Start("explorer.exe", citybuspath);
+
+                    string autobelloimg = System.IO.Path.Combine(citybuspath, "citybus_skin_SKINNAME.png");
+                    img = autobelloimg;
+
                 }
                 catch (Exception ex)
                 {
@@ -937,24 +1066,24 @@ namespace BeamSkinMaster
 
         private async void dalee2btn_Click(object sender, RoutedEventArgs e)
         {
-                try
+            if(File.Exists(img))
+            {
+                ContentFrame.Navigate(typeof(uploadingUVPage), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
+                downloadbutton.IsEnabled = false;
+                MainPage.progressBar.Value = 50;
+            }
+            else
+            {
+                ContentDialog DwldErr = new ContentDialog
                 {
-                    ContentFrame.Navigate(typeof(uploadingUVPage), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
-                    downloadbutton.IsEnabled = false;
-                    MainPage.progressBar.Value = 50;
-                }
-                catch (Exception ex)
-                {
-                    ContentDialog DwldErr = new ContentDialog
-                    {
-                        Title = Dwlderrtit.Text,
-                        Content = Dwlderrcnt.Text,
-                        CloseButtonText = "OK",
-                    };
-                    DwldErr.XamlRoot = dalee2btn.XamlRoot;
+                    Title = Dwlderrtit.Text,
+                    Content = Dwlderrcnt.Text,
+                    CloseButtonText = "OK",
+                };
+                DwldErr.XamlRoot = dalee2btn.XamlRoot;
 
-                    ContentDialogResult result = await DwldErr.ShowAsync();
-                }
+                ContentDialogResult result = await DwldErr.ShowAsync();
+            }
         }
 
         private void backbutton_Click(object sender, RoutedEventArgs e)
