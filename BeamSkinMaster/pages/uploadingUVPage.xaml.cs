@@ -36,6 +36,7 @@ namespace BeamSkinMaster.pages
         }
 
         public static Button button {  get; set; }
+        public static string image;
 
         public async void PickAFileButton_Click(object sender, RoutedEventArgs e)
         {
@@ -66,7 +67,7 @@ namespace BeamSkinMaster.pages
 
 
                     await imagefile.CopyAsync(imageendpath);
-
+                    image = System.IO.Path.Combine(imageendpath.Path, file.Name);
                 }
                 else
                 {
@@ -98,12 +99,26 @@ namespace BeamSkinMaster.pages
 
         }
 
-        private void Uploadingdalee_Click(object sender, RoutedEventArgs e)
+        private async void Uploadingdalee_Click(object sender, RoutedEventArgs e)
         {
-            ContentFrame.Navigate(typeof(ChoosingNamePage), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
-            PickAFileButton.IsEnabled = false;
-            Uploadingdalee.IsEnabled = false;
-            MainPage.progressBar.Value = 74;
+            if (File.Exists(image))
+            {
+                ContentFrame.Navigate(typeof(ChoosingNamePage), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
+                PickAFileButton.IsEnabled = false;
+                Uploadingdalee.IsEnabled = false;
+                MainPage.progressBar.Value = 74;
+            }
+            else
+            {
+                ContentDialog imgexterr = new ContentDialog
+                {
+                    Title = UpldErrDlgTitle.Text,
+                    Content= UpldErrDngCnt.Text,
+                    CloseButtonText = "OK",
+                };
+                imgexterr.XamlRoot = PickAFileButton.XamlRoot;
+                ContentDialogResult result = await imgexterr.ShowAsync();
+            }
         }
 
         private void backbutton_Click(object sender, RoutedEventArgs e)
