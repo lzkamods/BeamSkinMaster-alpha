@@ -1,4 +1,4 @@
-![GitHub all releases](https://img.shields.io/github/downloads/lzkamods/BeamSkinMaster-alpha/total) ![GitHub release (with filter)](https://img.shields.io/github/v/release/lzkamods/BeamSkinMaster-alpha) ![GitHub Sponsors](https://img.shields.io/github/sponsors/lzkamods) ![Static Badge](https://img.shields.io/badge/dev_stage-BETA-orange) ![Static Badge](https://img.shields.io/badge/authors-lzkamods-white)
+![GitHub all releases](https://img.shields.io/github/downloads/lzkamods/BeamSkinMaster-alpha/total) ![GitHub release (with filter)](https://img.shields.io/github/v/release/lzkamods/BeamSkinMaster-alpha) ![GitHub Sponsors](https://img.shields.io/github/sponsors/lzkamods) ![Static Badge](https://img.shields.io/badge/build-BETA(stable)-orange) ![Static Badge](https://img.shields.io/badge/authors-lzkamods-white)
 
 # BeamSkinMaster
 ![githubicon](https://github.com/lzkamods/BeamSkinMaster-alpha/assets/104593893/49f333b1-dfd1-4dab-823d-8387ec37a940)
