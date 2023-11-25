@@ -1,7 +1,24 @@
-![GitHub all releases](https://img.shields.io/github/downloads/lzkamods/BeamSkinMaster-alpha/total) ![GitHub release (with filter)](https://img.shields.io/github/v/release/lzkamods/BeamSkinMaster-alpha) ![GitHub Sponsors](https://img.shields.io/github/sponsors/lzkamods) ![Static Badge](https://img.shields.io/badge/stage-BETA-orange) ![Static Badge](https://img.shields.io/badge/authors-lzkamods-white)
 
-# BeamSkinMaster
-![githubicon](https://github.com/lzkamods/BeamSkinMaster-alpha/assets/104593893/49f333b1-dfd1-4dab-823d-8387ec37a940)
+<p align="center">
+    <img width="200" src="https://svgshare.com/i/1083.svg">
+</p>
+<h1 align="center">BeamSkinMaster</h1>
+<p align="center">
+  <img alt="Github All Releases" src="https://img.shields.io/github/downloads/lzkamods/BeamSkinMaster-alpha/total">
+  <img alt="GitHub release (with filter)" src="https://img.shields.io/github/v/release/lzkamods/BeamSkinMaster-alpha">
+  <img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/lzkamods">
+  <img alt="Static Badge" src="https://img.shields.io/badge/stage-BETA-orange">
+  <img alt="Static Badge" src="https://img.shields.io/badge/authors-lzkamods-white">
+  <img alt="GitHub last commit (by committer)" src="https://img.shields.io/github/last-commit/lzkamods/BeamSkinMaster-alpha">
+  <img alt="GitHub License" src="https://img.shields.io/github/license/lzkamods/BeamSkinMaster-alpha">
+  <img alt="GitHub forks" src="https://img.shields.io/github/forks/lzkamods/BeamSkinMaster-alpha">
+</p>
+<p align="center">
+    <a href="https://t.me/lzkamods">
+        <img height="30" src="https://img.shields.io/badge/join%20my%20Telegram-blue?logo=telegram&labelColor=white"
+            alt="join my Telegrem"></a>
+</p>
+
 ## Languages support / Поддерживаемые языки
 - Русский / Russian / Російська
 - Английский / English / Англійська
