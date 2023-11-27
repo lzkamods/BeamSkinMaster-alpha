@@ -130,7 +130,7 @@
     <value>Чистимо Кеш файли</value>
   </data>
   <data name="ChooseAuto.Margin" xml:space="preserve">
-    <value>0,82,357,0</value>
+    <value>0,82,379,0</value>
   </data>
   <data name="ChooseAuto.Text" xml:space="preserve">
     <value>Вибір автомобіля</value>
@@ -148,7 +148,7 @@
     <value>Помилка переходу на наступний етап</value>
   </data>
   <data name="DlwdCntDlgCnt.Text" xml:space="preserve">
-    <value>Файл існує. Будь ласка, натисніть Далі</value>
+    <value>Файл вже існує. Будь ласка, натисніть Далі</value>
   </data>
   <data name="DrkStg.Content" xml:space="preserve">
     <value>Темна</value>
@@ -159,14 +159,20 @@
   <data name="DwldCntDlgTitle.Text" xml:space="preserve">
     <value>Ошибка загрузки изображения</value>
   </data>
+  <data name="Dwlderrcnt.Text" xml:space="preserve">
+    <value>Файлу не існує. Будь ласка, завантажте зображення</value>
+  </data>
+  <data name="Dwlderrtit.Text" xml:space="preserve">
+    <value>Помилка переходу на наступний етап</value>
+  </data>
   <data name="DwldTxt.Margin" xml:space="preserve">
-    <value>0,124,226,0</value>
+    <value>0,124,238,0</value>
   </data>
   <data name="DwldTxt.Text" xml:space="preserve">
     <value>Натисніть кнопку і завантажте зображення</value>
   </data>
   <data name="DwldTxtSpn.Margin" xml:space="preserve">
-    <value>0,144,271,0</value>
+    <value>0,144,297,0</value>
   </data>
   <data name="DwldTxtSpn.Text" xml:space="preserve">
     <value>потім відредагуйте його під свій скін</value>
@@ -178,7 +184,7 @@
     <value>Вихід</value>
   </data>
   <data name="ExtTxt.Margin" xml:space="preserve">
-    <value>0,371,389,0</value>
+    <value>0,371,377,0</value>
   </data>
   <data name="ExtTxt.Text" xml:space="preserve">
     <value>Вибір зовнішнього імені (external name)</value>
@@ -196,31 +202,31 @@
     <value>Готово!</value>
   </data>
   <data name="FnshHlp.Margin" xml:space="preserve">
-    <value>0,125,197,0</value>
+    <value>0,125,190,0</value>
   </data>
   <data name="FnshHlp.Text" xml:space="preserve">
     <value>Тепер ви можете відкрити папку та перемістити</value>
   </data>
   <data name="FnshHlpSpn.Margin" xml:space="preserve">
-    <value>0,145,427,0</value>
+    <value>0,145,445,0</value>
   </data>
   <data name="FnshHlpSpn.Text" xml:space="preserve">
     <value>мод (.ZIP) архів у гру</value>
   </data>
   <data name="HelpText.Margin" xml:space="preserve">
-    <value>0,134,169,0</value>
+    <value>0,134,156,0</value>
   </data>
   <data name="HelpText.Text" xml:space="preserve">
     <value>Виберіть потрібний автомобіль для створення скіна</value>
   </data>
   <data name="HelpTextSpan.Margin" xml:space="preserve">
-    <value>0,154,482,0</value>
+    <value>0,154,481,0</value>
   </data>
   <data name="HelpTextSpan.Text" xml:space="preserve">
     <value>та натисніть далі</value>
   </data>
   <data name="IntTxt.Margin" xml:space="preserve">
-    <value>0,283,386,0</value>
+    <value>0,283,387,0</value>
   </data>
   <data name="IntTxt.Text" xml:space="preserve">
     <value>Вибір локального імені (internal name)</value>
@@ -247,19 +253,19 @@
     <value>Світла</value>
   </data>
   <data name="NameHdr.Margin" xml:space="preserve">
-    <value>0,82,347,0</value>
+    <value>0,82,390,0</value>
   </data>
   <data name="NameHdr.Text" xml:space="preserve">
     <value>Вибір імені скіна</value>
   </data>
   <data name="NameHlp.Margin" xml:space="preserve">
-    <value>0,144,449,0</value>
+    <value>0,144,453,0</value>
   </data>
   <data name="NameHlp.Text" xml:space="preserve">
     <value>відображатися у грі</value>
   </data>
   <data name="NameHlpSpn.Margin" xml:space="preserve">
-    <value>0,124,303,0</value>
+    <value>0,124,311,0</value>
   </data>
   <data name="NameHlpSpn.Text" xml:space="preserve">
     <value>Впишіть імена свого скіна, він буде</value>
@@ -328,22 +334,31 @@
     <value>Помилка вибору зображення</value>
   </data>
   <data name="UpldErrCntDngCnt.Text" xml:space="preserve">
-    <value>Файл існує. Будь ласка, натисніть Далі</value>
+    <value>Файл вже існує. Будь ласка, натисніть Далі</value>
+  </data>
+  <data name="uplderrtit.Text" xml:space="preserve">
+    <value>Помилка переходу на наступний етап</value>
+  </data>
+  <data name="UpldHdr.Margin" xml:space="preserve">
+    <value>0,82,269,0</value>
   </data>
   <data name="UpldHdr.Text" xml:space="preserve">
-    <value>Відправте ваш готовий скін,</value>
+    <value>Відправка готового скіна</value>
   </data>
   <data name="UpldHlp.Margin" xml:space="preserve">
-    <value>0,124,270,0</value>
+    <value>0,124,277,0</value>
   </data>
   <data name="UpldHlp.Text" xml:space="preserve">
     <value>Натисніть кнопку і надішліть DDS файл</value>
   </data>
   <data name="UpldHlpSpn.Margin" xml:space="preserve">
-    <value>0,142,230,0</value>
+    <value>0,142,175,0</value>
   </data>
   <data name="UpldHlpSpn.Text" xml:space="preserve">
     <value>вашого готового скіна зробленого за кресленням</value>
+  </data>
+  <data name="UpldimgerrDngCnt.Text" xml:space="preserve">
+    <value>Файлу в папці не існує. Будь ласка, відправте зображення</value>
   </data>
   <data name="UpldNxtBtn.Content" xml:space="preserve">
     <value>Далі</value>
@@ -352,13 +367,16 @@
     <value>0,339,309,0</value>
   </data>
   <data name="UpldTxt.Text" xml:space="preserve">
-    <value>Отправьте ваш готовый скин,</value>
+    <value>Відправте ваш готовий скін,</value>
   </data>
   <data name="UpldTxtSpn.Margin" xml:space="preserve">
     <value>0,359,339,0</value>
   </data>
   <data name="UpldTxtSpn.Text" xml:space="preserve">
     <value>зроблений за кресленням</value>
+  </data>
+  <data name="UvDwldHdr.Margin" xml:space="preserve">
+    <value>0,82,200,0</value>
   </data>
   <data name="UvDwldHdr.Text" xml:space="preserve">
     <value>Завантаження UV автомобіля</value>

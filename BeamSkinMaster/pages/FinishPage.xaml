@@ -12,8 +12,8 @@
     <Grid>
         <TextBlock x:Uid="FnshHdr" Text="Готово!" HorizontalAlignment="Right" FontSize="30" Margin="0,83,531,0"/>
         <Image Source="assets\galohcka.png" Height="204" Width="204" HorizontalAlignment="Left" Margin="183,0,0,0"/>
-        <TextBlock HorizontalAlignment="Right" x:Uid="FnshHlp" Text="Теперь вы можете открыть папку и переметить" Margin="0,125,288,0" FontSize="20" Foreground="#B0B0B0"/>
-        <TextBlock HorizontalAlignment="Right" x:Uid="FnshHlpSpn" Text="мод (.ZIP) архив в игру" Margin="0,145,427,0" FontSize="20" Foreground="#B0B0B0"/>
+        <TextBlock HorizontalAlignment="Right" x:Uid="FnshHlp" Text="Теперь вы можете открыть папку и переметить" Margin="0,125,186,0" FontSize="20" Foreground="#B0B0B0"/>
+        <TextBlock HorizontalAlignment="Right" x:Uid="FnshHlpSpn" Text="мод (.ZIP) архив в игру" Margin="0,145,425,0" FontSize="20" Foreground="#B0B0B0"/>
         <Image Source="assets/zip.png" Height="54" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,282,390,0"/>
         <TextBlock x:Name="zipnametext" Text="SkinName.zip" HorizontalAlignment="Right" Margin="0,336,349,0" FontSize="24"/>
         <Button HorizontalAlignment="Right" VerticalAlignment="Top" x:Name="folderbutton" Click="folderbutton_Click" x:Uid="FldBtn" Margin="0,379,363,0" Style="{StaticResource AccentButtonStyle}">Открыть папку</Button>

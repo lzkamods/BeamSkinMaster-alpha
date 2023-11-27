@@ -20,10 +20,10 @@
         </Button>
         
         <Button x:Name="page1dalee" x:Uid="Page1Next" Click="page1dalee_Click" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="120" Height="32" Margin="0,0,48,48" Style="{StaticResource AccentButtonStyle}">Далее</Button>
-        <TextBlock x:Uid="ChooseAuto" HorizontalAlignment="Right" Margin="0,82,357,0" FontSize="32"/>
-        <TextBlock x:Uid="HelpText" Text="Выберите нужный автомобиль для создания скина" HorizontalAlignment="Right" FontSize="20" Margin="0,134,169,0" Foreground="#B0B0B0"/>
-        <TextBlock x:Uid="HelpTextSpan" Text="и нажмите далее" HorizontalAlignment="Right" Margin="0,154,482,0" FontSize="20" Foreground="#B0B0B0"/>
-        <ComboBox x:Name="Combobox1" x:Uid="AutoComboBox" SelectionChanged="ComboBox_SelectionChanged" PlaceholderText="автомобиль ..." HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,123,0" Width="517">
+        <TextBlock x:Uid="ChooseAuto" HorizontalAlignment="Right" Margin="0,82,353,0" FontSize="32"/>
+        <TextBlock x:Uid="HelpText" Text="Выберите нужный автомобиль для создания скина" HorizontalAlignment="Right" FontSize="20" Margin="0,134,164,0" Foreground="#B0B0B0"/>
+        <TextBlock x:Uid="HelpTextSpan" Text="и нажмите далее" HorizontalAlignment="Right" Margin="0,154,477,0" FontSize="20" Foreground="#B0B0B0"/>
+        <ComboBox x:Name="Combobox1" x:Uid="AutoComboBox" SelectionChanged="ComboBox_SelectionChanged" PlaceholderText="автомобиль ..." HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,116,0" Width="517">
             <x:String>Autobello Piccolina</x:String>
             <x:String>Autobello Stambecco</x:String>
             <x:String>Bruckell Bastion</x:String>

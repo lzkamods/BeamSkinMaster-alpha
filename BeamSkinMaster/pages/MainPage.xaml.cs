@@ -44,7 +44,7 @@ namespace BeamSkinMaster.pages
         public static string pppth;
         public static ProgressBar progressBar { get; set; }
         public static Grid MainTitleBar { get; set; }
-        public XamlRoot XamlRoot { get; set; }
+        public new XamlRoot XamlRoot { get; set; }
 
         public void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {

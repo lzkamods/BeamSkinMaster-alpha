@@ -159,6 +159,12 @@
   <data name="DwldCntDlgTitle.Text" xml:space="preserve">
     <value>Error downloading image</value>
   </data>
+  <data name="Dwlderrcnt.Text" xml:space="preserve">
+    <value>The image does not exist. Please upload an image</value>
+  </data>
+  <data name="Dwlderrtit.Text" xml:space="preserve">
+    <value>Error in moving to next step</value>
+  </data>
   <data name="DwldTxt.Margin" xml:space="preserve">
     <value>0,124,244,0</value>
   </data>
@@ -330,6 +336,9 @@
   <data name="UpldErrCntDngCnt.Text" xml:space="preserve">
     <value>The file already exists. Please click Next</value>
   </data>
+  <data name="uplderrtit.Text" xml:space="preserve">
+    <value>Error in moving to next step</value>
+  </data>
   <data name="UpldHdr.Text" xml:space="preserve">
     <value>Sending the finished Skin</value>
   </data>
@@ -344,6 +353,9 @@
   </data>
   <data name="UpldHlpSpn.Text" xml:space="preserve">
     <value>your finished skin made according to the drawing</value>
+  </data>
+  <data name="UpldimgerrDngCnt.Text" xml:space="preserve">
+    <value>The file does not exist in the folder. Please select an image</value>
   </data>
   <data name="UpldNxtBtn.Content" xml:space="preserve">
     <value>Next</value>

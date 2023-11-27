@@ -130,7 +130,7 @@
     <value>Чистим Кеш файлы</value>
   </data>
   <data name="ChooseAuto.Margin" xml:space="preserve">
-    <value>0,82,357,0</value>
+    <value>0,82,353,0</value>
   </data>
   <data name="ChooseAuto.Text" xml:space="preserve">
     <value>Выбор автомобиля</value>
@@ -159,14 +159,20 @@
   <data name="DwldCntDlgTitle.Text" xml:space="preserve">
     <value>Ошибка загрузки изображения</value>
   </data>
+  <data name="Dwlderrcnt.Text" xml:space="preserve">
+    <value>Изображения не существует. Пожалуйста, загрузите изображение</value>
+  </data>
+  <data name="Dwlderrtit.Text" xml:space="preserve">
+    <value>Ошибка перехода на следующий этап</value>
+  </data>
   <data name="DwldTxt.Margin" xml:space="preserve">
-    <value>0,124,226,0</value>
+    <value>0,124,213,0</value>
   </data>
   <data name="DwldTxt.Text" xml:space="preserve">
     <value>Нажмите на кнопку и загрузите изображение</value>
   </data>
   <data name="DwldTxtSpn.Margin" xml:space="preserve">
-    <value>0,144,271,0</value>
+    <value>0,144,259,0</value>
   </data>
   <data name="DwldTxtSpn.Text" xml:space="preserve">
     <value>затем отредактируйте его под свой скин</value>
@@ -178,7 +184,7 @@
     <value>Выход</value>
   </data>
   <data name="ExtTxt.Margin" xml:space="preserve">
-    <value>0,371,389,0</value>
+    <value>0,371,382,0</value>
   </data>
   <data name="ExtTxt.Text" xml:space="preserve">
     <value>Выбор внешнего имени(external name)</value>
@@ -196,31 +202,31 @@
     <value>Готово!</value>
   </data>
   <data name="FnshHlp.Margin" xml:space="preserve">
-    <value>0,125,197,0</value>
+    <value>0,125,186,0</value>
   </data>
   <data name="FnshHlp.Text" xml:space="preserve">
     <value>Теперь вы можете открыть папку и переместить</value>
   </data>
   <data name="FnshHlpSpn.Margin" xml:space="preserve">
-    <value>0,145,427,0</value>
+    <value>0,145,425,0</value>
   </data>
   <data name="FnshHlpSpn.Text" xml:space="preserve">
     <value>мод (.ZIP) архив в игру</value>
   </data>
   <data name="HelpText.Margin" xml:space="preserve">
-    <value>0,134,169,0</value>
+    <value>0,134,164,0</value>
   </data>
   <data name="HelpText.Text" xml:space="preserve">
     <value>Выберите нужный автомобиль для создания скина</value>
   </data>
   <data name="HelpTextSpan.Margin" xml:space="preserve">
-    <value>0,154,482,0</value>
+    <value>0,154,477,0</value>
   </data>
   <data name="HelpTextSpan.Text" xml:space="preserve">
     <value>и нажмите далее</value>
   </data>
   <data name="IntTxt.Margin" xml:space="preserve">
-    <value>0,283,386,0</value>
+    <value>0,283,374,0</value>
   </data>
   <data name="IntTxt.Text" xml:space="preserve">
     <value>Выбор локального имени(internal name)</value>
@@ -247,19 +253,19 @@
     <value>Светлая</value>
   </data>
   <data name="NameHdr.Margin" xml:space="preserve">
-    <value>0,82,347,0</value>
+    <value>0,82,341,0</value>
   </data>
   <data name="NameHdr.Text" xml:space="preserve">
     <value>Выбор имени скина</value>
   </data>
   <data name="NameHlp.Margin" xml:space="preserve">
-    <value>0,144,449,0</value>
+    <value>0,144,442,0</value>
   </data>
   <data name="NameHlp.Text" xml:space="preserve">
     <value>отображаться в игре</value>
   </data>
   <data name="NameHlpSpn.Margin" xml:space="preserve">
-    <value>0,124,303,0</value>
+    <value>0,124,275,0</value>
   </data>
   <data name="NameHlpSpn.Text" xml:space="preserve">
     <value>Впишите имена своего скина, он будет</value>
@@ -330,20 +336,29 @@
   <data name="UpldErrCntDngCnt.Text" xml:space="preserve">
     <value>Файл уже существует. Пожалуйста, нажмите Далее</value>
   </data>
+  <data name="uplderrtit.Text" xml:space="preserve">
+    <value>Ошибка перехода на следующий этап</value>
+  </data>
+  <data name="UpldHdr.Margin" xml:space="preserve">
+    <value>0,82,261,0</value>
+  </data>
   <data name="UpldHdr.Text" xml:space="preserve">
     <value>Отправка готового скина</value>
   </data>
   <data name="UpldHlp.Margin" xml:space="preserve">
-    <value>0,124,270,0</value>
+    <value>0,124,242,0</value>
   </data>
   <data name="UpldHlp.Text" xml:space="preserve">
     <value>Нажмите на кнопку и отправьте DDS файл</value>
   </data>
   <data name="UpldHlpSpn.Margin" xml:space="preserve">
-    <value>0,142,230,0</value>
+    <value>0,142,200,0</value>
   </data>
   <data name="UpldHlpSpn.Text" xml:space="preserve">
     <value>вашего готового скина сделанного по чертежу</value>
+  </data>
+  <data name="UpldimgerrDngCnt.Text" xml:space="preserve">
+    <value>Файла не существует папке. Пожалуйста, выберите изображение</value>
   </data>
   <data name="UpldNxtBtn.Content" xml:space="preserve">
     <value>Далее</value>
@@ -359,6 +374,9 @@
   </data>
   <data name="UpldTxtSpn.Text" xml:space="preserve">
     <value>сделанный по чертежу</value>
+  </data>
+  <data name="UvDwldHdr.Margin" xml:space="preserve">
+    <value>0,82,271,0</value>
   </data>
   <data name="UvDwldHdr.Text" xml:space="preserve">
     <value>Загрузка UV автомобиля</value>

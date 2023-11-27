@@ -112,8 +112,8 @@ namespace BeamSkinMaster.pages
             {
                 ContentDialog imgexterr = new ContentDialog
                 {
-                    Title = UpldErrDlgTitle.Text,
-                    Content= UpldErrDngCnt.Text,
+                    Title = uplderrtit.Text,
+                    Content= UpldimgerrDngCnt.Text,
                     CloseButtonText = "OK",
                 };
                 imgexterr.XamlRoot = PickAFileButton.XamlRoot;

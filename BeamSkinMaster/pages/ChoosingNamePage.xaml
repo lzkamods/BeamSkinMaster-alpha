@@ -10,15 +10,15 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock Text="Выбор имени скина" x:Uid="NameHdr" x:Name="head" HorizontalAlignment="Right" Margin="0,82,347,0" FontSize="32"/>
-        <TextBlock x:Uid="NameHlp" Text="отображаться в игре" Foreground="#B0B0B0" FontSize="20" Margin="0,144,449,0" HorizontalAlignment="Right"/>
+        <TextBlock Text="Выбор имени скина" x:Uid="NameHdr" x:Name="head" HorizontalAlignment="Right" Margin="0,82,341,0" FontSize="32"/>
+        <TextBlock x:Uid="NameHlp" Text="отображаться в игре" Foreground="#B0B0B0" FontSize="20" Margin="0,144,442,0" HorizontalAlignment="Right"/>
 
-        <TextBlock x:Uid="NameHlpSpn" Text="Впишите имена своего скина, он будет" Foreground="#B0B0B0" FontSize="20" Margin="0,124,283,0" HorizontalAlignment="Right"/>
-        <TextBlock x:Uid="IntTxt" Text="Выбор локального имени(interial name)" HorizontalAlignment="Right" Margin="0,283,386,0" FontSize="14"/>
-        <TextBox x:Uid="IntTxtBox" x:Name="inttextbox" Height="32" Margin="0,316,124,0" Width="517" VerticalAlignment="Top" HorizontalAlignment="Right" PlaceholderText="Только латиница без пробелов"/>
+        <TextBlock x:Uid="NameHlpSpn" Text="Впишите имена своего скина, он будет" Foreground="#B0B0B0" FontSize="20" Margin="0,124,275,0" HorizontalAlignment="Right"/>
+        <TextBlock x:Uid="IntTxt" Text="Выбор локального имени(interial name)" HorizontalAlignment="Right" Margin="0,283,374,0" FontSize="14"/>
+        <TextBox x:Uid="IntTxtBox" x:Name="inttextbox" Height="32" Margin="0,316,116,0" Width="517" VerticalAlignment="Top" HorizontalAlignment="Right" PlaceholderText="Только латиница без пробелов"/>
 
-        <TextBlock x:Uid="ExtTxt" Text="Выбор внешнего имени(external name)" HorizontalAlignment="Right" Margin="0,371,389,0" FontSize="14"/>
-        <TextBox x:Uid="ExtTxtBox" x:Name="exttextbox" Height="32" Width="517" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,404,124,0" PlaceholderText="Латиница и Кириллица. Пробелы разрешены"/>
+        <TextBlock x:Uid="ExtTxt" Text="Выбор внешнего имени(external name)" HorizontalAlignment="Right" Margin="0,371,382,0" FontSize="14"/>
+        <TextBox x:Uid="ExtTxtBox" x:Name="exttextbox" Height="32" Width="517" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,404,116,0" PlaceholderText="Латиница и Кириллица. Пробелы разрешены"/>
 
         <Button x:Uid="NameNextBtn" x:Name="namedalee" Click="namedalee_Click" HorizontalAlignment="Right" Height="32" Width="120" VerticalAlignment="Bottom" Margin="0,0,48,48" Style="{StaticResource AccentButtonStyle}">Далее</Button>
         <Button x:Name="backbutton" Click="backbutton_Click" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,178,48" Height="32" Width="32" Background="#373737">
